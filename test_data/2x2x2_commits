@@ -1,0 +1,156 @@
+[
+  {
+    "sha": "54801179c26cea1260b9e370ff13533b6b1b9060",
+    "node_id": "MDY6Q29tbWl0MTUwODA1MDkzOjU0ODAxMTc5YzI2Y2VhMTI2MGI5ZTM3MGZmMTM1MzNiNmIxYjkwNjA=",
+    "commit": {
+      "author": {
+        "name": "Daniel Riechers",
+        "email": "driechers101@gmail.com",
+        "date": "2018-10-03T23:43:36Z"
+      },
+      "committer": {
+        "name": "Daniel Riechers",
+        "email": "driechers101@gmail.com",
+        "date": "2018-10-03T23:43:36Z"
+      },
+      "message": "replaced acidental 3x3x3 with 2x2x2 code",
+      "tree": {
+        "sha": "1a20d327ef67e5d8a677e6f731bf61cd873b28ba",
+        "url": "https://api.github.com/repos/driechers/2x2x2/git/trees/1a20d327ef67e5d8a677e6f731bf61cd873b28ba"
+      },
+      "url": "https://api.github.com/repos/driechers/2x2x2/git/commits/54801179c26cea1260b9e370ff13533b6b1b9060",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/driechers/2x2x2/commits/54801179c26cea1260b9e370ff13533b6b1b9060",
+    "html_url": "https://github.com/driechers/2x2x2/commit/54801179c26cea1260b9e370ff13533b6b1b9060",
+    "comments_url": "https://api.github.com/repos/driechers/2x2x2/commits/54801179c26cea1260b9e370ff13533b6b1b9060/comments",
+    "author": {
+      "login": "driechers",
+      "id": 1298296,
+      "node_id": "MDQ6VXNlcjEyOTgyOTY=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1298296?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/driechers",
+      "html_url": "https://github.com/driechers",
+      "followers_url": "https://api.github.com/users/driechers/followers",
+      "following_url": "https://api.github.com/users/driechers/following{/other_user}",
+      "gists_url": "https://api.github.com/users/driechers/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/driechers/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/driechers/subscriptions",
+      "organizations_url": "https://api.github.com/users/driechers/orgs",
+      "repos_url": "https://api.github.com/users/driechers/repos",
+      "events_url": "https://api.github.com/users/driechers/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/driechers/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "driechers",
+      "id": 1298296,
+      "node_id": "MDQ6VXNlcjEyOTgyOTY=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1298296?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/driechers",
+      "html_url": "https://github.com/driechers",
+      "followers_url": "https://api.github.com/users/driechers/followers",
+      "following_url": "https://api.github.com/users/driechers/following{/other_user}",
+      "gists_url": "https://api.github.com/users/driechers/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/driechers/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/driechers/subscriptions",
+      "organizations_url": "https://api.github.com/users/driechers/orgs",
+      "repos_url": "https://api.github.com/users/driechers/repos",
+      "events_url": "https://api.github.com/users/driechers/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/driechers/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "46fc33987c530a4da0006850551207cda972b207",
+        "url": "https://api.github.com/repos/driechers/2x2x2/commits/46fc33987c530a4da0006850551207cda972b207",
+        "html_url": "https://github.com/driechers/2x2x2/commit/46fc33987c530a4da0006850551207cda972b207"
+      }
+    ]
+  },
+  {
+    "sha": "46fc33987c530a4da0006850551207cda972b207",
+    "node_id": "MDY6Q29tbWl0MTUwODA1MDkzOjQ2ZmMzMzk4N2M1MzBhNGRhMDAwNjg1MDU1MTIwN2NkYTk3MmIyMDc=",
+    "commit": {
+      "author": {
+        "name": "Daniel Riechers",
+        "email": "driechers101@gmail.com",
+        "date": "2018-09-28T23:52:00Z"
+      },
+      "committer": {
+        "name": "Daniel Riechers",
+        "email": "driechers101@gmail.com",
+        "date": "2018-09-28T23:52:00Z"
+      },
+      "message": "Added flawed coded and makefile",
+      "tree": {
+        "sha": "9ef0ea0472d34fb88dc8c29f810ed006c9afef76",
+        "url": "https://api.github.com/repos/driechers/2x2x2/git/trees/9ef0ea0472d34fb88dc8c29f810ed006c9afef76"
+      },
+      "url": "https://api.github.com/repos/driechers/2x2x2/git/commits/46fc33987c530a4da0006850551207cda972b207",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/driechers/2x2x2/commits/46fc33987c530a4da0006850551207cda972b207",
+    "html_url": "https://github.com/driechers/2x2x2/commit/46fc33987c530a4da0006850551207cda972b207",
+    "comments_url": "https://api.github.com/repos/driechers/2x2x2/commits/46fc33987c530a4da0006850551207cda972b207/comments",
+    "author": {
+      "login": "driechers",
+      "id": 1298296,
+      "node_id": "MDQ6VXNlcjEyOTgyOTY=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1298296?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/driechers",
+      "html_url": "https://github.com/driechers",
+      "followers_url": "https://api.github.com/users/driechers/followers",
+      "following_url": "https://api.github.com/users/driechers/following{/other_user}",
+      "gists_url": "https://api.github.com/users/driechers/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/driechers/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/driechers/subscriptions",
+      "organizations_url": "https://api.github.com/users/driechers/orgs",
+      "repos_url": "https://api.github.com/users/driechers/repos",
+      "events_url": "https://api.github.com/users/driechers/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/driechers/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "driechers",
+      "id": 1298296,
+      "node_id": "MDQ6VXNlcjEyOTgyOTY=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1298296?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/driechers",
+      "html_url": "https://github.com/driechers",
+      "followers_url": "https://api.github.com/users/driechers/followers",
+      "following_url": "https://api.github.com/users/driechers/following{/other_user}",
+      "gists_url": "https://api.github.com/users/driechers/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/driechers/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/driechers/subscriptions",
+      "organizations_url": "https://api.github.com/users/driechers/orgs",
+      "repos_url": "https://api.github.com/users/driechers/repos",
+      "events_url": "https://api.github.com/users/driechers/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/driechers/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+
+    ]
+  }
+]

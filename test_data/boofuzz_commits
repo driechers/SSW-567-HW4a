@@ -1,0 +1,2437 @@
+[
+  {
+    "sha": "0e48caa4e022e6e35908a19bdb988fec31b98e64",
+    "node_id": "MDY6Q29tbWl0MTczMDEzOTAyOjBlNDhjYWE0ZTAyMmU2ZTM1OTA4YTE5YmRiOTg4ZmVjMzFiOThlNjQ=",
+    "commit": {
+      "author": {
+        "name": "Joshua Pereyda",
+        "email": "jtpereyda@users.noreply.github.com",
+        "date": "2019-06-07T14:03:03Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2019-06-07T14:03:03Z"
+      },
+      "message": "Merge pull request #288 from starek4/open_connection_errors\n\nCheck also timeout when opening TCP connection",
+      "tree": {
+        "sha": "7a1774b827338edfa44052f715de9ba9f739302a",
+        "url": "https://api.github.com/repos/driechers/boofuzz/git/trees/7a1774b827338edfa44052f715de9ba9f739302a"
+      },
+      "url": "https://api.github.com/repos/driechers/boofuzz/git/commits/0e48caa4e022e6e35908a19bdb988fec31b98e64",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJc+m6XCRBK7hj4Ov3rIwAAdHIIACkUcDScml85VEd+R2O8Yy3J\nRFVE/G3id59Ev75qOoMvwmNZ1AuEv4uKODZB4vF+l9/dUMmdjAcTs0o8zbGtpJHm\n/VjFMFsRVnpvizhWjkq6lYOSkeVHwxLQH1JDh9VqjXWL7PWw0QxYHmtbnFoxK0Us\nYs2cna1VBDsTpZfGBqSrPxJMazmcDUqC8aLG92WXy54W/pdZpTQQfQqPy6yUM6QZ\nPYFIEyZ5PYsHKctOYXL+5+he8d6H4PfSni7BR66E00fVt5aHwSIqGMxpOxdnX5qL\nhGcjcTaTwIWCyNPy89xncB7o19kBohyMSpucKg/hEPoaIIf6K7vaA5G0QXdUE7w=\n=dboj\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 7a1774b827338edfa44052f715de9ba9f739302a\nparent 3f810c319f106cc3c21ad3183f57fbcdd83d0edb\nparent fe5b65369bd6979da40989dce9c35e0e836a2761\nauthor Joshua Pereyda <jtpereyda@users.noreply.github.com> 1559916183 -0700\ncommitter GitHub <noreply@github.com> 1559916183 -0700\n\nMerge pull request #288 from starek4/open_connection_errors\n\nCheck also timeout when opening TCP connection"
+      }
+    },
+    "url": "https://api.github.com/repos/driechers/boofuzz/commits/0e48caa4e022e6e35908a19bdb988fec31b98e64",
+    "html_url": "https://github.com/driechers/boofuzz/commit/0e48caa4e022e6e35908a19bdb988fec31b98e64",
+    "comments_url": "https://api.github.com/repos/driechers/boofuzz/commits/0e48caa4e022e6e35908a19bdb988fec31b98e64/comments",
+    "author": {
+      "login": "jtpereyda",
+      "id": 244969,
+      "node_id": "MDQ6VXNlcjI0NDk2OQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/244969?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtpereyda",
+      "html_url": "https://github.com/jtpereyda",
+      "followers_url": "https://api.github.com/users/jtpereyda/followers",
+      "following_url": "https://api.github.com/users/jtpereyda/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtpereyda/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtpereyda/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtpereyda/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtpereyda/orgs",
+      "repos_url": "https://api.github.com/users/jtpereyda/repos",
+      "events_url": "https://api.github.com/users/jtpereyda/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtpereyda/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "3f810c319f106cc3c21ad3183f57fbcdd83d0edb",
+        "url": "https://api.github.com/repos/driechers/boofuzz/commits/3f810c319f106cc3c21ad3183f57fbcdd83d0edb",
+        "html_url": "https://github.com/driechers/boofuzz/commit/3f810c319f106cc3c21ad3183f57fbcdd83d0edb"
+      },
+      {
+        "sha": "fe5b65369bd6979da40989dce9c35e0e836a2761",
+        "url": "https://api.github.com/repos/driechers/boofuzz/commits/fe5b65369bd6979da40989dce9c35e0e836a2761",
+        "html_url": "https://github.com/driechers/boofuzz/commit/fe5b65369bd6979da40989dce9c35e0e836a2761"
+      }
+    ]
+  },
+  {
+    "sha": "fe5b65369bd6979da40989dce9c35e0e836a2761",
+    "node_id": "MDY6Q29tbWl0MTczMDEzOTAyOmZlNWI2NTM2OWJkNjk3OWRhNDA5ODlkY2U5YzM1ZTBlODM2YTI3NjE=",
+    "commit": {
+      "author": {
+        "name": "Jan Stárek",
+        "email": "starek4@centrum.cz",
+        "date": "2019-06-07T13:32:54Z"
+      },
+      "committer": {
+        "name": "Jan Stárek",
+        "email": "starek4@centrum.cz",
+        "date": "2019-06-07T13:32:54Z"
+      },
+      "message": "Added change into changelog",
+      "tree": {
+        "sha": "7a1774b827338edfa44052f715de9ba9f739302a",
+        "url": "https://api.github.com/repos/driechers/boofuzz/git/trees/7a1774b827338edfa44052f715de9ba9f739302a"
+      },
+      "url": "https://api.github.com/repos/driechers/boofuzz/git/commits/fe5b65369bd6979da40989dce9c35e0e836a2761",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/driechers/boofuzz/commits/fe5b65369bd6979da40989dce9c35e0e836a2761",
+    "html_url": "https://github.com/driechers/boofuzz/commit/fe5b65369bd6979da40989dce9c35e0e836a2761",
+    "comments_url": "https://api.github.com/repos/driechers/boofuzz/commits/fe5b65369bd6979da40989dce9c35e0e836a2761/comments",
+    "author": {
+      "login": "starek4",
+      "id": 2153835,
+      "node_id": "MDQ6VXNlcjIxNTM4MzU=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2153835?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/starek4",
+      "html_url": "https://github.com/starek4",
+      "followers_url": "https://api.github.com/users/starek4/followers",
+      "following_url": "https://api.github.com/users/starek4/following{/other_user}",
+      "gists_url": "https://api.github.com/users/starek4/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/starek4/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/starek4/subscriptions",
+      "organizations_url": "https://api.github.com/users/starek4/orgs",
+      "repos_url": "https://api.github.com/users/starek4/repos",
+      "events_url": "https://api.github.com/users/starek4/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/starek4/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "starek4",
+      "id": 2153835,
+      "node_id": "MDQ6VXNlcjIxNTM4MzU=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2153835?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/starek4",
+      "html_url": "https://github.com/starek4",
+      "followers_url": "https://api.github.com/users/starek4/followers",
+      "following_url": "https://api.github.com/users/starek4/following{/other_user}",
+      "gists_url": "https://api.github.com/users/starek4/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/starek4/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/starek4/subscriptions",
+      "organizations_url": "https://api.github.com/users/starek4/orgs",
+      "repos_url": "https://api.github.com/users/starek4/repos",
+      "events_url": "https://api.github.com/users/starek4/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/starek4/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "6ee2425f8e17a3276cff7d6a4371e04148e6f706",
+        "url": "https://api.github.com/repos/driechers/boofuzz/commits/6ee2425f8e17a3276cff7d6a4371e04148e6f706",
+        "html_url": "https://github.com/driechers/boofuzz/commit/6ee2425f8e17a3276cff7d6a4371e04148e6f706"
+      }
+    ]
+  },
+  {
+    "sha": "6ee2425f8e17a3276cff7d6a4371e04148e6f706",
+    "node_id": "MDY6Q29tbWl0MTczMDEzOTAyOjZlZTI0MjVmOGUxN2EzMjc2Y2ZmN2Q2YTQzNzFlMDQxNDhlNmY3MDY=",
+    "commit": {
+      "author": {
+        "name": "Jan Stárek",
+        "email": "starek4@centrum.cz",
+        "date": "2019-06-06T12:43:17Z"
+      },
+      "committer": {
+        "name": "Jan Stárek",
+        "email": "starek4@centrum.cz",
+        "date": "2019-06-06T12:43:17Z"
+      },
+      "message": "Check also timeout",
+      "tree": {
+        "sha": "4041f22b56517789f0abca87870f6630f6a8a2cd",
+        "url": "https://api.github.com/repos/driechers/boofuzz/git/trees/4041f22b56517789f0abca87870f6630f6a8a2cd"
+      },
+      "url": "https://api.github.com/repos/driechers/boofuzz/git/commits/6ee2425f8e17a3276cff7d6a4371e04148e6f706",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/driechers/boofuzz/commits/6ee2425f8e17a3276cff7d6a4371e04148e6f706",
+    "html_url": "https://github.com/driechers/boofuzz/commit/6ee2425f8e17a3276cff7d6a4371e04148e6f706",
+    "comments_url": "https://api.github.com/repos/driechers/boofuzz/commits/6ee2425f8e17a3276cff7d6a4371e04148e6f706/comments",
+    "author": {
+      "login": "starek4",
+      "id": 2153835,
+      "node_id": "MDQ6VXNlcjIxNTM4MzU=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2153835?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/starek4",
+      "html_url": "https://github.com/starek4",
+      "followers_url": "https://api.github.com/users/starek4/followers",
+      "following_url": "https://api.github.com/users/starek4/following{/other_user}",
+      "gists_url": "https://api.github.com/users/starek4/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/starek4/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/starek4/subscriptions",
+      "organizations_url": "https://api.github.com/users/starek4/orgs",
+      "repos_url": "https://api.github.com/users/starek4/repos",
+      "events_url": "https://api.github.com/users/starek4/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/starek4/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "starek4",
+      "id": 2153835,
+      "node_id": "MDQ6VXNlcjIxNTM4MzU=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2153835?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/starek4",
+      "html_url": "https://github.com/starek4",
+      "followers_url": "https://api.github.com/users/starek4/followers",
+      "following_url": "https://api.github.com/users/starek4/following{/other_user}",
+      "gists_url": "https://api.github.com/users/starek4/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/starek4/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/starek4/subscriptions",
+      "organizations_url": "https://api.github.com/users/starek4/orgs",
+      "repos_url": "https://api.github.com/users/starek4/repos",
+      "events_url": "https://api.github.com/users/starek4/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/starek4/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "3f810c319f106cc3c21ad3183f57fbcdd83d0edb",
+        "url": "https://api.github.com/repos/driechers/boofuzz/commits/3f810c319f106cc3c21ad3183f57fbcdd83d0edb",
+        "html_url": "https://github.com/driechers/boofuzz/commit/3f810c319f106cc3c21ad3183f57fbcdd83d0edb"
+      }
+    ]
+  },
+  {
+    "sha": "3f810c319f106cc3c21ad3183f57fbcdd83d0edb",
+    "node_id": "MDY6Q29tbWl0MTczMDEzOTAyOjNmODEwYzMxOWYxMDZjYzNjMjFhZDMxODNmNTdmYmNkZDgzZDBlZGI=",
+    "commit": {
+      "author": {
+        "name": "Joshua Pereyda",
+        "email": "jtpereyda@users.noreply.github.com",
+        "date": "2019-06-04T03:52:55Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2019-06-04T03:52:55Z"
+      },
+      "message": "Merge pull request #280 from SR4ven/fix_pypi_readme\n\nProvide readme for pypi and changelog for docs",
+      "tree": {
+        "sha": "4b885f8bd6ef518063cd2963f87fe42ca525ea6a",
+        "url": "https://api.github.com/repos/driechers/boofuzz/git/trees/4b885f8bd6ef518063cd2963f87fe42ca525ea6a"
+      },
+      "url": "https://api.github.com/repos/driechers/boofuzz/git/commits/3f810c319f106cc3c21ad3183f57fbcdd83d0edb",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJc9esXCRBK7hj4Ov3rIwAAdHIIAF9phDYgx2AgIlnFiLlO2igy\nwzKUB79fwwa1eIDETcsTnT9dXcOaraIJTCjfmRkt1lebioUZShqNFyflv0nB0Z8X\n8+gX7fm/XE+mGQ0KQMhe53SP1TBX+zerHekfhPsGgEEXUad7KvvA1x5fxTCq0KUK\nxjuhqcI72y9MIYQaqahVtAY3fe8paf0NKfFOnsyrviT1pHbCAbWbGILshQatLjmG\n8EkZ8pF+Z1jiFD7L/NXBjtCS/GvBoySJia7S7eC6W41KdcwN7049MLtC+uTFjKAp\ng9cZVRyA4Wa5GXAxr/e2boThLr7ltRiVOzmU/n2vSsbqWeNMBoH9FQW/70g1VP0=\n=CRA8\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 4b885f8bd6ef518063cd2963f87fe42ca525ea6a\nparent 3fd558e03248503d51b4cce1b8e87e1580ad67b3\nparent bac90368ae959e2c44ad265bf2c751398adc1a7a\nauthor Joshua Pereyda <jtpereyda@users.noreply.github.com> 1559620375 -0700\ncommitter GitHub <noreply@github.com> 1559620375 -0700\n\nMerge pull request #280 from SR4ven/fix_pypi_readme\n\nProvide readme for pypi and changelog for docs"
+      }
+    },
+    "url": "https://api.github.com/repos/driechers/boofuzz/commits/3f810c319f106cc3c21ad3183f57fbcdd83d0edb",
+    "html_url": "https://github.com/driechers/boofuzz/commit/3f810c319f106cc3c21ad3183f57fbcdd83d0edb",
+    "comments_url": "https://api.github.com/repos/driechers/boofuzz/commits/3f810c319f106cc3c21ad3183f57fbcdd83d0edb/comments",
+    "author": {
+      "login": "jtpereyda",
+      "id": 244969,
+      "node_id": "MDQ6VXNlcjI0NDk2OQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/244969?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtpereyda",
+      "html_url": "https://github.com/jtpereyda",
+      "followers_url": "https://api.github.com/users/jtpereyda/followers",
+      "following_url": "https://api.github.com/users/jtpereyda/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtpereyda/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtpereyda/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtpereyda/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtpereyda/orgs",
+      "repos_url": "https://api.github.com/users/jtpereyda/repos",
+      "events_url": "https://api.github.com/users/jtpereyda/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtpereyda/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "3fd558e03248503d51b4cce1b8e87e1580ad67b3",
+        "url": "https://api.github.com/repos/driechers/boofuzz/commits/3fd558e03248503d51b4cce1b8e87e1580ad67b3",
+        "html_url": "https://github.com/driechers/boofuzz/commit/3fd558e03248503d51b4cce1b8e87e1580ad67b3"
+      },
+      {
+        "sha": "bac90368ae959e2c44ad265bf2c751398adc1a7a",
+        "url": "https://api.github.com/repos/driechers/boofuzz/commits/bac90368ae959e2c44ad265bf2c751398adc1a7a",
+        "html_url": "https://github.com/driechers/boofuzz/commit/bac90368ae959e2c44ad265bf2c751398adc1a7a"
+      }
+    ]
+  },
+  {
+    "sha": "bac90368ae959e2c44ad265bf2c751398adc1a7a",
+    "node_id": "MDY6Q29tbWl0MTczMDEzOTAyOmJhYzkwMzY4YWU5NTllMmM0NGFkMjY1YmYyYzc1MTM5OGFkYzFhN2E=",
+    "commit": {
+      "author": {
+        "name": "SR4ven",
+        "email": "46794237+sr4ven@users.noreply.github.com",
+        "date": "2019-05-31T00:20:19Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2019-05-31T00:20:19Z"
+      },
+      "message": "Merge branch 'master' into fix_pypi_readme",
+      "tree": {
+        "sha": "4b885f8bd6ef518063cd2963f87fe42ca525ea6a",
+        "url": "https://api.github.com/repos/driechers/boofuzz/git/trees/4b885f8bd6ef518063cd2963f87fe42ca525ea6a"
+      },
+      "url": "https://api.github.com/repos/driechers/boofuzz/git/commits/bac90368ae959e2c44ad265bf2c751398adc1a7a",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJc8HNDCRBK7hj4Ov3rIwAAdHIIADDKBWBcqT32qhRx2+0yxNL+\nvtvhZk0XgvLRHuImHolSaxEkOwyiZB0LCEY4wzWHDhycGP9wWmgUnCl7cqNIukdu\nzGxuqpDkX5ElZ7gHukhWjr61o1gcPDaNbGmsCZSTXu5czL81JxqCiQjXYQKL6tnX\nkIAI9/TtgiuliUdwK3taHqfBw3EpIwEfhKHuu1eFhE+p1JVjLWMGnvZItAP5+mDI\n6XBbTnW9EpszvUmTYlvSK5rB1TM30H26QieW0TgAXX+yZBv1twogubFynQ+7xHkE\nL8u+lhhYv/poFglirBYsIr+2tkhu6hXJ48ZkLTV81Pu46mltTmrWIyOVcX7Mf30=\n=6346\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 4b885f8bd6ef518063cd2963f87fe42ca525ea6a\nparent 5024c786a248a0ed44ccfd0869181bc5face9b76\nparent 3fd558e03248503d51b4cce1b8e87e1580ad67b3\nauthor SR4ven <46794237+SR4ven@users.noreply.github.com> 1559262019 +0200\ncommitter GitHub <noreply@github.com> 1559262019 +0200\n\nMerge branch 'master' into fix_pypi_readme"
+      }
+    },
+    "url": "https://api.github.com/repos/driechers/boofuzz/commits/bac90368ae959e2c44ad265bf2c751398adc1a7a",
+    "html_url": "https://github.com/driechers/boofuzz/commit/bac90368ae959e2c44ad265bf2c751398adc1a7a",
+    "comments_url": "https://api.github.com/repos/driechers/boofuzz/commits/bac90368ae959e2c44ad265bf2c751398adc1a7a/comments",
+    "author": {
+      "login": "SR4ven",
+      "id": 46794237,
+      "node_id": "MDQ6VXNlcjQ2Nzk0MjM3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/46794237?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/SR4ven",
+      "html_url": "https://github.com/SR4ven",
+      "followers_url": "https://api.github.com/users/SR4ven/followers",
+      "following_url": "https://api.github.com/users/SR4ven/following{/other_user}",
+      "gists_url": "https://api.github.com/users/SR4ven/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/SR4ven/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/SR4ven/subscriptions",
+      "organizations_url": "https://api.github.com/users/SR4ven/orgs",
+      "repos_url": "https://api.github.com/users/SR4ven/repos",
+      "events_url": "https://api.github.com/users/SR4ven/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/SR4ven/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "5024c786a248a0ed44ccfd0869181bc5face9b76",
+        "url": "https://api.github.com/repos/driechers/boofuzz/commits/5024c786a248a0ed44ccfd0869181bc5face9b76",
+        "html_url": "https://github.com/driechers/boofuzz/commit/5024c786a248a0ed44ccfd0869181bc5face9b76"
+      },
+      {
+        "sha": "3fd558e03248503d51b4cce1b8e87e1580ad67b3",
+        "url": "https://api.github.com/repos/driechers/boofuzz/commits/3fd558e03248503d51b4cce1b8e87e1580ad67b3",
+        "html_url": "https://github.com/driechers/boofuzz/commit/3fd558e03248503d51b4cce1b8e87e1580ad67b3"
+      }
+    ]
+  },
+  {
+    "sha": "3fd558e03248503d51b4cce1b8e87e1580ad67b3",
+    "node_id": "MDY6Q29tbWl0MTczMDEzOTAyOjNmZDU1OGUwMzI0ODUwM2Q1MWI0Y2NlMWI4ZTg3ZTE1ODBhZDY3YjM=",
+    "commit": {
+      "author": {
+        "name": "Joshua Pereyda",
+        "email": "jtpereyda@users.noreply.github.com",
+        "date": "2019-05-31T00:05:55Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2019-05-31T00:05:55Z"
+      },
+      "message": "Merge pull request #283 from jtpereyda/check-close-case\n\nclose test case in check_message()",
+      "tree": {
+        "sha": "f9f0a29c07fea487b7f57b79e71671f6e0b29466",
+        "url": "https://api.github.com/repos/driechers/boofuzz/git/trees/f9f0a29c07fea487b7f57b79e71671f6e0b29466"
+      },
+      "url": "https://api.github.com/repos/driechers/boofuzz/git/commits/3fd558e03248503d51b4cce1b8e87e1580ad67b3",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJc8G/jCRBK7hj4Ov3rIwAAdHIIADffrsS3z8WsbPhXT9NC4wye\nlYMqS+RO7qkLZUReWIidw+bDEdkDWMfV8u5yEZnG9d6roSyN/BB0ooxfDSFzk+tC\nPKkocpEGg2EfKvHzkcFEIM9YbovWMm4FdBfAzw2dHdRvfpCRJtqmDKoAfd4KmNi2\nCYMvXBIwtlHR726aEhbhz4i0MZ5wVJ49gWe4JQ7KQrHt5udbh4V/iywuSjukvnI8\nerwbUMK/zt1ph4q+Dn8v/iAiHPE0Qgkg1WwiWuUzpJKBsdBIvQ8LiZD6pbFwoqBB\nkNZ2goKOuWBhc+WKMVCQiHXwWA/pmvqmqpP/4ndKi94gLeGE1wI4RRAoaRU7lLA=\n=APXN\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree f9f0a29c07fea487b7f57b79e71671f6e0b29466\nparent 5c356aa2c8b81f884d01e6951b400cfcd5659a86\nparent 249e7dd057365e82d9fed86a8aa0d9cf6545edb8\nauthor Joshua Pereyda <jtpereyda@users.noreply.github.com> 1559261155 -0700\ncommitter GitHub <noreply@github.com> 1559261155 -0700\n\nMerge pull request #283 from jtpereyda/check-close-case\n\nclose test case in check_message()"
+      }
+    },
+    "url": "https://api.github.com/repos/driechers/boofuzz/commits/3fd558e03248503d51b4cce1b8e87e1580ad67b3",
+    "html_url": "https://github.com/driechers/boofuzz/commit/3fd558e03248503d51b4cce1b8e87e1580ad67b3",
+    "comments_url": "https://api.github.com/repos/driechers/boofuzz/commits/3fd558e03248503d51b4cce1b8e87e1580ad67b3/comments",
+    "author": {
+      "login": "jtpereyda",
+      "id": 244969,
+      "node_id": "MDQ6VXNlcjI0NDk2OQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/244969?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtpereyda",
+      "html_url": "https://github.com/jtpereyda",
+      "followers_url": "https://api.github.com/users/jtpereyda/followers",
+      "following_url": "https://api.github.com/users/jtpereyda/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtpereyda/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtpereyda/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtpereyda/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtpereyda/orgs",
+      "repos_url": "https://api.github.com/users/jtpereyda/repos",
+      "events_url": "https://api.github.com/users/jtpereyda/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtpereyda/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "5c356aa2c8b81f884d01e6951b400cfcd5659a86",
+        "url": "https://api.github.com/repos/driechers/boofuzz/commits/5c356aa2c8b81f884d01e6951b400cfcd5659a86",
+        "html_url": "https://github.com/driechers/boofuzz/commit/5c356aa2c8b81f884d01e6951b400cfcd5659a86"
+      },
+      {
+        "sha": "249e7dd057365e82d9fed86a8aa0d9cf6545edb8",
+        "url": "https://api.github.com/repos/driechers/boofuzz/commits/249e7dd057365e82d9fed86a8aa0d9cf6545edb8",
+        "html_url": "https://github.com/driechers/boofuzz/commit/249e7dd057365e82d9fed86a8aa0d9cf6545edb8"
+      }
+    ]
+  },
+  {
+    "sha": "5c356aa2c8b81f884d01e6951b400cfcd5659a86",
+    "node_id": "MDY6Q29tbWl0MTczMDEzOTAyOjVjMzU2YWEyYzhiODFmODg0ZDAxZTY5NTFiNDAwY2ZjZDU2NTlhODY=",
+    "commit": {
+      "author": {
+        "name": "Joshua Pereyda",
+        "email": "jtpereyda@users.noreply.github.com",
+        "date": "2019-05-31T00:05:42Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2019-05-31T00:05:42Z"
+      },
+      "message": "Merge pull request #282 from SR4ven/fix_sock_error_handling\n\nFixed socket exception handling",
+      "tree": {
+        "sha": "e7d7c0f3fd43f25976d945957ee2fa08dc9f6439",
+        "url": "https://api.github.com/repos/driechers/boofuzz/git/trees/e7d7c0f3fd43f25976d945957ee2fa08dc9f6439"
+      },
+      "url": "https://api.github.com/repos/driechers/boofuzz/git/commits/5c356aa2c8b81f884d01e6951b400cfcd5659a86",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJc8G/WCRBK7hj4Ov3rIwAAdHIIAKnP8tb+IePShHD0xvC2v7Ch\n7gbog8OO1RGJhrG2ca6X8PsJRfmKIm6eKZf/X61HQDDnG6VAo+IbwWu64biXGD6v\n/rdBrEOXqI4fGVLjcZbtOE/z2pqFflXDCBDUnAs3535PW1kdVqAyf/MR+ic1zlCi\ntgSBecyssqqgXPU6MSP4v0ScUduMzvhHS9wEbiWoD741eSZTFsrd4lsNY9J5pQV1\nIcY8eqlL6A9zJ7kn6cjDdg9JletmHBECtoxB75ybv/r9CNbGC9sGyahVlbf9YmSo\npRbgirx06mlvnb1Oyn+U+gJ9S2B5MoDL0CaHJfQ+R5uh6H9g0EQrUnJ4jJn24RE=\n=b3E4\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree e7d7c0f3fd43f25976d945957ee2fa08dc9f6439\nparent 583c8b291285cf0cdcf8b634113f738c518ad2e6\nparent e1ffaf7572b18eb09f2c711334e95fa18c1ac7dd\nauthor Joshua Pereyda <jtpereyda@users.noreply.github.com> 1559261142 -0700\ncommitter GitHub <noreply@github.com> 1559261142 -0700\n\nMerge pull request #282 from SR4ven/fix_sock_error_handling\n\nFixed socket exception handling"
+      }
+    },
+    "url": "https://api.github.com/repos/driechers/boofuzz/commits/5c356aa2c8b81f884d01e6951b400cfcd5659a86",
+    "html_url": "https://github.com/driechers/boofuzz/commit/5c356aa2c8b81f884d01e6951b400cfcd5659a86",
+    "comments_url": "https://api.github.com/repos/driechers/boofuzz/commits/5c356aa2c8b81f884d01e6951b400cfcd5659a86/comments",
+    "author": {
+      "login": "jtpereyda",
+      "id": 244969,
+      "node_id": "MDQ6VXNlcjI0NDk2OQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/244969?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtpereyda",
+      "html_url": "https://github.com/jtpereyda",
+      "followers_url": "https://api.github.com/users/jtpereyda/followers",
+      "following_url": "https://api.github.com/users/jtpereyda/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtpereyda/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtpereyda/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtpereyda/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtpereyda/orgs",
+      "repos_url": "https://api.github.com/users/jtpereyda/repos",
+      "events_url": "https://api.github.com/users/jtpereyda/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtpereyda/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "583c8b291285cf0cdcf8b634113f738c518ad2e6",
+        "url": "https://api.github.com/repos/driechers/boofuzz/commits/583c8b291285cf0cdcf8b634113f738c518ad2e6",
+        "html_url": "https://github.com/driechers/boofuzz/commit/583c8b291285cf0cdcf8b634113f738c518ad2e6"
+      },
+      {
+        "sha": "e1ffaf7572b18eb09f2c711334e95fa18c1ac7dd",
+        "url": "https://api.github.com/repos/driechers/boofuzz/commits/e1ffaf7572b18eb09f2c711334e95fa18c1ac7dd",
+        "html_url": "https://github.com/driechers/boofuzz/commit/e1ffaf7572b18eb09f2c711334e95fa18c1ac7dd"
+      }
+    ]
+  },
+  {
+    "sha": "5024c786a248a0ed44ccfd0869181bc5face9b76",
+    "node_id": "MDY6Q29tbWl0MTczMDEzOTAyOjUwMjRjNzg2YTI0OGEwZWQ0NGNjZmQwODY5MTgxYmM1ZmFjZTliNzY=",
+    "commit": {
+      "author": {
+        "name": "SR4ven",
+        "email": "46794237+sr4ven@users.noreply.github.com",
+        "date": "2019-05-30T23:51:07Z"
+      },
+      "committer": {
+        "name": "SR4ven",
+        "email": "46794237+sr4ven@users.noreply.github.com",
+        "date": "2019-05-30T23:51:07Z"
+      },
+      "message": "Added changelog.rst to pip description",
+      "tree": {
+        "sha": "3c68f7e221f0ca10a3d82e2d25d2994a325dfd4f",
+        "url": "https://api.github.com/repos/driechers/boofuzz/git/trees/3c68f7e221f0ca10a3d82e2d25d2994a325dfd4f"
+      },
+      "url": "https://api.github.com/repos/driechers/boofuzz/git/commits/5024c786a248a0ed44ccfd0869181bc5face9b76",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/driechers/boofuzz/commits/5024c786a248a0ed44ccfd0869181bc5face9b76",
+    "html_url": "https://github.com/driechers/boofuzz/commit/5024c786a248a0ed44ccfd0869181bc5face9b76",
+    "comments_url": "https://api.github.com/repos/driechers/boofuzz/commits/5024c786a248a0ed44ccfd0869181bc5face9b76/comments",
+    "author": {
+      "login": "SR4ven",
+      "id": 46794237,
+      "node_id": "MDQ6VXNlcjQ2Nzk0MjM3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/46794237?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/SR4ven",
+      "html_url": "https://github.com/SR4ven",
+      "followers_url": "https://api.github.com/users/SR4ven/followers",
+      "following_url": "https://api.github.com/users/SR4ven/following{/other_user}",
+      "gists_url": "https://api.github.com/users/SR4ven/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/SR4ven/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/SR4ven/subscriptions",
+      "organizations_url": "https://api.github.com/users/SR4ven/orgs",
+      "repos_url": "https://api.github.com/users/SR4ven/repos",
+      "events_url": "https://api.github.com/users/SR4ven/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/SR4ven/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "SR4ven",
+      "id": 46794237,
+      "node_id": "MDQ6VXNlcjQ2Nzk0MjM3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/46794237?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/SR4ven",
+      "html_url": "https://github.com/SR4ven",
+      "followers_url": "https://api.github.com/users/SR4ven/followers",
+      "following_url": "https://api.github.com/users/SR4ven/following{/other_user}",
+      "gists_url": "https://api.github.com/users/SR4ven/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/SR4ven/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/SR4ven/subscriptions",
+      "organizations_url": "https://api.github.com/users/SR4ven/orgs",
+      "repos_url": "https://api.github.com/users/SR4ven/repos",
+      "events_url": "https://api.github.com/users/SR4ven/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/SR4ven/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "fd376b130c98cf5c66d28295031d5229f767b61a",
+        "url": "https://api.github.com/repos/driechers/boofuzz/commits/fd376b130c98cf5c66d28295031d5229f767b61a",
+        "html_url": "https://github.com/driechers/boofuzz/commit/fd376b130c98cf5c66d28295031d5229f767b61a"
+      }
+    ]
+  },
+  {
+    "sha": "249e7dd057365e82d9fed86a8aa0d9cf6545edb8",
+    "node_id": "MDY6Q29tbWl0MTczMDEzOTAyOjI0OWU3ZGQwNTczNjVlODJkOWZlZDg2YThhYTBkOWNmNjU0NWVkYjg=",
+    "commit": {
+      "author": {
+        "name": "Joshua Pereyda",
+        "email": "jtpereyda@users.noreply.github.com",
+        "date": "2019-05-30T23:33:06Z"
+      },
+      "committer": {
+        "name": "Joshua Pereyda",
+        "email": "jtpereyda@users.noreply.github.com",
+        "date": "2019-05-30T23:33:06Z"
+      },
+      "message": "update CHANGELOG",
+      "tree": {
+        "sha": "c4f570c2ec41f43eee480d89457489d1760fbbe9",
+        "url": "https://api.github.com/repos/driechers/boofuzz/git/trees/c4f570c2ec41f43eee480d89457489d1760fbbe9"
+      },
+      "url": "https://api.github.com/repos/driechers/boofuzz/git/commits/249e7dd057365e82d9fed86a8aa0d9cf6545edb8",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/driechers/boofuzz/commits/249e7dd057365e82d9fed86a8aa0d9cf6545edb8",
+    "html_url": "https://github.com/driechers/boofuzz/commit/249e7dd057365e82d9fed86a8aa0d9cf6545edb8",
+    "comments_url": "https://api.github.com/repos/driechers/boofuzz/commits/249e7dd057365e82d9fed86a8aa0d9cf6545edb8/comments",
+    "author": {
+      "login": "jtpereyda",
+      "id": 244969,
+      "node_id": "MDQ6VXNlcjI0NDk2OQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/244969?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtpereyda",
+      "html_url": "https://github.com/jtpereyda",
+      "followers_url": "https://api.github.com/users/jtpereyda/followers",
+      "following_url": "https://api.github.com/users/jtpereyda/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtpereyda/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtpereyda/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtpereyda/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtpereyda/orgs",
+      "repos_url": "https://api.github.com/users/jtpereyda/repos",
+      "events_url": "https://api.github.com/users/jtpereyda/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtpereyda/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jtpereyda",
+      "id": 244969,
+      "node_id": "MDQ6VXNlcjI0NDk2OQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/244969?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtpereyda",
+      "html_url": "https://github.com/jtpereyda",
+      "followers_url": "https://api.github.com/users/jtpereyda/followers",
+      "following_url": "https://api.github.com/users/jtpereyda/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtpereyda/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtpereyda/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtpereyda/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtpereyda/orgs",
+      "repos_url": "https://api.github.com/users/jtpereyda/repos",
+      "events_url": "https://api.github.com/users/jtpereyda/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtpereyda/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "eeacafdcae090418c0a6a28fa65d7efcb3e6d8ab",
+        "url": "https://api.github.com/repos/driechers/boofuzz/commits/eeacafdcae090418c0a6a28fa65d7efcb3e6d8ab",
+        "html_url": "https://github.com/driechers/boofuzz/commit/eeacafdcae090418c0a6a28fa65d7efcb3e6d8ab"
+      }
+    ]
+  },
+  {
+    "sha": "eeacafdcae090418c0a6a28fa65d7efcb3e6d8ab",
+    "node_id": "MDY6Q29tbWl0MTczMDEzOTAyOmVlYWNhZmRjYWUwOTA0MThjMGE2YTI4ZmE2NWQ3ZWZjYjNlNmQ4YWI=",
+    "commit": {
+      "author": {
+        "name": "Joshua Pereyda",
+        "email": "jtpereyda@users.noreply.github.com",
+        "date": "2019-05-30T23:29:40Z"
+      },
+      "committer": {
+        "name": "Joshua Pereyda",
+        "email": "jtpereyda@users.noreply.github.com",
+        "date": "2019-05-30T23:29:40Z"
+      },
+      "message": "close test case in check_message()",
+      "tree": {
+        "sha": "7020214b6796c3dcf382207ba1fa9b54d8b4f6a1",
+        "url": "https://api.github.com/repos/driechers/boofuzz/git/trees/7020214b6796c3dcf382207ba1fa9b54d8b4f6a1"
+      },
+      "url": "https://api.github.com/repos/driechers/boofuzz/git/commits/eeacafdcae090418c0a6a28fa65d7efcb3e6d8ab",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/driechers/boofuzz/commits/eeacafdcae090418c0a6a28fa65d7efcb3e6d8ab",
+    "html_url": "https://github.com/driechers/boofuzz/commit/eeacafdcae090418c0a6a28fa65d7efcb3e6d8ab",
+    "comments_url": "https://api.github.com/repos/driechers/boofuzz/commits/eeacafdcae090418c0a6a28fa65d7efcb3e6d8ab/comments",
+    "author": {
+      "login": "jtpereyda",
+      "id": 244969,
+      "node_id": "MDQ6VXNlcjI0NDk2OQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/244969?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtpereyda",
+      "html_url": "https://github.com/jtpereyda",
+      "followers_url": "https://api.github.com/users/jtpereyda/followers",
+      "following_url": "https://api.github.com/users/jtpereyda/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtpereyda/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtpereyda/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtpereyda/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtpereyda/orgs",
+      "repos_url": "https://api.github.com/users/jtpereyda/repos",
+      "events_url": "https://api.github.com/users/jtpereyda/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtpereyda/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jtpereyda",
+      "id": 244969,
+      "node_id": "MDQ6VXNlcjI0NDk2OQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/244969?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtpereyda",
+      "html_url": "https://github.com/jtpereyda",
+      "followers_url": "https://api.github.com/users/jtpereyda/followers",
+      "following_url": "https://api.github.com/users/jtpereyda/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtpereyda/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtpereyda/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtpereyda/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtpereyda/orgs",
+      "repos_url": "https://api.github.com/users/jtpereyda/repos",
+      "events_url": "https://api.github.com/users/jtpereyda/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtpereyda/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "583c8b291285cf0cdcf8b634113f738c518ad2e6",
+        "url": "https://api.github.com/repos/driechers/boofuzz/commits/583c8b291285cf0cdcf8b634113f738c518ad2e6",
+        "html_url": "https://github.com/driechers/boofuzz/commit/583c8b291285cf0cdcf8b634113f738c518ad2e6"
+      }
+    ]
+  },
+  {
+    "sha": "e1ffaf7572b18eb09f2c711334e95fa18c1ac7dd",
+    "node_id": "MDY6Q29tbWl0MTczMDEzOTAyOmUxZmZhZjc1NzJiMThlYjA5ZjJjNzExMzM0ZTk1ZmExOGMxYWM3ZGQ=",
+    "commit": {
+      "author": {
+        "name": "SR4ven",
+        "email": "46794237+sr4ven@users.noreply.github.com",
+        "date": "2019-05-30T18:03:42Z"
+      },
+      "committer": {
+        "name": "SR4ven",
+        "email": "46794237+sr4ven@users.noreply.github.com",
+        "date": "2019-05-30T18:03:42Z"
+      },
+      "message": "Fixed socket exception handling",
+      "tree": {
+        "sha": "e7d7c0f3fd43f25976d945957ee2fa08dc9f6439",
+        "url": "https://api.github.com/repos/driechers/boofuzz/git/trees/e7d7c0f3fd43f25976d945957ee2fa08dc9f6439"
+      },
+      "url": "https://api.github.com/repos/driechers/boofuzz/git/commits/e1ffaf7572b18eb09f2c711334e95fa18c1ac7dd",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/driechers/boofuzz/commits/e1ffaf7572b18eb09f2c711334e95fa18c1ac7dd",
+    "html_url": "https://github.com/driechers/boofuzz/commit/e1ffaf7572b18eb09f2c711334e95fa18c1ac7dd",
+    "comments_url": "https://api.github.com/repos/driechers/boofuzz/commits/e1ffaf7572b18eb09f2c711334e95fa18c1ac7dd/comments",
+    "author": {
+      "login": "SR4ven",
+      "id": 46794237,
+      "node_id": "MDQ6VXNlcjQ2Nzk0MjM3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/46794237?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/SR4ven",
+      "html_url": "https://github.com/SR4ven",
+      "followers_url": "https://api.github.com/users/SR4ven/followers",
+      "following_url": "https://api.github.com/users/SR4ven/following{/other_user}",
+      "gists_url": "https://api.github.com/users/SR4ven/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/SR4ven/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/SR4ven/subscriptions",
+      "organizations_url": "https://api.github.com/users/SR4ven/orgs",
+      "repos_url": "https://api.github.com/users/SR4ven/repos",
+      "events_url": "https://api.github.com/users/SR4ven/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/SR4ven/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "SR4ven",
+      "id": 46794237,
+      "node_id": "MDQ6VXNlcjQ2Nzk0MjM3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/46794237?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/SR4ven",
+      "html_url": "https://github.com/SR4ven",
+      "followers_url": "https://api.github.com/users/SR4ven/followers",
+      "following_url": "https://api.github.com/users/SR4ven/following{/other_user}",
+      "gists_url": "https://api.github.com/users/SR4ven/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/SR4ven/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/SR4ven/subscriptions",
+      "organizations_url": "https://api.github.com/users/SR4ven/orgs",
+      "repos_url": "https://api.github.com/users/SR4ven/repos",
+      "events_url": "https://api.github.com/users/SR4ven/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/SR4ven/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "583c8b291285cf0cdcf8b634113f738c518ad2e6",
+        "url": "https://api.github.com/repos/driechers/boofuzz/commits/583c8b291285cf0cdcf8b634113f738c518ad2e6",
+        "html_url": "https://github.com/driechers/boofuzz/commit/583c8b291285cf0cdcf8b634113f738c518ad2e6"
+      }
+    ]
+  },
+  {
+    "sha": "fd376b130c98cf5c66d28295031d5229f767b61a",
+    "node_id": "MDY6Q29tbWl0MTczMDEzOTAyOmZkMzc2YjEzMGM5OGNmNWM2NmQyODI5NTAzMWQ1MjI5Zjc2N2I2MWE=",
+    "commit": {
+      "author": {
+        "name": "SR4ven",
+        "email": "46794237+sr4ven@users.noreply.github.com",
+        "date": "2019-05-30T00:21:05Z"
+      },
+      "committer": {
+        "name": "SR4ven",
+        "email": "46794237+sr4ven@users.noreply.github.com",
+        "date": "2019-05-30T00:21:05Z"
+      },
+      "message": "Provide readme for pypi; changelog for docs",
+      "tree": {
+        "sha": "97548296044e1f06e284e8fac8f81298e483bc47",
+        "url": "https://api.github.com/repos/driechers/boofuzz/git/trees/97548296044e1f06e284e8fac8f81298e483bc47"
+      },
+      "url": "https://api.github.com/repos/driechers/boofuzz/git/commits/fd376b130c98cf5c66d28295031d5229f767b61a",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/driechers/boofuzz/commits/fd376b130c98cf5c66d28295031d5229f767b61a",
+    "html_url": "https://github.com/driechers/boofuzz/commit/fd376b130c98cf5c66d28295031d5229f767b61a",
+    "comments_url": "https://api.github.com/repos/driechers/boofuzz/commits/fd376b130c98cf5c66d28295031d5229f767b61a/comments",
+    "author": {
+      "login": "SR4ven",
+      "id": 46794237,
+      "node_id": "MDQ6VXNlcjQ2Nzk0MjM3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/46794237?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/SR4ven",
+      "html_url": "https://github.com/SR4ven",
+      "followers_url": "https://api.github.com/users/SR4ven/followers",
+      "following_url": "https://api.github.com/users/SR4ven/following{/other_user}",
+      "gists_url": "https://api.github.com/users/SR4ven/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/SR4ven/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/SR4ven/subscriptions",
+      "organizations_url": "https://api.github.com/users/SR4ven/orgs",
+      "repos_url": "https://api.github.com/users/SR4ven/repos",
+      "events_url": "https://api.github.com/users/SR4ven/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/SR4ven/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "SR4ven",
+      "id": 46794237,
+      "node_id": "MDQ6VXNlcjQ2Nzk0MjM3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/46794237?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/SR4ven",
+      "html_url": "https://github.com/SR4ven",
+      "followers_url": "https://api.github.com/users/SR4ven/followers",
+      "following_url": "https://api.github.com/users/SR4ven/following{/other_user}",
+      "gists_url": "https://api.github.com/users/SR4ven/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/SR4ven/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/SR4ven/subscriptions",
+      "organizations_url": "https://api.github.com/users/SR4ven/orgs",
+      "repos_url": "https://api.github.com/users/SR4ven/repos",
+      "events_url": "https://api.github.com/users/SR4ven/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/SR4ven/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "583c8b291285cf0cdcf8b634113f738c518ad2e6",
+        "url": "https://api.github.com/repos/driechers/boofuzz/commits/583c8b291285cf0cdcf8b634113f738c518ad2e6",
+        "html_url": "https://github.com/driechers/boofuzz/commit/583c8b291285cf0cdcf8b634113f738c518ad2e6"
+      }
+    ]
+  },
+  {
+    "sha": "583c8b291285cf0cdcf8b634113f738c518ad2e6",
+    "node_id": "MDY6Q29tbWl0MTczMDEzOTAyOjU4M2M4YjI5MTI4NWNmMGNkY2Y4YjYzNDExM2Y3MzhjNTE4YWQyZTY=",
+    "commit": {
+      "author": {
+        "name": "Joshua Pereyda",
+        "email": "jtpereyda@users.noreply.github.com",
+        "date": "2019-05-26T05:48:39Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2019-05-26T05:48:39Z"
+      },
+      "message": "Merge pull request #279 from jtpereyda/v0.1.5\n\nv0.1.5",
+      "tree": {
+        "sha": "9a86f5792020afdd5169b5341cef4675d74ecbdf",
+        "url": "https://api.github.com/repos/driechers/boofuzz/git/trees/9a86f5792020afdd5169b5341cef4675d74ecbdf"
+      },
+      "url": "https://api.github.com/repos/driechers/boofuzz/git/commits/583c8b291285cf0cdcf8b634113f738c518ad2e6",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJc6ii3CRBK7hj4Ov3rIwAAdHIIAGb3QXJ62GqQJS6wWoZQqkj4\nZz7dNX8cvTRQ6KeoZVf1rPSXYJjy1+iSEBbOoVLBz2piSMm/iDCD7+Vy9MpBWmgW\n+IfezSv/EuP7ZgOf1ppHBxCHm20XYJmcuJZnC0UVyg/mMiDrgNuSFwbY6K1fG9Xb\nXMZ0K22rkU1rEjIjDiLctcIwnd7PTTMZY15nJqvAialqGrqxlES81dbh+5DgUQql\nC+RZuN2njxXpcXazzmyY/OzoWF+h8/KNKwq36pxLHz7IqwYXwsBKQKNeUUZdmZEj\ntjQkMFtXWOmAXcobnXzVQ+uWB3TpBfCi/oZj/eyJat9++2DYMFVxX2cSCk9VZc0=\n=kJll\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 9a86f5792020afdd5169b5341cef4675d74ecbdf\nparent e17cb35f0f0dd9318776463af4fd86fd569e9586\nparent ff5fa3e19e087211fd6978ccc5ce239867155d5e\nauthor Joshua Pereyda <jtpereyda@users.noreply.github.com> 1558849719 -0700\ncommitter GitHub <noreply@github.com> 1558849719 -0700\n\nMerge pull request #279 from jtpereyda/v0.1.5\n\nv0.1.5"
+      }
+    },
+    "url": "https://api.github.com/repos/driechers/boofuzz/commits/583c8b291285cf0cdcf8b634113f738c518ad2e6",
+    "html_url": "https://github.com/driechers/boofuzz/commit/583c8b291285cf0cdcf8b634113f738c518ad2e6",
+    "comments_url": "https://api.github.com/repos/driechers/boofuzz/commits/583c8b291285cf0cdcf8b634113f738c518ad2e6/comments",
+    "author": {
+      "login": "jtpereyda",
+      "id": 244969,
+      "node_id": "MDQ6VXNlcjI0NDk2OQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/244969?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtpereyda",
+      "html_url": "https://github.com/jtpereyda",
+      "followers_url": "https://api.github.com/users/jtpereyda/followers",
+      "following_url": "https://api.github.com/users/jtpereyda/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtpereyda/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtpereyda/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtpereyda/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtpereyda/orgs",
+      "repos_url": "https://api.github.com/users/jtpereyda/repos",
+      "events_url": "https://api.github.com/users/jtpereyda/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtpereyda/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e17cb35f0f0dd9318776463af4fd86fd569e9586",
+        "url": "https://api.github.com/repos/driechers/boofuzz/commits/e17cb35f0f0dd9318776463af4fd86fd569e9586",
+        "html_url": "https://github.com/driechers/boofuzz/commit/e17cb35f0f0dd9318776463af4fd86fd569e9586"
+      },
+      {
+        "sha": "ff5fa3e19e087211fd6978ccc5ce239867155d5e",
+        "url": "https://api.github.com/repos/driechers/boofuzz/commits/ff5fa3e19e087211fd6978ccc5ce239867155d5e",
+        "html_url": "https://github.com/driechers/boofuzz/commit/ff5fa3e19e087211fd6978ccc5ce239867155d5e"
+      }
+    ]
+  },
+  {
+    "sha": "ff5fa3e19e087211fd6978ccc5ce239867155d5e",
+    "node_id": "MDY6Q29tbWl0MTczMDEzOTAyOmZmNWZhM2UxOWUwODcyMTFmZDY5NzhjY2M1Y2UyMzk4NjcxNTVkNWU=",
+    "commit": {
+      "author": {
+        "name": "jtpereyda",
+        "email": "jtpereyda@users.noreply.github.com",
+        "date": "2019-05-26T05:34:27Z"
+      },
+      "committer": {
+        "name": "jtpereyda",
+        "email": "jtpereyda@users.noreply.github.com",
+        "date": "2019-05-26T05:34:27Z"
+      },
+      "message": "guard curses import to allow boofuzz to run on Windows",
+      "tree": {
+        "sha": "9a86f5792020afdd5169b5341cef4675d74ecbdf",
+        "url": "https://api.github.com/repos/driechers/boofuzz/git/trees/9a86f5792020afdd5169b5341cef4675d74ecbdf"
+      },
+      "url": "https://api.github.com/repos/driechers/boofuzz/git/commits/ff5fa3e19e087211fd6978ccc5ce239867155d5e",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/driechers/boofuzz/commits/ff5fa3e19e087211fd6978ccc5ce239867155d5e",
+    "html_url": "https://github.com/driechers/boofuzz/commit/ff5fa3e19e087211fd6978ccc5ce239867155d5e",
+    "comments_url": "https://api.github.com/repos/driechers/boofuzz/commits/ff5fa3e19e087211fd6978ccc5ce239867155d5e/comments",
+    "author": {
+      "login": "jtpereyda",
+      "id": 244969,
+      "node_id": "MDQ6VXNlcjI0NDk2OQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/244969?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtpereyda",
+      "html_url": "https://github.com/jtpereyda",
+      "followers_url": "https://api.github.com/users/jtpereyda/followers",
+      "following_url": "https://api.github.com/users/jtpereyda/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtpereyda/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtpereyda/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtpereyda/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtpereyda/orgs",
+      "repos_url": "https://api.github.com/users/jtpereyda/repos",
+      "events_url": "https://api.github.com/users/jtpereyda/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtpereyda/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jtpereyda",
+      "id": 244969,
+      "node_id": "MDQ6VXNlcjI0NDk2OQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/244969?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtpereyda",
+      "html_url": "https://github.com/jtpereyda",
+      "followers_url": "https://api.github.com/users/jtpereyda/followers",
+      "following_url": "https://api.github.com/users/jtpereyda/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtpereyda/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtpereyda/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtpereyda/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtpereyda/orgs",
+      "repos_url": "https://api.github.com/users/jtpereyda/repos",
+      "events_url": "https://api.github.com/users/jtpereyda/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtpereyda/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "7fb4a2bc636c7ef42ac408115b283fc8512c6bc6",
+        "url": "https://api.github.com/repos/driechers/boofuzz/commits/7fb4a2bc636c7ef42ac408115b283fc8512c6bc6",
+        "html_url": "https://github.com/driechers/boofuzz/commit/7fb4a2bc636c7ef42ac408115b283fc8512c6bc6"
+      }
+    ]
+  },
+  {
+    "sha": "7fb4a2bc636c7ef42ac408115b283fc8512c6bc6",
+    "node_id": "MDY6Q29tbWl0MTczMDEzOTAyOjdmYjRhMmJjNjM2YzdlZjQyYWM0MDgxMTViMjgzZmM4NTEyYzZiYzY=",
+    "commit": {
+      "author": {
+        "name": "jtpereyda",
+        "email": "jtpereyda@users.noreply.github.com",
+        "date": "2019-05-26T05:06:12Z"
+      },
+      "committer": {
+        "name": "jtpereyda",
+        "email": "jtpereyda@users.noreply.github.com",
+        "date": "2019-05-26T05:06:12Z"
+      },
+      "message": "v0.1.5 changes",
+      "tree": {
+        "sha": "05e84599b646fcf187de44f4343bf2a497dd51ab",
+        "url": "https://api.github.com/repos/driechers/boofuzz/git/trees/05e84599b646fcf187de44f4343bf2a497dd51ab"
+      },
+      "url": "https://api.github.com/repos/driechers/boofuzz/git/commits/7fb4a2bc636c7ef42ac408115b283fc8512c6bc6",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/driechers/boofuzz/commits/7fb4a2bc636c7ef42ac408115b283fc8512c6bc6",
+    "html_url": "https://github.com/driechers/boofuzz/commit/7fb4a2bc636c7ef42ac408115b283fc8512c6bc6",
+    "comments_url": "https://api.github.com/repos/driechers/boofuzz/commits/7fb4a2bc636c7ef42ac408115b283fc8512c6bc6/comments",
+    "author": {
+      "login": "jtpereyda",
+      "id": 244969,
+      "node_id": "MDQ6VXNlcjI0NDk2OQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/244969?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtpereyda",
+      "html_url": "https://github.com/jtpereyda",
+      "followers_url": "https://api.github.com/users/jtpereyda/followers",
+      "following_url": "https://api.github.com/users/jtpereyda/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtpereyda/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtpereyda/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtpereyda/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtpereyda/orgs",
+      "repos_url": "https://api.github.com/users/jtpereyda/repos",
+      "events_url": "https://api.github.com/users/jtpereyda/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtpereyda/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jtpereyda",
+      "id": 244969,
+      "node_id": "MDQ6VXNlcjI0NDk2OQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/244969?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtpereyda",
+      "html_url": "https://github.com/jtpereyda",
+      "followers_url": "https://api.github.com/users/jtpereyda/followers",
+      "following_url": "https://api.github.com/users/jtpereyda/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtpereyda/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtpereyda/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtpereyda/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtpereyda/orgs",
+      "repos_url": "https://api.github.com/users/jtpereyda/repos",
+      "events_url": "https://api.github.com/users/jtpereyda/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtpereyda/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e17cb35f0f0dd9318776463af4fd86fd569e9586",
+        "url": "https://api.github.com/repos/driechers/boofuzz/commits/e17cb35f0f0dd9318776463af4fd86fd569e9586",
+        "html_url": "https://github.com/driechers/boofuzz/commit/e17cb35f0f0dd9318776463af4fd86fd569e9586"
+      }
+    ]
+  },
+  {
+    "sha": "e17cb35f0f0dd9318776463af4fd86fd569e9586",
+    "node_id": "MDY6Q29tbWl0MTczMDEzOTAyOmUxN2NiMzVmMGYwZGQ5MzE4Nzc2NDYzYWY0ZmQ4NmZkNTY5ZTk1ODY=",
+    "commit": {
+      "author": {
+        "name": "Joshua Pereyda",
+        "email": "jtpereyda@users.noreply.github.com",
+        "date": "2019-05-22T14:47:31Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2019-05-22T14:47:31Z"
+      },
+      "message": "Merge pull request #275 from SR4ven/python_ci\n\nRun tests against multiple python versions",
+      "tree": {
+        "sha": "71aa8ff01655a8399d31db62272953e9b6b21c54",
+        "url": "https://api.github.com/repos/driechers/boofuzz/git/trees/71aa8ff01655a8399d31db62272953e9b6b21c54"
+      },
+      "url": "https://api.github.com/repos/driechers/boofuzz/git/commits/e17cb35f0f0dd9318776463af4fd86fd569e9586",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJc5WEDCRBK7hj4Ov3rIwAAdHIIAG74ewLhEjzZzN5c/899o0Ta\nhDuXd/MT6tVvHNbs1jn1FYhMDdf8JPIeaqkUNOI31IUgUNx59nfRNNf7qz2c4+nG\nPxI4lyR0RKnRuOgE3qGmfB6z7OoSGiWTE6xkZ5bfyjvJpMLCfFarihv1AQxVl3rJ\nVO3g+5KIVyHz4acSP53cPwg8QB7LpKGtuBXOwROmhAKjXACf/igMwf1ICFQYPWwn\nU8M+6IE/AXRlp4bhY1Klo9p90ABH4P+kSzllLXC2Qiqy+RGMJLNUjYtMqgNfd6jn\n919t1H7meMR41AzrWjEQavq0qg9QSSfpNoN2Vc3cEc/0Lqwu6ODxZSrWMOZuZE4=\n=Rmb+\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 71aa8ff01655a8399d31db62272953e9b6b21c54\nparent 6be1bc746aef659acab7e092f41e24e313d92344\nparent 50a0e150e5646de637e535eb5e868473d05fad83\nauthor Joshua Pereyda <jtpereyda@users.noreply.github.com> 1558536451 -0700\ncommitter GitHub <noreply@github.com> 1558536451 -0700\n\nMerge pull request #275 from SR4ven/python_ci\n\nRun tests against multiple python versions"
+      }
+    },
+    "url": "https://api.github.com/repos/driechers/boofuzz/commits/e17cb35f0f0dd9318776463af4fd86fd569e9586",
+    "html_url": "https://github.com/driechers/boofuzz/commit/e17cb35f0f0dd9318776463af4fd86fd569e9586",
+    "comments_url": "https://api.github.com/repos/driechers/boofuzz/commits/e17cb35f0f0dd9318776463af4fd86fd569e9586/comments",
+    "author": {
+      "login": "jtpereyda",
+      "id": 244969,
+      "node_id": "MDQ6VXNlcjI0NDk2OQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/244969?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtpereyda",
+      "html_url": "https://github.com/jtpereyda",
+      "followers_url": "https://api.github.com/users/jtpereyda/followers",
+      "following_url": "https://api.github.com/users/jtpereyda/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtpereyda/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtpereyda/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtpereyda/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtpereyda/orgs",
+      "repos_url": "https://api.github.com/users/jtpereyda/repos",
+      "events_url": "https://api.github.com/users/jtpereyda/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtpereyda/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "6be1bc746aef659acab7e092f41e24e313d92344",
+        "url": "https://api.github.com/repos/driechers/boofuzz/commits/6be1bc746aef659acab7e092f41e24e313d92344",
+        "html_url": "https://github.com/driechers/boofuzz/commit/6be1bc746aef659acab7e092f41e24e313d92344"
+      },
+      {
+        "sha": "50a0e150e5646de637e535eb5e868473d05fad83",
+        "url": "https://api.github.com/repos/driechers/boofuzz/commits/50a0e150e5646de637e535eb5e868473d05fad83",
+        "html_url": "https://github.com/driechers/boofuzz/commit/50a0e150e5646de637e535eb5e868473d05fad83"
+      }
+    ]
+  },
+  {
+    "sha": "50a0e150e5646de637e535eb5e868473d05fad83",
+    "node_id": "MDY6Q29tbWl0MTczMDEzOTAyOjUwYTBlMTUwZTU2NDZkZTYzN2U1MzVlYjVlODY4NDczZDA1ZmFkODM=",
+    "commit": {
+      "author": {
+        "name": "SR4ven",
+        "email": "46794237+sr4ven@users.noreply.github.com",
+        "date": "2019-05-22T11:20:54Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2019-05-22T11:20:54Z"
+      },
+      "message": "Removed py38 check from tox",
+      "tree": {
+        "sha": "0d763db67dbec5f4e5f5395c9caa343089dc17bf",
+        "url": "https://api.github.com/repos/driechers/boofuzz/git/trees/0d763db67dbec5f4e5f5395c9caa343089dc17bf"
+      },
+      "url": "https://api.github.com/repos/driechers/boofuzz/git/commits/50a0e150e5646de637e535eb5e868473d05fad83",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJc5TCWCRBK7hj4Ov3rIwAAdHIIAEe4szZCM8r3CIRfDLpaZqz6\nDpe6bsfReKafPjOb46LNmgWd9mY3IqBBrH1ZkaHVclqDLU1xG1D1L00X6tsFQDCg\nT6UgHFhwfn2PJlHS+rfsubluuXOzzsmIhtP1CYGyssXLGSSBT9w2XIsMS0bYXnN1\ncDVjdDMenxXaTs8B1zj2Wkq69Qlm4BtsenK7KLVQOuD8Cy3Z5b1QJk8IksVSafn4\noLhJ3J7rkFWuDnO1dZSEUuct/RnVhbqucn0j+oP+nRaaYsv8PlUUWXQ3JzPhWxHC\nnV3FY8XjBQzYydPY73spOlKHMpHX08/0VnPUlyDj5/5ntlTLYaZ+N0T0lrEm1GM=\n=Y9K1\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 0d763db67dbec5f4e5f5395c9caa343089dc17bf\nparent fa88b1147138c14d8c3296f88e70fc44758908b1\nauthor SR4ven <46794237+SR4ven@users.noreply.github.com> 1558524054 +0200\ncommitter GitHub <noreply@github.com> 1558524054 +0200\n\nRemoved py38 check from tox"
+      }
+    },
+    "url": "https://api.github.com/repos/driechers/boofuzz/commits/50a0e150e5646de637e535eb5e868473d05fad83",
+    "html_url": "https://github.com/driechers/boofuzz/commit/50a0e150e5646de637e535eb5e868473d05fad83",
+    "comments_url": "https://api.github.com/repos/driechers/boofuzz/commits/50a0e150e5646de637e535eb5e868473d05fad83/comments",
+    "author": {
+      "login": "SR4ven",
+      "id": 46794237,
+      "node_id": "MDQ6VXNlcjQ2Nzk0MjM3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/46794237?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/SR4ven",
+      "html_url": "https://github.com/SR4ven",
+      "followers_url": "https://api.github.com/users/SR4ven/followers",
+      "following_url": "https://api.github.com/users/SR4ven/following{/other_user}",
+      "gists_url": "https://api.github.com/users/SR4ven/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/SR4ven/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/SR4ven/subscriptions",
+      "organizations_url": "https://api.github.com/users/SR4ven/orgs",
+      "repos_url": "https://api.github.com/users/SR4ven/repos",
+      "events_url": "https://api.github.com/users/SR4ven/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/SR4ven/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "fa88b1147138c14d8c3296f88e70fc44758908b1",
+        "url": "https://api.github.com/repos/driechers/boofuzz/commits/fa88b1147138c14d8c3296f88e70fc44758908b1",
+        "html_url": "https://github.com/driechers/boofuzz/commit/fa88b1147138c14d8c3296f88e70fc44758908b1"
+      }
+    ]
+  },
+  {
+    "sha": "6be1bc746aef659acab7e092f41e24e313d92344",
+    "node_id": "MDY6Q29tbWl0MTczMDEzOTAyOjZiZTFiYzc0NmFlZjY1OWFjYWI3ZTA5MmY0MWUyNGUzMTNkOTIzNDQ=",
+    "commit": {
+      "author": {
+        "name": "Joshua Pereyda",
+        "email": "jtpereyda@users.noreply.github.com",
+        "date": "2019-05-22T05:22:44Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2019-05-22T05:22:44Z"
+      },
+      "message": "Merge pull request #265 from SR4ven/curses_gui\n\nAdded curses logger class to provide a console GUI",
+      "tree": {
+        "sha": "b022c91ba753a1e6a8ba6f9934b3ac275cf4955e",
+        "url": "https://api.github.com/repos/driechers/boofuzz/git/trees/b022c91ba753a1e6a8ba6f9934b3ac275cf4955e"
+      },
+      "url": "https://api.github.com/repos/driechers/boofuzz/git/commits/6be1bc746aef659acab7e092f41e24e313d92344",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJc5NykCRBK7hj4Ov3rIwAAdHIIABBZWNoF4moV2oo4qAToCma/\nzzzTbASyupbiQCrhJGbLZEY4UP9oumGdoxoncemSba7fpyVFB2fs76KSaoGZsYMV\ney5sKhJ/1acN/EuwiYdBXTYHZiLLFkuTiViaQl4PTvq/YwqdzsLPduyTjwD5DkV1\n/4Y05CbHvMIz87UhsmbZ5DnNbjfVCRpHhi9GqzCjJSpn2YfmaZwri9FyjqgzcyID\nTCyefLyH6q7sb7mCw/VqH/FJ68//gMMBjeTOpjLltPxcHl1MI6r6fl5CCfXQ0hPc\n0M6L7XG7axaGjLmLI98fanI55EvhcloJDDkcmxz/vAqYhkfVIub+lF5RF2RfIBA=\n=dQtJ\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree b022c91ba753a1e6a8ba6f9934b3ac275cf4955e\nparent edfc502b3bc8f41627c8666b48e47fe94317c70d\nparent ac4afffc845e32f93aab39fb21e2a8a5765c3a4b\nauthor Joshua Pereyda <jtpereyda@users.noreply.github.com> 1558502564 -0700\ncommitter GitHub <noreply@github.com> 1558502564 -0700\n\nMerge pull request #265 from SR4ven/curses_gui\n\nAdded curses logger class to provide a console GUI"
+      }
+    },
+    "url": "https://api.github.com/repos/driechers/boofuzz/commits/6be1bc746aef659acab7e092f41e24e313d92344",
+    "html_url": "https://github.com/driechers/boofuzz/commit/6be1bc746aef659acab7e092f41e24e313d92344",
+    "comments_url": "https://api.github.com/repos/driechers/boofuzz/commits/6be1bc746aef659acab7e092f41e24e313d92344/comments",
+    "author": {
+      "login": "jtpereyda",
+      "id": 244969,
+      "node_id": "MDQ6VXNlcjI0NDk2OQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/244969?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtpereyda",
+      "html_url": "https://github.com/jtpereyda",
+      "followers_url": "https://api.github.com/users/jtpereyda/followers",
+      "following_url": "https://api.github.com/users/jtpereyda/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtpereyda/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtpereyda/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtpereyda/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtpereyda/orgs",
+      "repos_url": "https://api.github.com/users/jtpereyda/repos",
+      "events_url": "https://api.github.com/users/jtpereyda/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtpereyda/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "edfc502b3bc8f41627c8666b48e47fe94317c70d",
+        "url": "https://api.github.com/repos/driechers/boofuzz/commits/edfc502b3bc8f41627c8666b48e47fe94317c70d",
+        "html_url": "https://github.com/driechers/boofuzz/commit/edfc502b3bc8f41627c8666b48e47fe94317c70d"
+      },
+      {
+        "sha": "ac4afffc845e32f93aab39fb21e2a8a5765c3a4b",
+        "url": "https://api.github.com/repos/driechers/boofuzz/commits/ac4afffc845e32f93aab39fb21e2a8a5765c3a4b",
+        "html_url": "https://github.com/driechers/boofuzz/commit/ac4afffc845e32f93aab39fb21e2a8a5765c3a4b"
+      }
+    ]
+  },
+  {
+    "sha": "edfc502b3bc8f41627c8666b48e47fe94317c70d",
+    "node_id": "MDY6Q29tbWl0MTczMDEzOTAyOmVkZmM1MDJiM2JjOGY0MTYyN2M4NjY2YjQ4ZTQ3ZmU5NDMxN2M3MGQ=",
+    "commit": {
+      "author": {
+        "name": "Joshua Pereyda",
+        "email": "jtpereyda@users.noreply.github.com",
+        "date": "2019-05-22T04:55:08Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2019-05-22T04:55:08Z"
+      },
+      "message": "Merge pull request #276 from SR4ven/fix_procmon\n\nFix procmon on py27",
+      "tree": {
+        "sha": "fd0bbda40068c07807a896ecccfb395ee22027e6",
+        "url": "https://api.github.com/repos/driechers/boofuzz/git/trees/fd0bbda40068c07807a896ecccfb395ee22027e6"
+      },
+      "url": "https://api.github.com/repos/driechers/boofuzz/git/commits/edfc502b3bc8f41627c8666b48e47fe94317c70d",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJc5NYsCRBK7hj4Ov3rIwAAdHIIAHgRqVeL8Ed4w9NeqXYnFvMM\n5fLG+7tuW0sjG02s/qRsj5H9GzG2f/FoZ5jG8tGgioql3IXjlP7WA/aWSuaz4n5N\nR2Uua7mPuzU0if1yAmqiAEwd+HxyHi0x6HxUKMmH5j+n8l+l+iS5FsFhQ7/N/S2p\nJOYHORICTz1ekcuNR7LcjEq+6rUXdLqso2YyKpWI3yjjVHDzNieRN/6PJrfCBiCf\nIF3SOxtAmhvxr+A0VPDGILJmi2bJ7rC1iVXLsOHfAZbNmW8VYqawgAi1+JC9SPmE\ndGvQzAAcRRj8vC6mCAK6hzqwJu1142FLD/bx7pz8EMzNQ/13SRBwNPxBKqLJ6fA=\n=7NN9\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree fd0bbda40068c07807a896ecccfb395ee22027e6\nparent 3f2a4782c40f1a96439a9a14caadd6a1306b3523\nparent c7aa94b219031cef862149bbf46047c5f4973faf\nauthor Joshua Pereyda <jtpereyda@users.noreply.github.com> 1558500908 -0700\ncommitter GitHub <noreply@github.com> 1558500908 -0700\n\nMerge pull request #276 from SR4ven/fix_procmon\n\nFix procmon on py27"
+      }
+    },
+    "url": "https://api.github.com/repos/driechers/boofuzz/commits/edfc502b3bc8f41627c8666b48e47fe94317c70d",
+    "html_url": "https://github.com/driechers/boofuzz/commit/edfc502b3bc8f41627c8666b48e47fe94317c70d",
+    "comments_url": "https://api.github.com/repos/driechers/boofuzz/commits/edfc502b3bc8f41627c8666b48e47fe94317c70d/comments",
+    "author": {
+      "login": "jtpereyda",
+      "id": 244969,
+      "node_id": "MDQ6VXNlcjI0NDk2OQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/244969?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtpereyda",
+      "html_url": "https://github.com/jtpereyda",
+      "followers_url": "https://api.github.com/users/jtpereyda/followers",
+      "following_url": "https://api.github.com/users/jtpereyda/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtpereyda/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtpereyda/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtpereyda/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtpereyda/orgs",
+      "repos_url": "https://api.github.com/users/jtpereyda/repos",
+      "events_url": "https://api.github.com/users/jtpereyda/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtpereyda/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "3f2a4782c40f1a96439a9a14caadd6a1306b3523",
+        "url": "https://api.github.com/repos/driechers/boofuzz/commits/3f2a4782c40f1a96439a9a14caadd6a1306b3523",
+        "html_url": "https://github.com/driechers/boofuzz/commit/3f2a4782c40f1a96439a9a14caadd6a1306b3523"
+      },
+      {
+        "sha": "c7aa94b219031cef862149bbf46047c5f4973faf",
+        "url": "https://api.github.com/repos/driechers/boofuzz/commits/c7aa94b219031cef862149bbf46047c5f4973faf",
+        "html_url": "https://github.com/driechers/boofuzz/commit/c7aa94b219031cef862149bbf46047c5f4973faf"
+      }
+    ]
+  },
+  {
+    "sha": "3f2a4782c40f1a96439a9a14caadd6a1306b3523",
+    "node_id": "MDY6Q29tbWl0MTczMDEzOTAyOjNmMmE0NzgyYzQwZjFhOTY0MzlhOWExNGNhYWRkNmExMzA2YjM1MjM=",
+    "commit": {
+      "author": {
+        "name": "Joshua Pereyda",
+        "email": "jtpereyda@users.noreply.github.com",
+        "date": "2019-05-22T04:53:51Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2019-05-22T04:53:51Z"
+      },
+      "message": "Merge pull request #277 from SR4ven/win_py36_fix\n\nFixed type error on py36 under Windows",
+      "tree": {
+        "sha": "27ece199038f9bf6b5754c8371d2c5ba1cd2739d",
+        "url": "https://api.github.com/repos/driechers/boofuzz/git/trees/27ece199038f9bf6b5754c8371d2c5ba1cd2739d"
+      },
+      "url": "https://api.github.com/repos/driechers/boofuzz/git/commits/3f2a4782c40f1a96439a9a14caadd6a1306b3523",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJc5NXfCRBK7hj4Ov3rIwAAdHIIAGS68g0133rpgpyDElSmXAMu\nXgUi0iizXeY5L1x0fhM7lqyOSh2S4HSAy8RsRW+ZRZMzNx62kb5vE1UsFfmTsuil\nO6BbCxOVzgBQKiTW0c2ChbSwCou+L6onG7Abt8adzeG5VqWu47DLdaDF981hzDpC\ncLPs99VBEtLDhOXSXAsGWlZo02YXSMQc8YYXmhVhMtfGMG022Ue0dvlBwX/2X9e9\n9MAbNkPKj6FQo0cDFBFVtg88uh2w6N8aQwYoASTVf4nRmrBzcJwUN8ViRoQ/Mr3/\nPR4dgc+XdoeArivNuCvsUwtrvRsRfPA2Km9WlMM07lWzcq5TXq/29gzBUq+0xb0=\n=ozFy\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 27ece199038f9bf6b5754c8371d2c5ba1cd2739d\nparent 4e89dbaef31169c31319615d76ee2e133fc90e32\nparent 0018f06a1e24ab1e7a3960eaeb5d31a59e2e4ae2\nauthor Joshua Pereyda <jtpereyda@users.noreply.github.com> 1558500831 -0700\ncommitter GitHub <noreply@github.com> 1558500831 -0700\n\nMerge pull request #277 from SR4ven/win_py36_fix\n\nFixed type error on py36 under Windows"
+      }
+    },
+    "url": "https://api.github.com/repos/driechers/boofuzz/commits/3f2a4782c40f1a96439a9a14caadd6a1306b3523",
+    "html_url": "https://github.com/driechers/boofuzz/commit/3f2a4782c40f1a96439a9a14caadd6a1306b3523",
+    "comments_url": "https://api.github.com/repos/driechers/boofuzz/commits/3f2a4782c40f1a96439a9a14caadd6a1306b3523/comments",
+    "author": {
+      "login": "jtpereyda",
+      "id": 244969,
+      "node_id": "MDQ6VXNlcjI0NDk2OQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/244969?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtpereyda",
+      "html_url": "https://github.com/jtpereyda",
+      "followers_url": "https://api.github.com/users/jtpereyda/followers",
+      "following_url": "https://api.github.com/users/jtpereyda/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtpereyda/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtpereyda/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtpereyda/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtpereyda/orgs",
+      "repos_url": "https://api.github.com/users/jtpereyda/repos",
+      "events_url": "https://api.github.com/users/jtpereyda/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtpereyda/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4e89dbaef31169c31319615d76ee2e133fc90e32",
+        "url": "https://api.github.com/repos/driechers/boofuzz/commits/4e89dbaef31169c31319615d76ee2e133fc90e32",
+        "html_url": "https://github.com/driechers/boofuzz/commit/4e89dbaef31169c31319615d76ee2e133fc90e32"
+      },
+      {
+        "sha": "0018f06a1e24ab1e7a3960eaeb5d31a59e2e4ae2",
+        "url": "https://api.github.com/repos/driechers/boofuzz/commits/0018f06a1e24ab1e7a3960eaeb5d31a59e2e4ae2",
+        "html_url": "https://github.com/driechers/boofuzz/commit/0018f06a1e24ab1e7a3960eaeb5d31a59e2e4ae2"
+      }
+    ]
+  },
+  {
+    "sha": "0018f06a1e24ab1e7a3960eaeb5d31a59e2e4ae2",
+    "node_id": "MDY6Q29tbWl0MTczMDEzOTAyOjAwMThmMDZhMWUyNGFiMWU3YTM5NjBlYWViNWQzMWE1OWUyZTRhZTI=",
+    "commit": {
+      "author": {
+        "name": "SR4ven",
+        "email": "46794237+sr4ven@users.noreply.github.com",
+        "date": "2019-05-21T08:35:44Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2019-05-21T08:35:44Z"
+      },
+      "message": "Fixed type error on py36 under Windows",
+      "tree": {
+        "sha": "27ece199038f9bf6b5754c8371d2c5ba1cd2739d",
+        "url": "https://api.github.com/repos/driechers/boofuzz/git/trees/27ece199038f9bf6b5754c8371d2c5ba1cd2739d"
+      },
+      "url": "https://api.github.com/repos/driechers/boofuzz/git/commits/0018f06a1e24ab1e7a3960eaeb5d31a59e2e4ae2",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJc47hgCRBK7hj4Ov3rIwAAdHIIAKirzZyYdCHP2i60qjeVL2w7\nHRuv2uS3heNdwX4a+Wtw2cQFKvXrhgultXoHXcrjwt7WbRKOF39P+QOuje4IJN9F\n1JDMgcpPNoa8cGrXPIudprQ7aKtbdaUNY/H4bu0lzeyalKBivP7r4KYzG1aGzFeI\n3wyuPE/2Se0cAiqgusItjyOhD2CfcxCXKg10vnowrTdGdDCuEtYtHbXT5G1UC8B9\nAgQ9NZmHWh6vP9SM1ram1zVljxoLLKOdvhfKCsdpMchdIhoCyDf9CS9GeRxrfYNh\nknCYc3CKCPg4HDTTYFL9ApwpyeBxohdb+be9XC53+H4qQgEPeuu5ofWtGoZy9Tc=\n=M+yX\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 27ece199038f9bf6b5754c8371d2c5ba1cd2739d\nparent 4e89dbaef31169c31319615d76ee2e133fc90e32\nauthor SR4ven <46794237+SR4ven@users.noreply.github.com> 1558427744 +0200\ncommitter GitHub <noreply@github.com> 1558427744 +0200\n\nFixed type error on py36 under Windows"
+      }
+    },
+    "url": "https://api.github.com/repos/driechers/boofuzz/commits/0018f06a1e24ab1e7a3960eaeb5d31a59e2e4ae2",
+    "html_url": "https://github.com/driechers/boofuzz/commit/0018f06a1e24ab1e7a3960eaeb5d31a59e2e4ae2",
+    "comments_url": "https://api.github.com/repos/driechers/boofuzz/commits/0018f06a1e24ab1e7a3960eaeb5d31a59e2e4ae2/comments",
+    "author": {
+      "login": "SR4ven",
+      "id": 46794237,
+      "node_id": "MDQ6VXNlcjQ2Nzk0MjM3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/46794237?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/SR4ven",
+      "html_url": "https://github.com/SR4ven",
+      "followers_url": "https://api.github.com/users/SR4ven/followers",
+      "following_url": "https://api.github.com/users/SR4ven/following{/other_user}",
+      "gists_url": "https://api.github.com/users/SR4ven/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/SR4ven/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/SR4ven/subscriptions",
+      "organizations_url": "https://api.github.com/users/SR4ven/orgs",
+      "repos_url": "https://api.github.com/users/SR4ven/repos",
+      "events_url": "https://api.github.com/users/SR4ven/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/SR4ven/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4e89dbaef31169c31319615d76ee2e133fc90e32",
+        "url": "https://api.github.com/repos/driechers/boofuzz/commits/4e89dbaef31169c31319615d76ee2e133fc90e32",
+        "html_url": "https://github.com/driechers/boofuzz/commit/4e89dbaef31169c31319615d76ee2e133fc90e32"
+      }
+    ]
+  },
+  {
+    "sha": "ac4afffc845e32f93aab39fb21e2a8a5765c3a4b",
+    "node_id": "MDY6Q29tbWl0MTczMDEzOTAyOmFjNGFmZmZjODQ1ZTMyZjkzYWFiMzlmYjIxZTJhOGE1NzY1YzNhNGI=",
+    "commit": {
+      "author": {
+        "name": "SR4ven",
+        "email": "46794237+sr4ven@users.noreply.github.com",
+        "date": "2019-05-20T19:39:11Z"
+      },
+      "committer": {
+        "name": "SR4ven",
+        "email": "46794237+sr4ven@users.noreply.github.com",
+        "date": "2019-05-20T19:39:11Z"
+      },
+      "message": "Applying requested changes:\n- Fix procmon #276\n- Move signal handling to FuzzLoggerCurses\n- Make it possible to have other logger classes besides FuzzLoggerCurses",
+      "tree": {
+        "sha": "8c6c3f6e203ab42e61a683dc3c56a074fde9af69",
+        "url": "https://api.github.com/repos/driechers/boofuzz/git/trees/8c6c3f6e203ab42e61a683dc3c56a074fde9af69"
+      },
+      "url": "https://api.github.com/repos/driechers/boofuzz/git/commits/ac4afffc845e32f93aab39fb21e2a8a5765c3a4b",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/driechers/boofuzz/commits/ac4afffc845e32f93aab39fb21e2a8a5765c3a4b",
+    "html_url": "https://github.com/driechers/boofuzz/commit/ac4afffc845e32f93aab39fb21e2a8a5765c3a4b",
+    "comments_url": "https://api.github.com/repos/driechers/boofuzz/commits/ac4afffc845e32f93aab39fb21e2a8a5765c3a4b/comments",
+    "author": {
+      "login": "SR4ven",
+      "id": 46794237,
+      "node_id": "MDQ6VXNlcjQ2Nzk0MjM3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/46794237?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/SR4ven",
+      "html_url": "https://github.com/SR4ven",
+      "followers_url": "https://api.github.com/users/SR4ven/followers",
+      "following_url": "https://api.github.com/users/SR4ven/following{/other_user}",
+      "gists_url": "https://api.github.com/users/SR4ven/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/SR4ven/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/SR4ven/subscriptions",
+      "organizations_url": "https://api.github.com/users/SR4ven/orgs",
+      "repos_url": "https://api.github.com/users/SR4ven/repos",
+      "events_url": "https://api.github.com/users/SR4ven/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/SR4ven/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "SR4ven",
+      "id": 46794237,
+      "node_id": "MDQ6VXNlcjQ2Nzk0MjM3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/46794237?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/SR4ven",
+      "html_url": "https://github.com/SR4ven",
+      "followers_url": "https://api.github.com/users/SR4ven/followers",
+      "following_url": "https://api.github.com/users/SR4ven/following{/other_user}",
+      "gists_url": "https://api.github.com/users/SR4ven/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/SR4ven/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/SR4ven/subscriptions",
+      "organizations_url": "https://api.github.com/users/SR4ven/orgs",
+      "repos_url": "https://api.github.com/users/SR4ven/repos",
+      "events_url": "https://api.github.com/users/SR4ven/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/SR4ven/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "06dd3fb4884019bcff3243c84771a5e0cab5a242",
+        "url": "https://api.github.com/repos/driechers/boofuzz/commits/06dd3fb4884019bcff3243c84771a5e0cab5a242",
+        "html_url": "https://github.com/driechers/boofuzz/commit/06dd3fb4884019bcff3243c84771a5e0cab5a242"
+      }
+    ]
+  },
+  {
+    "sha": "c7aa94b219031cef862149bbf46047c5f4973faf",
+    "node_id": "MDY6Q29tbWl0MTczMDEzOTAyOmM3YWE5NGIyMTkwMzFjZWY4NjIxNDliYmY0NjA0N2M1ZjQ5NzNmYWY=",
+    "commit": {
+      "author": {
+        "name": "SR4ven",
+        "email": "46794237+sr4ven@users.noreply.github.com",
+        "date": "2019-05-20T18:27:45Z"
+      },
+      "committer": {
+        "name": "SR4ven",
+        "email": "46794237+sr4ven@users.noreply.github.com",
+        "date": "2019-05-20T18:27:45Z"
+      },
+      "message": "Fix procmon on py27",
+      "tree": {
+        "sha": "f826270c83e18c890c8ffc36e4f4a46dbe795b96",
+        "url": "https://api.github.com/repos/driechers/boofuzz/git/trees/f826270c83e18c890c8ffc36e4f4a46dbe795b96"
+      },
+      "url": "https://api.github.com/repos/driechers/boofuzz/git/commits/c7aa94b219031cef862149bbf46047c5f4973faf",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/driechers/boofuzz/commits/c7aa94b219031cef862149bbf46047c5f4973faf",
+    "html_url": "https://github.com/driechers/boofuzz/commit/c7aa94b219031cef862149bbf46047c5f4973faf",
+    "comments_url": "https://api.github.com/repos/driechers/boofuzz/commits/c7aa94b219031cef862149bbf46047c5f4973faf/comments",
+    "author": {
+      "login": "SR4ven",
+      "id": 46794237,
+      "node_id": "MDQ6VXNlcjQ2Nzk0MjM3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/46794237?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/SR4ven",
+      "html_url": "https://github.com/SR4ven",
+      "followers_url": "https://api.github.com/users/SR4ven/followers",
+      "following_url": "https://api.github.com/users/SR4ven/following{/other_user}",
+      "gists_url": "https://api.github.com/users/SR4ven/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/SR4ven/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/SR4ven/subscriptions",
+      "organizations_url": "https://api.github.com/users/SR4ven/orgs",
+      "repos_url": "https://api.github.com/users/SR4ven/repos",
+      "events_url": "https://api.github.com/users/SR4ven/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/SR4ven/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "SR4ven",
+      "id": 46794237,
+      "node_id": "MDQ6VXNlcjQ2Nzk0MjM3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/46794237?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/SR4ven",
+      "html_url": "https://github.com/SR4ven",
+      "followers_url": "https://api.github.com/users/SR4ven/followers",
+      "following_url": "https://api.github.com/users/SR4ven/following{/other_user}",
+      "gists_url": "https://api.github.com/users/SR4ven/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/SR4ven/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/SR4ven/subscriptions",
+      "organizations_url": "https://api.github.com/users/SR4ven/orgs",
+      "repos_url": "https://api.github.com/users/SR4ven/repos",
+      "events_url": "https://api.github.com/users/SR4ven/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/SR4ven/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4e89dbaef31169c31319615d76ee2e133fc90e32",
+        "url": "https://api.github.com/repos/driechers/boofuzz/commits/4e89dbaef31169c31319615d76ee2e133fc90e32",
+        "html_url": "https://github.com/driechers/boofuzz/commit/4e89dbaef31169c31319615d76ee2e133fc90e32"
+      }
+    ]
+  },
+  {
+    "sha": "fa88b1147138c14d8c3296f88e70fc44758908b1",
+    "node_id": "MDY6Q29tbWl0MTczMDEzOTAyOmZhODhiMTE0NzEzOGMxNGQ4YzMyOTZmODhlNzBmYzQ0NzU4OTA4YjE=",
+    "commit": {
+      "author": {
+        "name": "SR4ven",
+        "email": "46794237+sr4ven@users.noreply.github.com",
+        "date": "2019-05-20T00:25:17Z"
+      },
+      "committer": {
+        "name": "SR4ven",
+        "email": "46794237+sr4ven@users.noreply.github.com",
+        "date": "2019-05-20T00:25:17Z"
+      },
+      "message": "Removed py38 tests",
+      "tree": {
+        "sha": "b5cd5be01f6f3ce4ad02322e1158adc2a9b745a4",
+        "url": "https://api.github.com/repos/driechers/boofuzz/git/trees/b5cd5be01f6f3ce4ad02322e1158adc2a9b745a4"
+      },
+      "url": "https://api.github.com/repos/driechers/boofuzz/git/commits/fa88b1147138c14d8c3296f88e70fc44758908b1",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/driechers/boofuzz/commits/fa88b1147138c14d8c3296f88e70fc44758908b1",
+    "html_url": "https://github.com/driechers/boofuzz/commit/fa88b1147138c14d8c3296f88e70fc44758908b1",
+    "comments_url": "https://api.github.com/repos/driechers/boofuzz/commits/fa88b1147138c14d8c3296f88e70fc44758908b1/comments",
+    "author": {
+      "login": "SR4ven",
+      "id": 46794237,
+      "node_id": "MDQ6VXNlcjQ2Nzk0MjM3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/46794237?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/SR4ven",
+      "html_url": "https://github.com/SR4ven",
+      "followers_url": "https://api.github.com/users/SR4ven/followers",
+      "following_url": "https://api.github.com/users/SR4ven/following{/other_user}",
+      "gists_url": "https://api.github.com/users/SR4ven/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/SR4ven/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/SR4ven/subscriptions",
+      "organizations_url": "https://api.github.com/users/SR4ven/orgs",
+      "repos_url": "https://api.github.com/users/SR4ven/repos",
+      "events_url": "https://api.github.com/users/SR4ven/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/SR4ven/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "SR4ven",
+      "id": 46794237,
+      "node_id": "MDQ6VXNlcjQ2Nzk0MjM3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/46794237?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/SR4ven",
+      "html_url": "https://github.com/SR4ven",
+      "followers_url": "https://api.github.com/users/SR4ven/followers",
+      "following_url": "https://api.github.com/users/SR4ven/following{/other_user}",
+      "gists_url": "https://api.github.com/users/SR4ven/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/SR4ven/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/SR4ven/subscriptions",
+      "organizations_url": "https://api.github.com/users/SR4ven/orgs",
+      "repos_url": "https://api.github.com/users/SR4ven/repos",
+      "events_url": "https://api.github.com/users/SR4ven/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/SR4ven/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d99a6c99d4909bd4f4f1a8bce0bfe6e58f6e2d37",
+        "url": "https://api.github.com/repos/driechers/boofuzz/commits/d99a6c99d4909bd4f4f1a8bce0bfe6e58f6e2d37",
+        "html_url": "https://github.com/driechers/boofuzz/commit/d99a6c99d4909bd4f4f1a8bce0bfe6e58f6e2d37"
+      }
+    ]
+  },
+  {
+    "sha": "d99a6c99d4909bd4f4f1a8bce0bfe6e58f6e2d37",
+    "node_id": "MDY6Q29tbWl0MTczMDEzOTAyOmQ5OWE2Yzk5ZDQ5MDliZDRmNGYxYThiY2UwYmZlNmU1OGY2ZTJkMzc=",
+    "commit": {
+      "author": {
+        "name": "SR4ven",
+        "email": "46794237+sr4ven@users.noreply.github.com",
+        "date": "2019-05-20T00:13:54Z"
+      },
+      "committer": {
+        "name": "SR4ven",
+        "email": "46794237+sr4ven@users.noreply.github.com",
+        "date": "2019-05-20T00:13:54Z"
+      },
+      "message": "Use fast_finish to speed up the test result",
+      "tree": {
+        "sha": "fdd8d9cde5e9af0702880af95f33e7e87b8f5e77",
+        "url": "https://api.github.com/repos/driechers/boofuzz/git/trees/fdd8d9cde5e9af0702880af95f33e7e87b8f5e77"
+      },
+      "url": "https://api.github.com/repos/driechers/boofuzz/git/commits/d99a6c99d4909bd4f4f1a8bce0bfe6e58f6e2d37",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/driechers/boofuzz/commits/d99a6c99d4909bd4f4f1a8bce0bfe6e58f6e2d37",
+    "html_url": "https://github.com/driechers/boofuzz/commit/d99a6c99d4909bd4f4f1a8bce0bfe6e58f6e2d37",
+    "comments_url": "https://api.github.com/repos/driechers/boofuzz/commits/d99a6c99d4909bd4f4f1a8bce0bfe6e58f6e2d37/comments",
+    "author": {
+      "login": "SR4ven",
+      "id": 46794237,
+      "node_id": "MDQ6VXNlcjQ2Nzk0MjM3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/46794237?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/SR4ven",
+      "html_url": "https://github.com/SR4ven",
+      "followers_url": "https://api.github.com/users/SR4ven/followers",
+      "following_url": "https://api.github.com/users/SR4ven/following{/other_user}",
+      "gists_url": "https://api.github.com/users/SR4ven/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/SR4ven/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/SR4ven/subscriptions",
+      "organizations_url": "https://api.github.com/users/SR4ven/orgs",
+      "repos_url": "https://api.github.com/users/SR4ven/repos",
+      "events_url": "https://api.github.com/users/SR4ven/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/SR4ven/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "SR4ven",
+      "id": 46794237,
+      "node_id": "MDQ6VXNlcjQ2Nzk0MjM3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/46794237?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/SR4ven",
+      "html_url": "https://github.com/SR4ven",
+      "followers_url": "https://api.github.com/users/SR4ven/followers",
+      "following_url": "https://api.github.com/users/SR4ven/following{/other_user}",
+      "gists_url": "https://api.github.com/users/SR4ven/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/SR4ven/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/SR4ven/subscriptions",
+      "organizations_url": "https://api.github.com/users/SR4ven/orgs",
+      "repos_url": "https://api.github.com/users/SR4ven/repos",
+      "events_url": "https://api.github.com/users/SR4ven/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/SR4ven/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "942d2ac264e9c27103bd70f3c7df2480537d7480",
+        "url": "https://api.github.com/repos/driechers/boofuzz/commits/942d2ac264e9c27103bd70f3c7df2480537d7480",
+        "html_url": "https://github.com/driechers/boofuzz/commit/942d2ac264e9c27103bd70f3c7df2480537d7480"
+      }
+    ]
+  },
+  {
+    "sha": "942d2ac264e9c27103bd70f3c7df2480537d7480",
+    "node_id": "MDY6Q29tbWl0MTczMDEzOTAyOjk0MmQyYWMyNjRlOWMyNzEwM2JkNzBmM2M3ZGYyNDgwNTM3ZDc0ODA=",
+    "commit": {
+      "author": {
+        "name": "SR4ven",
+        "email": "46794237+sr4ven@users.noreply.github.com",
+        "date": "2019-05-20T00:05:07Z"
+      },
+      "committer": {
+        "name": "SR4ven",
+        "email": "46794237+sr4ven@users.noreply.github.com",
+        "date": "2019-05-20T00:05:07Z"
+      },
+      "message": "Removed pip cache, adjusted py38 name",
+      "tree": {
+        "sha": "6ccb71cb58ec75106b08b5253ac1448952049d5d",
+        "url": "https://api.github.com/repos/driechers/boofuzz/git/trees/6ccb71cb58ec75106b08b5253ac1448952049d5d"
+      },
+      "url": "https://api.github.com/repos/driechers/boofuzz/git/commits/942d2ac264e9c27103bd70f3c7df2480537d7480",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/driechers/boofuzz/commits/942d2ac264e9c27103bd70f3c7df2480537d7480",
+    "html_url": "https://github.com/driechers/boofuzz/commit/942d2ac264e9c27103bd70f3c7df2480537d7480",
+    "comments_url": "https://api.github.com/repos/driechers/boofuzz/commits/942d2ac264e9c27103bd70f3c7df2480537d7480/comments",
+    "author": {
+      "login": "SR4ven",
+      "id": 46794237,
+      "node_id": "MDQ6VXNlcjQ2Nzk0MjM3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/46794237?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/SR4ven",
+      "html_url": "https://github.com/SR4ven",
+      "followers_url": "https://api.github.com/users/SR4ven/followers",
+      "following_url": "https://api.github.com/users/SR4ven/following{/other_user}",
+      "gists_url": "https://api.github.com/users/SR4ven/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/SR4ven/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/SR4ven/subscriptions",
+      "organizations_url": "https://api.github.com/users/SR4ven/orgs",
+      "repos_url": "https://api.github.com/users/SR4ven/repos",
+      "events_url": "https://api.github.com/users/SR4ven/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/SR4ven/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "SR4ven",
+      "id": 46794237,
+      "node_id": "MDQ6VXNlcjQ2Nzk0MjM3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/46794237?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/SR4ven",
+      "html_url": "https://github.com/SR4ven",
+      "followers_url": "https://api.github.com/users/SR4ven/followers",
+      "following_url": "https://api.github.com/users/SR4ven/following{/other_user}",
+      "gists_url": "https://api.github.com/users/SR4ven/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/SR4ven/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/SR4ven/subscriptions",
+      "organizations_url": "https://api.github.com/users/SR4ven/orgs",
+      "repos_url": "https://api.github.com/users/SR4ven/repos",
+      "events_url": "https://api.github.com/users/SR4ven/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/SR4ven/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "cc0e2ba2d3f7fc6516fd322e30bb66924457245d",
+        "url": "https://api.github.com/repos/driechers/boofuzz/commits/cc0e2ba2d3f7fc6516fd322e30bb66924457245d",
+        "html_url": "https://github.com/driechers/boofuzz/commit/cc0e2ba2d3f7fc6516fd322e30bb66924457245d"
+      }
+    ]
+  },
+  {
+    "sha": "cc0e2ba2d3f7fc6516fd322e30bb66924457245d",
+    "node_id": "MDY6Q29tbWl0MTczMDEzOTAyOmNjMGUyYmEyZDNmN2ZjNjUxNmZkMzIyZTMwYmI2NjkyNDQ1NzI0NWQ=",
+    "commit": {
+      "author": {
+        "name": "SR4ven",
+        "email": "46794237+sr4ven@users.noreply.github.com",
+        "date": "2019-05-19T23:42:13Z"
+      },
+      "committer": {
+        "name": "SR4ven",
+        "email": "46794237+sr4ven@users.noreply.github.com",
+        "date": "2019-05-19T23:42:13Z"
+      },
+      "message": "Run tests against multiple python versions",
+      "tree": {
+        "sha": "b828d7a2c3c7346674d0580c82a439c51bce163f",
+        "url": "https://api.github.com/repos/driechers/boofuzz/git/trees/b828d7a2c3c7346674d0580c82a439c51bce163f"
+      },
+      "url": "https://api.github.com/repos/driechers/boofuzz/git/commits/cc0e2ba2d3f7fc6516fd322e30bb66924457245d",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/driechers/boofuzz/commits/cc0e2ba2d3f7fc6516fd322e30bb66924457245d",
+    "html_url": "https://github.com/driechers/boofuzz/commit/cc0e2ba2d3f7fc6516fd322e30bb66924457245d",
+    "comments_url": "https://api.github.com/repos/driechers/boofuzz/commits/cc0e2ba2d3f7fc6516fd322e30bb66924457245d/comments",
+    "author": {
+      "login": "SR4ven",
+      "id": 46794237,
+      "node_id": "MDQ6VXNlcjQ2Nzk0MjM3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/46794237?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/SR4ven",
+      "html_url": "https://github.com/SR4ven",
+      "followers_url": "https://api.github.com/users/SR4ven/followers",
+      "following_url": "https://api.github.com/users/SR4ven/following{/other_user}",
+      "gists_url": "https://api.github.com/users/SR4ven/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/SR4ven/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/SR4ven/subscriptions",
+      "organizations_url": "https://api.github.com/users/SR4ven/orgs",
+      "repos_url": "https://api.github.com/users/SR4ven/repos",
+      "events_url": "https://api.github.com/users/SR4ven/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/SR4ven/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "SR4ven",
+      "id": 46794237,
+      "node_id": "MDQ6VXNlcjQ2Nzk0MjM3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/46794237?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/SR4ven",
+      "html_url": "https://github.com/SR4ven",
+      "followers_url": "https://api.github.com/users/SR4ven/followers",
+      "following_url": "https://api.github.com/users/SR4ven/following{/other_user}",
+      "gists_url": "https://api.github.com/users/SR4ven/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/SR4ven/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/SR4ven/subscriptions",
+      "organizations_url": "https://api.github.com/users/SR4ven/orgs",
+      "repos_url": "https://api.github.com/users/SR4ven/repos",
+      "events_url": "https://api.github.com/users/SR4ven/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/SR4ven/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4e89dbaef31169c31319615d76ee2e133fc90e32",
+        "url": "https://api.github.com/repos/driechers/boofuzz/commits/4e89dbaef31169c31319615d76ee2e133fc90e32",
+        "html_url": "https://github.com/driechers/boofuzz/commit/4e89dbaef31169c31319615d76ee2e133fc90e32"
+      }
+    ]
+  },
+  {
+    "sha": "06dd3fb4884019bcff3243c84771a5e0cab5a242",
+    "node_id": "MDY6Q29tbWl0MTczMDEzOTAyOjA2ZGQzZmI0ODg0MDE5YmNmZjMyNDNjODQ3NzFhNWUwY2FiNWEyNDI=",
+    "commit": {
+      "author": {
+        "name": "SR4ven",
+        "email": "46794237+sr4ven@users.noreply.github.com",
+        "date": "2019-05-19T21:43:30Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2019-05-19T21:43:30Z"
+      },
+      "message": "Merge branch 'master' into curses_gui",
+      "tree": {
+        "sha": "ca09261558cc0d5df3a1970431c5055c7d1b90d8",
+        "url": "https://api.github.com/repos/driechers/boofuzz/git/trees/ca09261558cc0d5df3a1970431c5055c7d1b90d8"
+      },
+      "url": "https://api.github.com/repos/driechers/boofuzz/git/commits/06dd3fb4884019bcff3243c84771a5e0cab5a242",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJc4c4CCRBK7hj4Ov3rIwAAdHIIAG7YIwshgYGYC19gIgsFJI0e\ngK4XWK3t5u8aiD0+S6ZCohk3N1rOry0X/wvvZypMthsC01WLO+z64bYxLFlM6p3C\nVKaz2rkOq8Xyen/bHi8yae0FqUt6N6GzMVCDayBcEoVJGzloqEz5rkHJsG0xGUWX\nTyc/qGR/JqNw+I8AfNjbdRHCuJas+ZpqFnop5yImAqX53/8qGtQbL7YAySUu7E7b\n0Q7bxZWetQnkPxtxeYeJotZJhbvGzqGKs7S8WW/kBNg6cFLgwlKawkcEpG91r11h\nCeiR0qQPz4xRM1GiGkupJXIUPeFkjeQmM0HQkyXu4QWsIWYt8kW2H4xeHYVD1+s=\n=HAu4\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree ca09261558cc0d5df3a1970431c5055c7d1b90d8\nparent b500ce5e17528dfa81c94151df94ae4abf4cbb1a\nparent 4e89dbaef31169c31319615d76ee2e133fc90e32\nauthor SR4ven <46794237+SR4ven@users.noreply.github.com> 1558302210 +0200\ncommitter GitHub <noreply@github.com> 1558302210 +0200\n\nMerge branch 'master' into curses_gui"
+      }
+    },
+    "url": "https://api.github.com/repos/driechers/boofuzz/commits/06dd3fb4884019bcff3243c84771a5e0cab5a242",
+    "html_url": "https://github.com/driechers/boofuzz/commit/06dd3fb4884019bcff3243c84771a5e0cab5a242",
+    "comments_url": "https://api.github.com/repos/driechers/boofuzz/commits/06dd3fb4884019bcff3243c84771a5e0cab5a242/comments",
+    "author": {
+      "login": "SR4ven",
+      "id": 46794237,
+      "node_id": "MDQ6VXNlcjQ2Nzk0MjM3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/46794237?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/SR4ven",
+      "html_url": "https://github.com/SR4ven",
+      "followers_url": "https://api.github.com/users/SR4ven/followers",
+      "following_url": "https://api.github.com/users/SR4ven/following{/other_user}",
+      "gists_url": "https://api.github.com/users/SR4ven/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/SR4ven/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/SR4ven/subscriptions",
+      "organizations_url": "https://api.github.com/users/SR4ven/orgs",
+      "repos_url": "https://api.github.com/users/SR4ven/repos",
+      "events_url": "https://api.github.com/users/SR4ven/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/SR4ven/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b500ce5e17528dfa81c94151df94ae4abf4cbb1a",
+        "url": "https://api.github.com/repos/driechers/boofuzz/commits/b500ce5e17528dfa81c94151df94ae4abf4cbb1a",
+        "html_url": "https://github.com/driechers/boofuzz/commit/b500ce5e17528dfa81c94151df94ae4abf4cbb1a"
+      },
+      {
+        "sha": "4e89dbaef31169c31319615d76ee2e133fc90e32",
+        "url": "https://api.github.com/repos/driechers/boofuzz/commits/4e89dbaef31169c31319615d76ee2e133fc90e32",
+        "html_url": "https://github.com/driechers/boofuzz/commit/4e89dbaef31169c31319615d76ee2e133fc90e32"
+      }
+    ]
+  },
+  {
+    "sha": "4e89dbaef31169c31319615d76ee2e133fc90e32",
+    "node_id": "MDY6Q29tbWl0MTczMDEzOTAyOjRlODlkYmFlZjMxMTY5YzMxMzE5NjE1ZDc2ZWUyZTEzM2ZjOTBlMzI=",
+    "commit": {
+      "author": {
+        "name": "Joshua Pereyda",
+        "email": "jtpereyda@users.noreply.github.com",
+        "date": "2019-05-19T04:00:48Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2019-05-19T04:00:48Z"
+      },
+      "message": "Merge pull request #271 from jasperla/openbsd/udp\n\nAdd OpenBSD support to get_max_udp_size()",
+      "tree": {
+        "sha": "4f342d4a3a61e365b365a092ec2efc4c4842236b",
+        "url": "https://api.github.com/repos/driechers/boofuzz/git/trees/4f342d4a3a61e365b365a092ec2efc4c4842236b"
+      },
+      "url": "https://api.github.com/repos/driechers/boofuzz/git/commits/4e89dbaef31169c31319615d76ee2e133fc90e32",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJc4NTwCRBK7hj4Ov3rIwAAdHIIAAdgNtRZVwIkoKRpKahblHR2\nsb3fKYKtP3IUB1AEGv/Ked36/OIGqV+l5gaQZmgLB1k6YV1cyLJ7sSFFvkLG768E\nlahPKG1DRFAylMhYOCIcaO8e/xF+A5LeyDaVc4zCPixTAAxIDJilgVt296hleOea\nqj3qXgbEbTA99TMys1nx2PXQrAbTjCVGh44GvsfHrFju9WZUecHVZjuOzRpRkxQl\ngroMSjLIwkYkWFsd7e89cQ/Omatar0h+oLWQSzbzpw/bSM7KO/oMkErG9Ix+X2mP\nKQ0CvYC+dt4117yLjqN06NGLi4Q8mDlMTjQVcKMNeksVfl9bknPLhHzLWp9xKl0=\n=3XQl\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 4f342d4a3a61e365b365a092ec2efc4c4842236b\nparent 074117d0ccd9bc3df67e74261b5994b3d6140fc7\nparent b1e574e535d0b10da860755257fddcd61728fa97\nauthor Joshua Pereyda <jtpereyda@users.noreply.github.com> 1558238448 -0700\ncommitter GitHub <noreply@github.com> 1558238448 -0700\n\nMerge pull request #271 from jasperla/openbsd/udp\n\nAdd OpenBSD support to get_max_udp_size()"
+      }
+    },
+    "url": "https://api.github.com/repos/driechers/boofuzz/commits/4e89dbaef31169c31319615d76ee2e133fc90e32",
+    "html_url": "https://github.com/driechers/boofuzz/commit/4e89dbaef31169c31319615d76ee2e133fc90e32",
+    "comments_url": "https://api.github.com/repos/driechers/boofuzz/commits/4e89dbaef31169c31319615d76ee2e133fc90e32/comments",
+    "author": {
+      "login": "jtpereyda",
+      "id": 244969,
+      "node_id": "MDQ6VXNlcjI0NDk2OQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/244969?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtpereyda",
+      "html_url": "https://github.com/jtpereyda",
+      "followers_url": "https://api.github.com/users/jtpereyda/followers",
+      "following_url": "https://api.github.com/users/jtpereyda/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtpereyda/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtpereyda/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtpereyda/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtpereyda/orgs",
+      "repos_url": "https://api.github.com/users/jtpereyda/repos",
+      "events_url": "https://api.github.com/users/jtpereyda/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtpereyda/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "074117d0ccd9bc3df67e74261b5994b3d6140fc7",
+        "url": "https://api.github.com/repos/driechers/boofuzz/commits/074117d0ccd9bc3df67e74261b5994b3d6140fc7",
+        "html_url": "https://github.com/driechers/boofuzz/commit/074117d0ccd9bc3df67e74261b5994b3d6140fc7"
+      },
+      {
+        "sha": "b1e574e535d0b10da860755257fddcd61728fa97",
+        "url": "https://api.github.com/repos/driechers/boofuzz/commits/b1e574e535d0b10da860755257fddcd61728fa97",
+        "html_url": "https://github.com/driechers/boofuzz/commit/b1e574e535d0b10da860755257fddcd61728fa97"
+      }
+    ]
+  },
+  {
+    "sha": "074117d0ccd9bc3df67e74261b5994b3d6140fc7",
+    "node_id": "MDY6Q29tbWl0MTczMDEzOTAyOjA3NDExN2QwY2NkOWJjM2RmNjdlNzQyNjFiNTk5NGIzZDYxNDBmYzc=",
+    "commit": {
+      "author": {
+        "name": "Joshua Pereyda",
+        "email": "jtpereyda@users.noreply.github.com",
+        "date": "2019-05-19T03:59:28Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2019-05-19T03:59:28Z"
+      },
+      "message": "Merge pull request #274 from SR4ven/windows_fixes\n\nFixed Windows unit-tests",
+      "tree": {
+        "sha": "fb692bb35d5017cedfb8a87578fc2a2fb1027462",
+        "url": "https://api.github.com/repos/driechers/boofuzz/git/trees/fb692bb35d5017cedfb8a87578fc2a2fb1027462"
+      },
+      "url": "https://api.github.com/repos/driechers/boofuzz/git/commits/074117d0ccd9bc3df67e74261b5994b3d6140fc7",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJc4NSgCRBK7hj4Ov3rIwAAdHIIACP9909P/Q1Niq6C9CGWZnpk\n3KPJx3W2ve+E4J49gos91HOOMCXe+Hbdj/gEoSbHawW68bA0crWhBr/s9ecJN2g2\nPfHfGYBkt6A8eQxIx07R0tDvfrkVXO0hBTkzIWKVgG2Mzd5DiyL3xj+Qgw6J6U/f\nouPs4UjYqvMD3rvR65XmO/plew1UIZ6Omtn2C0a8oJppFV4e08+udQYGIFfbv7m3\nhcgve5T1ihNvPOvejvbMSVKVO365nEJLijIyPWMuGZjHjBZuojrCnl4SwndiYPAP\nTr5TbKd1v4w//CE8lALgnE/lc3e6gVGBClxoPvJBHdaNfrg5p8hJ6XAgQqTEV0A=\n=TdLx\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree fb692bb35d5017cedfb8a87578fc2a2fb1027462\nparent 272fd1517106048e6c1b3f159c495d2065d59eb3\nparent 0d5be90952db146669273093b4b9b6a0ccff716d\nauthor Joshua Pereyda <jtpereyda@users.noreply.github.com> 1558238368 -0700\ncommitter GitHub <noreply@github.com> 1558238368 -0700\n\nMerge pull request #274 from SR4ven/windows_fixes\n\nFixed Windows unit-tests"
+      }
+    },
+    "url": "https://api.github.com/repos/driechers/boofuzz/commits/074117d0ccd9bc3df67e74261b5994b3d6140fc7",
+    "html_url": "https://github.com/driechers/boofuzz/commit/074117d0ccd9bc3df67e74261b5994b3d6140fc7",
+    "comments_url": "https://api.github.com/repos/driechers/boofuzz/commits/074117d0ccd9bc3df67e74261b5994b3d6140fc7/comments",
+    "author": {
+      "login": "jtpereyda",
+      "id": 244969,
+      "node_id": "MDQ6VXNlcjI0NDk2OQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/244969?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtpereyda",
+      "html_url": "https://github.com/jtpereyda",
+      "followers_url": "https://api.github.com/users/jtpereyda/followers",
+      "following_url": "https://api.github.com/users/jtpereyda/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtpereyda/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtpereyda/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtpereyda/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtpereyda/orgs",
+      "repos_url": "https://api.github.com/users/jtpereyda/repos",
+      "events_url": "https://api.github.com/users/jtpereyda/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtpereyda/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "272fd1517106048e6c1b3f159c495d2065d59eb3",
+        "url": "https://api.github.com/repos/driechers/boofuzz/commits/272fd1517106048e6c1b3f159c495d2065d59eb3",
+        "html_url": "https://github.com/driechers/boofuzz/commit/272fd1517106048e6c1b3f159c495d2065d59eb3"
+      },
+      {
+        "sha": "0d5be90952db146669273093b4b9b6a0ccff716d",
+        "url": "https://api.github.com/repos/driechers/boofuzz/commits/0d5be90952db146669273093b4b9b6a0ccff716d",
+        "html_url": "https://github.com/driechers/boofuzz/commit/0d5be90952db146669273093b4b9b6a0ccff716d"
+      }
+    ]
+  }
+]

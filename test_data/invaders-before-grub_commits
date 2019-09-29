@@ -1,0 +1,2417 @@
+[
+  {
+    "sha": "8933ea2551abcf52021ed38a0ed77df6911bfdb6",
+    "node_id": "MDY6Q29tbWl0Nzk2ODQyMTk6ODkzM2VhMjU1MWFiY2Y1MjAyMWVkMzhhMGVkNzdkZjY5MTFiZmRiNg==",
+    "commit": {
+      "author": {
+        "name": "Daniel Riechers",
+        "email": "driechers101@gmail.com",
+        "date": "2017-01-22T04:22:45Z"
+      },
+      "committer": {
+        "name": "Daniel Riechers",
+        "email": "driechers101@gmail.com",
+        "date": "2017-01-22T04:22:45Z"
+      },
+      "message": "Updated README",
+      "tree": {
+        "sha": "c3e58a508308115bd27358bd1bbc5866c92b39db",
+        "url": "https://api.github.com/repos/driechers/invaders-before-grub/git/trees/c3e58a508308115bd27358bd1bbc5866c92b39db"
+      },
+      "url": "https://api.github.com/repos/driechers/invaders-before-grub/git/commits/8933ea2551abcf52021ed38a0ed77df6911bfdb6",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/8933ea2551abcf52021ed38a0ed77df6911bfdb6",
+    "html_url": "https://github.com/driechers/invaders-before-grub/commit/8933ea2551abcf52021ed38a0ed77df6911bfdb6",
+    "comments_url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/8933ea2551abcf52021ed38a0ed77df6911bfdb6/comments",
+    "author": {
+      "login": "driechers",
+      "id": 1298296,
+      "node_id": "MDQ6VXNlcjEyOTgyOTY=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1298296?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/driechers",
+      "html_url": "https://github.com/driechers",
+      "followers_url": "https://api.github.com/users/driechers/followers",
+      "following_url": "https://api.github.com/users/driechers/following{/other_user}",
+      "gists_url": "https://api.github.com/users/driechers/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/driechers/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/driechers/subscriptions",
+      "organizations_url": "https://api.github.com/users/driechers/orgs",
+      "repos_url": "https://api.github.com/users/driechers/repos",
+      "events_url": "https://api.github.com/users/driechers/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/driechers/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "driechers",
+      "id": 1298296,
+      "node_id": "MDQ6VXNlcjEyOTgyOTY=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1298296?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/driechers",
+      "html_url": "https://github.com/driechers",
+      "followers_url": "https://api.github.com/users/driechers/followers",
+      "following_url": "https://api.github.com/users/driechers/following{/other_user}",
+      "gists_url": "https://api.github.com/users/driechers/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/driechers/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/driechers/subscriptions",
+      "organizations_url": "https://api.github.com/users/driechers/orgs",
+      "repos_url": "https://api.github.com/users/driechers/repos",
+      "events_url": "https://api.github.com/users/driechers/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/driechers/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f9c3e5d07aab3d5e2a3d447518862eb36f5dc529",
+        "url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/f9c3e5d07aab3d5e2a3d447518862eb36f5dc529",
+        "html_url": "https://github.com/driechers/invaders-before-grub/commit/f9c3e5d07aab3d5e2a3d447518862eb36f5dc529"
+      }
+    ]
+  },
+  {
+    "sha": "f9c3e5d07aab3d5e2a3d447518862eb36f5dc529",
+    "node_id": "MDY6Q29tbWl0Nzk2ODQyMTk6ZjljM2U1ZDA3YWFiM2Q1ZTJhM2Q0NDc1MTg4NjJlYjM2ZjVkYzUyOQ==",
+    "commit": {
+      "author": {
+        "name": "Daniel Riechers",
+        "email": "driechers101@gmail.com",
+        "date": "2017-01-22T04:09:10Z"
+      },
+      "committer": {
+        "name": "Daniel Riechers",
+        "email": "driechers101@gmail.com",
+        "date": "2017-01-22T04:09:10Z"
+      },
+      "message": "integrated grub and grub-invaders so one must win a game of invaders before they can boot into grub",
+      "tree": {
+        "sha": "fe586a6e93685ff6f1fd74cdc111fb144cc99455",
+        "url": "https://api.github.com/repos/driechers/invaders-before-grub/git/trees/fe586a6e93685ff6f1fd74cdc111fb144cc99455"
+      },
+      "url": "https://api.github.com/repos/driechers/invaders-before-grub/git/commits/f9c3e5d07aab3d5e2a3d447518862eb36f5dc529",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/f9c3e5d07aab3d5e2a3d447518862eb36f5dc529",
+    "html_url": "https://github.com/driechers/invaders-before-grub/commit/f9c3e5d07aab3d5e2a3d447518862eb36f5dc529",
+    "comments_url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/f9c3e5d07aab3d5e2a3d447518862eb36f5dc529/comments",
+    "author": {
+      "login": "driechers",
+      "id": 1298296,
+      "node_id": "MDQ6VXNlcjEyOTgyOTY=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1298296?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/driechers",
+      "html_url": "https://github.com/driechers",
+      "followers_url": "https://api.github.com/users/driechers/followers",
+      "following_url": "https://api.github.com/users/driechers/following{/other_user}",
+      "gists_url": "https://api.github.com/users/driechers/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/driechers/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/driechers/subscriptions",
+      "organizations_url": "https://api.github.com/users/driechers/orgs",
+      "repos_url": "https://api.github.com/users/driechers/repos",
+      "events_url": "https://api.github.com/users/driechers/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/driechers/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "driechers",
+      "id": 1298296,
+      "node_id": "MDQ6VXNlcjEyOTgyOTY=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1298296?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/driechers",
+      "html_url": "https://github.com/driechers",
+      "followers_url": "https://api.github.com/users/driechers/followers",
+      "following_url": "https://api.github.com/users/driechers/following{/other_user}",
+      "gists_url": "https://api.github.com/users/driechers/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/driechers/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/driechers/subscriptions",
+      "organizations_url": "https://api.github.com/users/driechers/orgs",
+      "repos_url": "https://api.github.com/users/driechers/repos",
+      "events_url": "https://api.github.com/users/driechers/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/driechers/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "bca61d04a080b773895a5cdf1b4015b6ebf47917",
+        "url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/bca61d04a080b773895a5cdf1b4015b6ebf47917",
+        "html_url": "https://github.com/driechers/invaders-before-grub/commit/bca61d04a080b773895a5cdf1b4015b6ebf47917"
+      }
+    ]
+  },
+  {
+    "sha": "bca61d04a080b773895a5cdf1b4015b6ebf47917",
+    "node_id": "MDY6Q29tbWl0Nzk2ODQyMTk6YmNhNjFkMDRhMDgwYjc3Mzg5NWE1Y2RmMWI0MDE1YjZlYmY0NzkxNw==",
+    "commit": {
+      "author": {
+        "name": "Michael Marineau",
+        "email": "mike@marineau.org",
+        "date": "2016-10-20T03:53:58Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2016-10-20T03:53:58Z"
+      },
+      "message": "Merge pull request #41 from marineam/xen\n\nAdd support for our verity hash scheme under Xen",
+      "tree": {
+        "sha": "12bffaa47a53f2d9f14e452e94abf7fb6fce20e9",
+        "url": "https://api.github.com/repos/driechers/invaders-before-grub/git/trees/12bffaa47a53f2d9f14e452e94abf7fb6fce20e9"
+      },
+      "url": "https://api.github.com/repos/driechers/invaders-before-grub/git/commits/bca61d04a080b773895a5cdf1b4015b6ebf47917",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/bca61d04a080b773895a5cdf1b4015b6ebf47917",
+    "html_url": "https://github.com/driechers/invaders-before-grub/commit/bca61d04a080b773895a5cdf1b4015b6ebf47917",
+    "comments_url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/bca61d04a080b773895a5cdf1b4015b6ebf47917/comments",
+    "author": {
+      "login": "marineam",
+      "id": 153640,
+      "node_id": "MDQ6VXNlcjE1MzY0MA==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/153640?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/marineam",
+      "html_url": "https://github.com/marineam",
+      "followers_url": "https://api.github.com/users/marineam/followers",
+      "following_url": "https://api.github.com/users/marineam/following{/other_user}",
+      "gists_url": "https://api.github.com/users/marineam/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/marineam/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/marineam/subscriptions",
+      "organizations_url": "https://api.github.com/users/marineam/orgs",
+      "repos_url": "https://api.github.com/users/marineam/repos",
+      "events_url": "https://api.github.com/users/marineam/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/marineam/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "6d3b1dc72b39bbfe03b894477c62f005c06f691b",
+        "url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/6d3b1dc72b39bbfe03b894477c62f005c06f691b",
+        "html_url": "https://github.com/driechers/invaders-before-grub/commit/6d3b1dc72b39bbfe03b894477c62f005c06f691b"
+      },
+      {
+        "sha": "bcd7fb9fd29561db1963a739a222a76f8b0922aa",
+        "url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/bcd7fb9fd29561db1963a739a222a76f8b0922aa",
+        "html_url": "https://github.com/driechers/invaders-before-grub/commit/bcd7fb9fd29561db1963a739a222a76f8b0922aa"
+      }
+    ]
+  },
+  {
+    "sha": "bcd7fb9fd29561db1963a739a222a76f8b0922aa",
+    "node_id": "MDY6Q29tbWl0Nzk2ODQyMTk6YmNkN2ZiOWZkMjk1NjFkYjE5NjNhNzM5YTIyMmE3NmY4YjA5MjJhYQ==",
+    "commit": {
+      "author": {
+        "name": "Michael Marineau",
+        "email": "michael.marineau@coreos.com",
+        "date": "2016-10-19T21:48:50Z"
+      },
+      "committer": {
+        "name": "Michael Marineau",
+        "email": "michael.marineau@coreos.com",
+        "date": "2016-10-19T22:18:06Z"
+      },
+      "message": "loader: add support for passing verity hash to xen kernels\n\nThis only supports DomU Linux bzImage, ignoring bare ELF images and\nDom0 Xen+Linux but those cases are not applicable to us on CoreOS.",
+      "tree": {
+        "sha": "12bffaa47a53f2d9f14e452e94abf7fb6fce20e9",
+        "url": "https://api.github.com/repos/driechers/invaders-before-grub/git/trees/12bffaa47a53f2d9f14e452e94abf7fb6fce20e9"
+      },
+      "url": "https://api.github.com/repos/driechers/invaders-before-grub/git/commits/bcd7fb9fd29561db1963a739a222a76f8b0922aa",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/bcd7fb9fd29561db1963a739a222a76f8b0922aa",
+    "html_url": "https://github.com/driechers/invaders-before-grub/commit/bcd7fb9fd29561db1963a739a222a76f8b0922aa",
+    "comments_url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/bcd7fb9fd29561db1963a739a222a76f8b0922aa/comments",
+    "author": {
+      "login": "marineam",
+      "id": 153640,
+      "node_id": "MDQ6VXNlcjE1MzY0MA==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/153640?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/marineam",
+      "html_url": "https://github.com/marineam",
+      "followers_url": "https://api.github.com/users/marineam/followers",
+      "following_url": "https://api.github.com/users/marineam/following{/other_user}",
+      "gists_url": "https://api.github.com/users/marineam/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/marineam/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/marineam/subscriptions",
+      "organizations_url": "https://api.github.com/users/marineam/orgs",
+      "repos_url": "https://api.github.com/users/marineam/repos",
+      "events_url": "https://api.github.com/users/marineam/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/marineam/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "marineam",
+      "id": 153640,
+      "node_id": "MDQ6VXNlcjE1MzY0MA==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/153640?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/marineam",
+      "html_url": "https://github.com/marineam",
+      "followers_url": "https://api.github.com/users/marineam/followers",
+      "following_url": "https://api.github.com/users/marineam/following{/other_user}",
+      "gists_url": "https://api.github.com/users/marineam/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/marineam/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/marineam/subscriptions",
+      "organizations_url": "https://api.github.com/users/marineam/orgs",
+      "repos_url": "https://api.github.com/users/marineam/repos",
+      "events_url": "https://api.github.com/users/marineam/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/marineam/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "dab6a0f0c31d2805fff1f58e5c37e21260602b6b",
+        "url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/dab6a0f0c31d2805fff1f58e5c37e21260602b6b",
+        "html_url": "https://github.com/driechers/invaders-before-grub/commit/dab6a0f0c31d2805fff1f58e5c37e21260602b6b"
+      }
+    ]
+  },
+  {
+    "sha": "dab6a0f0c31d2805fff1f58e5c37e21260602b6b",
+    "node_id": "MDY6Q29tbWl0Nzk2ODQyMTk6ZGFiNmEwZjBjMzFkMjgwNWZmZjFmNThlNWMzN2UyMTI2MDYwMmI2Yg==",
+    "commit": {
+      "author": {
+        "name": "Michael Marineau",
+        "email": "michael.marineau@coreos.com",
+        "date": "2016-10-19T21:12:55Z"
+      },
+      "committer": {
+        "name": "Michael Marineau",
+        "email": "michael.marineau@coreos.com",
+        "date": "2016-10-19T21:12:55Z"
+      },
+      "message": "loader: validate cmdline string length before appending verity arg",
+      "tree": {
+        "sha": "3bd51c54535ca4f36a177bd88a28166bb244e6f1",
+        "url": "https://api.github.com/repos/driechers/invaders-before-grub/git/trees/3bd51c54535ca4f36a177bd88a28166bb244e6f1"
+      },
+      "url": "https://api.github.com/repos/driechers/invaders-before-grub/git/commits/dab6a0f0c31d2805fff1f58e5c37e21260602b6b",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/dab6a0f0c31d2805fff1f58e5c37e21260602b6b",
+    "html_url": "https://github.com/driechers/invaders-before-grub/commit/dab6a0f0c31d2805fff1f58e5c37e21260602b6b",
+    "comments_url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/dab6a0f0c31d2805fff1f58e5c37e21260602b6b/comments",
+    "author": {
+      "login": "marineam",
+      "id": 153640,
+      "node_id": "MDQ6VXNlcjE1MzY0MA==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/153640?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/marineam",
+      "html_url": "https://github.com/marineam",
+      "followers_url": "https://api.github.com/users/marineam/followers",
+      "following_url": "https://api.github.com/users/marineam/following{/other_user}",
+      "gists_url": "https://api.github.com/users/marineam/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/marineam/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/marineam/subscriptions",
+      "organizations_url": "https://api.github.com/users/marineam/orgs",
+      "repos_url": "https://api.github.com/users/marineam/repos",
+      "events_url": "https://api.github.com/users/marineam/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/marineam/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "marineam",
+      "id": 153640,
+      "node_id": "MDQ6VXNlcjE1MzY0MA==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/153640?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/marineam",
+      "html_url": "https://github.com/marineam",
+      "followers_url": "https://api.github.com/users/marineam/followers",
+      "following_url": "https://api.github.com/users/marineam/following{/other_user}",
+      "gists_url": "https://api.github.com/users/marineam/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/marineam/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/marineam/subscriptions",
+      "organizations_url": "https://api.github.com/users/marineam/orgs",
+      "repos_url": "https://api.github.com/users/marineam/repos",
+      "events_url": "https://api.github.com/users/marineam/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/marineam/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "6d3b1dc72b39bbfe03b894477c62f005c06f691b",
+        "url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/6d3b1dc72b39bbfe03b894477c62f005c06f691b",
+        "html_url": "https://github.com/driechers/invaders-before-grub/commit/6d3b1dc72b39bbfe03b894477c62f005c06f691b"
+      }
+    ]
+  },
+  {
+    "sha": "6d3b1dc72b39bbfe03b894477c62f005c06f691b",
+    "node_id": "MDY6Q29tbWl0Nzk2ODQyMTk6NmQzYjFkYzcyYjM5YmJmZTAzYjg5NDQ3N2M2MmYwMDVjMDZmNjkxYg==",
+    "commit": {
+      "author": {
+        "name": "Matthew Garrett",
+        "email": "mjg59@coreos.com",
+        "date": "2016-10-13T22:27:09Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2016-10-13T22:27:09Z"
+      },
+      "message": "Merge pull request #40 from mjg59/tpm_error_fix\n\nMake TPM errors less fatal",
+      "tree": {
+        "sha": "edeb88545eebf905e66ecc56142e8807cae0cbae",
+        "url": "https://api.github.com/repos/driechers/invaders-before-grub/git/trees/edeb88545eebf905e66ecc56142e8807cae0cbae"
+      },
+      "url": "https://api.github.com/repos/driechers/invaders-before-grub/git/commits/6d3b1dc72b39bbfe03b894477c62f005c06f691b",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/6d3b1dc72b39bbfe03b894477c62f005c06f691b",
+    "html_url": "https://github.com/driechers/invaders-before-grub/commit/6d3b1dc72b39bbfe03b894477c62f005c06f691b",
+    "comments_url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/6d3b1dc72b39bbfe03b894477c62f005c06f691b/comments",
+    "author": {
+      "login": "mjg59",
+      "id": 1420843,
+      "node_id": "MDQ6VXNlcjE0MjA4NDM=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1420843?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mjg59",
+      "html_url": "https://github.com/mjg59",
+      "followers_url": "https://api.github.com/users/mjg59/followers",
+      "following_url": "https://api.github.com/users/mjg59/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mjg59/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mjg59/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mjg59/subscriptions",
+      "organizations_url": "https://api.github.com/users/mjg59/orgs",
+      "repos_url": "https://api.github.com/users/mjg59/repos",
+      "events_url": "https://api.github.com/users/mjg59/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mjg59/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "5962f7d5e7ddb87880e090f0473e0b4bf46612a2",
+        "url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/5962f7d5e7ddb87880e090f0473e0b4bf46612a2",
+        "html_url": "https://github.com/driechers/invaders-before-grub/commit/5962f7d5e7ddb87880e090f0473e0b4bf46612a2"
+      },
+      {
+        "sha": "bf25cda14eb09116a1d92bfcb291968618caa6cb",
+        "url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/bf25cda14eb09116a1d92bfcb291968618caa6cb",
+        "html_url": "https://github.com/driechers/invaders-before-grub/commit/bf25cda14eb09116a1d92bfcb291968618caa6cb"
+      }
+    ]
+  },
+  {
+    "sha": "bf25cda14eb09116a1d92bfcb291968618caa6cb",
+    "node_id": "MDY6Q29tbWl0Nzk2ODQyMTk6YmYyNWNkYTE0ZWIwOTExNmExZDkyYmZjYjI5MTk2ODYxOGNhYTZjYg==",
+    "commit": {
+      "author": {
+        "name": "Matthew Garrett",
+        "email": "mjg59@coreos.com",
+        "date": "2016-10-13T20:55:26Z"
+      },
+      "committer": {
+        "name": "Matthew Garrett",
+        "email": "mjg59@coreos.com",
+        "date": "2016-10-13T21:01:52Z"
+      },
+      "message": "Make TPM errors less fatal\n\nHandle TPM errors, and stop trying to use the TPM once we hit one.",
+      "tree": {
+        "sha": "edeb88545eebf905e66ecc56142e8807cae0cbae",
+        "url": "https://api.github.com/repos/driechers/invaders-before-grub/git/trees/edeb88545eebf905e66ecc56142e8807cae0cbae"
+      },
+      "url": "https://api.github.com/repos/driechers/invaders-before-grub/git/commits/bf25cda14eb09116a1d92bfcb291968618caa6cb",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/bf25cda14eb09116a1d92bfcb291968618caa6cb",
+    "html_url": "https://github.com/driechers/invaders-before-grub/commit/bf25cda14eb09116a1d92bfcb291968618caa6cb",
+    "comments_url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/bf25cda14eb09116a1d92bfcb291968618caa6cb/comments",
+    "author": {
+      "login": "mjg59",
+      "id": 1420843,
+      "node_id": "MDQ6VXNlcjE0MjA4NDM=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1420843?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mjg59",
+      "html_url": "https://github.com/mjg59",
+      "followers_url": "https://api.github.com/users/mjg59/followers",
+      "following_url": "https://api.github.com/users/mjg59/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mjg59/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mjg59/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mjg59/subscriptions",
+      "organizations_url": "https://api.github.com/users/mjg59/orgs",
+      "repos_url": "https://api.github.com/users/mjg59/repos",
+      "events_url": "https://api.github.com/users/mjg59/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mjg59/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mjg59",
+      "id": 1420843,
+      "node_id": "MDQ6VXNlcjE0MjA4NDM=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1420843?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mjg59",
+      "html_url": "https://github.com/mjg59",
+      "followers_url": "https://api.github.com/users/mjg59/followers",
+      "following_url": "https://api.github.com/users/mjg59/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mjg59/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mjg59/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mjg59/subscriptions",
+      "organizations_url": "https://api.github.com/users/mjg59/orgs",
+      "repos_url": "https://api.github.com/users/mjg59/repos",
+      "events_url": "https://api.github.com/users/mjg59/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mjg59/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "5962f7d5e7ddb87880e090f0473e0b4bf46612a2",
+        "url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/5962f7d5e7ddb87880e090f0473e0b4bf46612a2",
+        "html_url": "https://github.com/driechers/invaders-before-grub/commit/5962f7d5e7ddb87880e090f0473e0b4bf46612a2"
+      }
+    ]
+  },
+  {
+    "sha": "5962f7d5e7ddb87880e090f0473e0b4bf46612a2",
+    "node_id": "MDY6Q29tbWl0Nzk2ODQyMTk6NTk2MmY3ZDVlN2RkYjg3ODgwZTA5MGYwNDczZTBiNGJmNDY2MTJhMg==",
+    "commit": {
+      "author": {
+        "name": "Michael Marineau",
+        "email": "mike@marineau.org",
+        "date": "2016-09-23T19:32:56Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2016-09-23T19:32:56Z"
+      },
+      "message": "Merge pull request #39 from marineam/weird-disk-size\n\nTolerate systems that report different disk sizes in firmware and OS",
+      "tree": {
+        "sha": "5146cc38b0d96efe4084f54fa50986fc14a5ff5f",
+        "url": "https://api.github.com/repos/driechers/invaders-before-grub/git/trees/5146cc38b0d96efe4084f54fa50986fc14a5ff5f"
+      },
+      "url": "https://api.github.com/repos/driechers/invaders-before-grub/git/commits/5962f7d5e7ddb87880e090f0473e0b4bf46612a2",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/5962f7d5e7ddb87880e090f0473e0b4bf46612a2",
+    "html_url": "https://github.com/driechers/invaders-before-grub/commit/5962f7d5e7ddb87880e090f0473e0b4bf46612a2",
+    "comments_url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/5962f7d5e7ddb87880e090f0473e0b4bf46612a2/comments",
+    "author": {
+      "login": "marineam",
+      "id": 153640,
+      "node_id": "MDQ6VXNlcjE1MzY0MA==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/153640?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/marineam",
+      "html_url": "https://github.com/marineam",
+      "followers_url": "https://api.github.com/users/marineam/followers",
+      "following_url": "https://api.github.com/users/marineam/following{/other_user}",
+      "gists_url": "https://api.github.com/users/marineam/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/marineam/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/marineam/subscriptions",
+      "organizations_url": "https://api.github.com/users/marineam/orgs",
+      "repos_url": "https://api.github.com/users/marineam/repos",
+      "events_url": "https://api.github.com/users/marineam/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/marineam/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d5ba259c89385e1991eb7d85ae4e03a70efd9f8d",
+        "url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/d5ba259c89385e1991eb7d85ae4e03a70efd9f8d",
+        "html_url": "https://github.com/driechers/invaders-before-grub/commit/d5ba259c89385e1991eb7d85ae4e03a70efd9f8d"
+      },
+      {
+        "sha": "44f54cbf43c5926cb9adba932a3035373361b8bb",
+        "url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/44f54cbf43c5926cb9adba932a3035373361b8bb",
+        "html_url": "https://github.com/driechers/invaders-before-grub/commit/44f54cbf43c5926cb9adba932a3035373361b8bb"
+      }
+    ]
+  },
+  {
+    "sha": "44f54cbf43c5926cb9adba932a3035373361b8bb",
+    "node_id": "MDY6Q29tbWl0Nzk2ODQyMTk6NDRmNTRjYmY0M2M1OTI2Y2I5YWRiYTkzMmEzMDM1MzczMzYxYjhiYg==",
+    "commit": {
+      "author": {
+        "name": "Michael Marineau",
+        "email": "michael.marineau@coreos.com",
+        "date": "2016-09-22T18:18:42Z"
+      },
+      "committer": {
+        "name": "Michael Marineau",
+        "email": "michael.marineau@coreos.com",
+        "date": "2016-09-23T19:25:53Z"
+      },
+      "message": "gpt: write backup GPT first, skip if inaccessible.\n\nWriting the primary GPT before the backup may lead to a confusing\nsituation: booting a freshly updated system could consistently fail and\nnext boot will fall back to the old system if writing the primary works\nbut writing the backup fails. If the backup is written first and fails\nthe primary is left in the old state so the next boot will re-try and\npossibly fail in the exact same way. Making that repeatable should make\nit easier for users to identify the error.\n\nAdditionally if the firmware and OS disagree on the disk size, making\nthe backup inaccessible to GRUB, then just skip writing the backup.\nWhen this happens the automatic call to `coreos-setgoodroot` after boot\nwill take care of repairing the backup.",
+      "tree": {
+        "sha": "5146cc38b0d96efe4084f54fa50986fc14a5ff5f",
+        "url": "https://api.github.com/repos/driechers/invaders-before-grub/git/trees/5146cc38b0d96efe4084f54fa50986fc14a5ff5f"
+      },
+      "url": "https://api.github.com/repos/driechers/invaders-before-grub/git/commits/44f54cbf43c5926cb9adba932a3035373361b8bb",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/44f54cbf43c5926cb9adba932a3035373361b8bb",
+    "html_url": "https://github.com/driechers/invaders-before-grub/commit/44f54cbf43c5926cb9adba932a3035373361b8bb",
+    "comments_url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/44f54cbf43c5926cb9adba932a3035373361b8bb/comments",
+    "author": {
+      "login": "marineam",
+      "id": 153640,
+      "node_id": "MDQ6VXNlcjE1MzY0MA==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/153640?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/marineam",
+      "html_url": "https://github.com/marineam",
+      "followers_url": "https://api.github.com/users/marineam/followers",
+      "following_url": "https://api.github.com/users/marineam/following{/other_user}",
+      "gists_url": "https://api.github.com/users/marineam/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/marineam/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/marineam/subscriptions",
+      "organizations_url": "https://api.github.com/users/marineam/orgs",
+      "repos_url": "https://api.github.com/users/marineam/repos",
+      "events_url": "https://api.github.com/users/marineam/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/marineam/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "marineam",
+      "id": 153640,
+      "node_id": "MDQ6VXNlcjE1MzY0MA==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/153640?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/marineam",
+      "html_url": "https://github.com/marineam",
+      "followers_url": "https://api.github.com/users/marineam/followers",
+      "following_url": "https://api.github.com/users/marineam/following{/other_user}",
+      "gists_url": "https://api.github.com/users/marineam/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/marineam/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/marineam/subscriptions",
+      "organizations_url": "https://api.github.com/users/marineam/orgs",
+      "repos_url": "https://api.github.com/users/marineam/repos",
+      "events_url": "https://api.github.com/users/marineam/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/marineam/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e4d25afd1857b0ec1a00bb05374dc49a2f62a5d4",
+        "url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/e4d25afd1857b0ec1a00bb05374dc49a2f62a5d4",
+        "html_url": "https://github.com/driechers/invaders-before-grub/commit/e4d25afd1857b0ec1a00bb05374dc49a2f62a5d4"
+      }
+    ]
+  },
+  {
+    "sha": "e4d25afd1857b0ec1a00bb05374dc49a2f62a5d4",
+    "node_id": "MDY6Q29tbWl0Nzk2ODQyMTk6ZTRkMjVhZmQxODU3YjBlYzFhMDBiYjA1Mzc0ZGM0OWEyZjYyYTVkNA==",
+    "commit": {
+      "author": {
+        "name": "Michael Marineau",
+        "email": "michael.marineau@coreos.com",
+        "date": "2016-08-23T20:09:14Z"
+      },
+      "committer": {
+        "name": "Michael Marineau",
+        "email": "michael.marineau@coreos.com",
+        "date": "2016-09-23T19:25:53Z"
+      },
+      "message": "gpt: prefer disk size from header over firmware\n\nThe firmware and the OS may disagree on the disk configuration and size.\nAlthough such a setup should be avoided users are unlikely to know about\nthe problem, assuming everything behaves like the OS. Tolerate this as\nbest we can and trust the reported on-disk location over the firmware\nwhen looking for the backup GPT. If the location is inaccessible report\nthe error as best we can and move on.",
+      "tree": {
+        "sha": "4c8f4e87593505f5fefc9eb6b9d5b4da9da19724",
+        "url": "https://api.github.com/repos/driechers/invaders-before-grub/git/trees/4c8f4e87593505f5fefc9eb6b9d5b4da9da19724"
+      },
+      "url": "https://api.github.com/repos/driechers/invaders-before-grub/git/commits/e4d25afd1857b0ec1a00bb05374dc49a2f62a5d4",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/e4d25afd1857b0ec1a00bb05374dc49a2f62a5d4",
+    "html_url": "https://github.com/driechers/invaders-before-grub/commit/e4d25afd1857b0ec1a00bb05374dc49a2f62a5d4",
+    "comments_url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/e4d25afd1857b0ec1a00bb05374dc49a2f62a5d4/comments",
+    "author": {
+      "login": "marineam",
+      "id": 153640,
+      "node_id": "MDQ6VXNlcjE1MzY0MA==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/153640?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/marineam",
+      "html_url": "https://github.com/marineam",
+      "followers_url": "https://api.github.com/users/marineam/followers",
+      "following_url": "https://api.github.com/users/marineam/following{/other_user}",
+      "gists_url": "https://api.github.com/users/marineam/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/marineam/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/marineam/subscriptions",
+      "organizations_url": "https://api.github.com/users/marineam/orgs",
+      "repos_url": "https://api.github.com/users/marineam/repos",
+      "events_url": "https://api.github.com/users/marineam/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/marineam/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "marineam",
+      "id": 153640,
+      "node_id": "MDQ6VXNlcjE1MzY0MA==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/153640?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/marineam",
+      "html_url": "https://github.com/marineam",
+      "followers_url": "https://api.github.com/users/marineam/followers",
+      "following_url": "https://api.github.com/users/marineam/following{/other_user}",
+      "gists_url": "https://api.github.com/users/marineam/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/marineam/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/marineam/subscriptions",
+      "organizations_url": "https://api.github.com/users/marineam/orgs",
+      "repos_url": "https://api.github.com/users/marineam/repos",
+      "events_url": "https://api.github.com/users/marineam/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/marineam/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d5ba259c89385e1991eb7d85ae4e03a70efd9f8d",
+        "url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/d5ba259c89385e1991eb7d85ae4e03a70efd9f8d",
+        "html_url": "https://github.com/driechers/invaders-before-grub/commit/d5ba259c89385e1991eb7d85ae4e03a70efd9f8d"
+      }
+    ]
+  },
+  {
+    "sha": "d5ba259c89385e1991eb7d85ae4e03a70efd9f8d",
+    "node_id": "MDY6Q29tbWl0Nzk2ODQyMTk6ZDViYTI1OWM4OTM4NWUxOTkxZWI3ZDg1YWU0ZTAzYTcwZWZkOWY4ZA==",
+    "commit": {
+      "author": {
+        "name": "Michael Marineau",
+        "email": "mike@marineau.org",
+        "date": "2016-09-22T20:31:55Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2016-09-22T20:31:55Z"
+      },
+      "message": "Merge pull request #38 from marineam/cleanup\n\ngpt: various cleanup and error handling improvements",
+      "tree": {
+        "sha": "491b1a8b7d4eb35408b97f4948533f637673d552",
+        "url": "https://api.github.com/repos/driechers/invaders-before-grub/git/trees/491b1a8b7d4eb35408b97f4948533f637673d552"
+      },
+      "url": "https://api.github.com/repos/driechers/invaders-before-grub/git/commits/d5ba259c89385e1991eb7d85ae4e03a70efd9f8d",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/d5ba259c89385e1991eb7d85ae4e03a70efd9f8d",
+    "html_url": "https://github.com/driechers/invaders-before-grub/commit/d5ba259c89385e1991eb7d85ae4e03a70efd9f8d",
+    "comments_url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/d5ba259c89385e1991eb7d85ae4e03a70efd9f8d/comments",
+    "author": {
+      "login": "marineam",
+      "id": 153640,
+      "node_id": "MDQ6VXNlcjE1MzY0MA==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/153640?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/marineam",
+      "html_url": "https://github.com/marineam",
+      "followers_url": "https://api.github.com/users/marineam/followers",
+      "following_url": "https://api.github.com/users/marineam/following{/other_user}",
+      "gists_url": "https://api.github.com/users/marineam/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/marineam/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/marineam/subscriptions",
+      "organizations_url": "https://api.github.com/users/marineam/orgs",
+      "repos_url": "https://api.github.com/users/marineam/repos",
+      "events_url": "https://api.github.com/users/marineam/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/marineam/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d57c41e8f5ee5351c4bde58fb9086024b01a91c3",
+        "url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/d57c41e8f5ee5351c4bde58fb9086024b01a91c3",
+        "html_url": "https://github.com/driechers/invaders-before-grub/commit/d57c41e8f5ee5351c4bde58fb9086024b01a91c3"
+      },
+      {
+        "sha": "8f7045ee191c36c545048d32c4f19fa14e31fb55",
+        "url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/8f7045ee191c36c545048d32c4f19fa14e31fb55",
+        "html_url": "https://github.com/driechers/invaders-before-grub/commit/8f7045ee191c36c545048d32c4f19fa14e31fb55"
+      }
+    ]
+  },
+  {
+    "sha": "8f7045ee191c36c545048d32c4f19fa14e31fb55",
+    "node_id": "MDY6Q29tbWl0Nzk2ODQyMTk6OGY3MDQ1ZWUxOTFjMzZjNTQ1MDQ4ZDMyYzRmMTlmYTE0ZTMxZmI1NQ==",
+    "commit": {
+      "author": {
+        "name": "Michael Marineau",
+        "email": "michael.marineau@coreos.com",
+        "date": "2016-09-22T17:00:27Z"
+      },
+      "committer": {
+        "name": "Michael Marineau",
+        "email": "michael.marineau@coreos.com",
+        "date": "2016-09-22T18:58:44Z"
+      },
+      "message": "gpt: rename and update documentation for grub_gpt_update\n\nThe function now does more than just recompute checksums so give it a\nmore general name to reflect that.",
+      "tree": {
+        "sha": "491b1a8b7d4eb35408b97f4948533f637673d552",
+        "url": "https://api.github.com/repos/driechers/invaders-before-grub/git/trees/491b1a8b7d4eb35408b97f4948533f637673d552"
+      },
+      "url": "https://api.github.com/repos/driechers/invaders-before-grub/git/commits/8f7045ee191c36c545048d32c4f19fa14e31fb55",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/8f7045ee191c36c545048d32c4f19fa14e31fb55",
+    "html_url": "https://github.com/driechers/invaders-before-grub/commit/8f7045ee191c36c545048d32c4f19fa14e31fb55",
+    "comments_url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/8f7045ee191c36c545048d32c4f19fa14e31fb55/comments",
+    "author": {
+      "login": "marineam",
+      "id": 153640,
+      "node_id": "MDQ6VXNlcjE1MzY0MA==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/153640?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/marineam",
+      "html_url": "https://github.com/marineam",
+      "followers_url": "https://api.github.com/users/marineam/followers",
+      "following_url": "https://api.github.com/users/marineam/following{/other_user}",
+      "gists_url": "https://api.github.com/users/marineam/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/marineam/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/marineam/subscriptions",
+      "organizations_url": "https://api.github.com/users/marineam/orgs",
+      "repos_url": "https://api.github.com/users/marineam/repos",
+      "events_url": "https://api.github.com/users/marineam/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/marineam/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "marineam",
+      "id": 153640,
+      "node_id": "MDQ6VXNlcjE1MzY0MA==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/153640?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/marineam",
+      "html_url": "https://github.com/marineam",
+      "followers_url": "https://api.github.com/users/marineam/followers",
+      "following_url": "https://api.github.com/users/marineam/following{/other_user}",
+      "gists_url": "https://api.github.com/users/marineam/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/marineam/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/marineam/subscriptions",
+      "organizations_url": "https://api.github.com/users/marineam/orgs",
+      "repos_url": "https://api.github.com/users/marineam/repos",
+      "events_url": "https://api.github.com/users/marineam/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/marineam/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "7cd866bd2d61452c7049b514f1425bce3806f942",
+        "url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/7cd866bd2d61452c7049b514f1425bce3806f942",
+        "html_url": "https://github.com/driechers/invaders-before-grub/commit/7cd866bd2d61452c7049b514f1425bce3806f942"
+      }
+    ]
+  },
+  {
+    "sha": "7cd866bd2d61452c7049b514f1425bce3806f942",
+    "node_id": "MDY6Q29tbWl0Nzk2ODQyMTk6N2NkODY2YmQyZDYxNDUyYzcwNDliNTE0ZjE0MjViY2UzODA2Zjk0Mg==",
+    "commit": {
+      "author": {
+        "name": "Michael Marineau",
+        "email": "michael.marineau@coreos.com",
+        "date": "2016-09-21T23:02:53Z"
+      },
+      "committer": {
+        "name": "Michael Marineau",
+        "email": "michael.marineau@coreos.com",
+        "date": "2016-09-22T18:57:29Z"
+      },
+      "message": "gpt: report all revalidation errors\n\nBefore returning an error that the primary or backup GPT is invalid push\nthe existing error onto the stack so the user will be told what is bad.",
+      "tree": {
+        "sha": "c3ceb596d340ff74ceb5b735f83f626eced67134",
+        "url": "https://api.github.com/repos/driechers/invaders-before-grub/git/trees/c3ceb596d340ff74ceb5b735f83f626eced67134"
+      },
+      "url": "https://api.github.com/repos/driechers/invaders-before-grub/git/commits/7cd866bd2d61452c7049b514f1425bce3806f942",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/7cd866bd2d61452c7049b514f1425bce3806f942",
+    "html_url": "https://github.com/driechers/invaders-before-grub/commit/7cd866bd2d61452c7049b514f1425bce3806f942",
+    "comments_url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/7cd866bd2d61452c7049b514f1425bce3806f942/comments",
+    "author": {
+      "login": "marineam",
+      "id": 153640,
+      "node_id": "MDQ6VXNlcjE1MzY0MA==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/153640?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/marineam",
+      "html_url": "https://github.com/marineam",
+      "followers_url": "https://api.github.com/users/marineam/followers",
+      "following_url": "https://api.github.com/users/marineam/following{/other_user}",
+      "gists_url": "https://api.github.com/users/marineam/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/marineam/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/marineam/subscriptions",
+      "organizations_url": "https://api.github.com/users/marineam/orgs",
+      "repos_url": "https://api.github.com/users/marineam/repos",
+      "events_url": "https://api.github.com/users/marineam/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/marineam/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "marineam",
+      "id": 153640,
+      "node_id": "MDQ6VXNlcjE1MzY0MA==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/153640?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/marineam",
+      "html_url": "https://github.com/marineam",
+      "followers_url": "https://api.github.com/users/marineam/followers",
+      "following_url": "https://api.github.com/users/marineam/following{/other_user}",
+      "gists_url": "https://api.github.com/users/marineam/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/marineam/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/marineam/subscriptions",
+      "organizations_url": "https://api.github.com/users/marineam/orgs",
+      "repos_url": "https://api.github.com/users/marineam/repos",
+      "events_url": "https://api.github.com/users/marineam/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/marineam/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "5342b880f42bf6899eff352c83007b8f0e5fe69d",
+        "url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/5342b880f42bf6899eff352c83007b8f0e5fe69d",
+        "html_url": "https://github.com/driechers/invaders-before-grub/commit/5342b880f42bf6899eff352c83007b8f0e5fe69d"
+      }
+    ]
+  },
+  {
+    "sha": "5342b880f42bf6899eff352c83007b8f0e5fe69d",
+    "node_id": "MDY6Q29tbWl0Nzk2ODQyMTk6NTM0MmI4ODBmNDJiZjY4OTllZmYzNTJjODMwMDdiOGYwZTVmZTY5ZA==",
+    "commit": {
+      "author": {
+        "name": "Michael Marineau",
+        "email": "michael.marineau@coreos.com",
+        "date": "2016-09-21T22:29:55Z"
+      },
+      "committer": {
+        "name": "Michael Marineau",
+        "email": "michael.marineau@coreos.com",
+        "date": "2016-09-21T23:34:36Z"
+      },
+      "message": "gpt: read entries table at the same time as the header\n\nI personally think this reads easier. Also has the side effect of\ndirectly comparing the primary and backup tables instead of presuming\nthey are equal if the crc32 matches.",
+      "tree": {
+        "sha": "7c97456386e2baf0e505b308f253e02687234684",
+        "url": "https://api.github.com/repos/driechers/invaders-before-grub/git/trees/7c97456386e2baf0e505b308f253e02687234684"
+      },
+      "url": "https://api.github.com/repos/driechers/invaders-before-grub/git/commits/5342b880f42bf6899eff352c83007b8f0e5fe69d",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/5342b880f42bf6899eff352c83007b8f0e5fe69d",
+    "html_url": "https://github.com/driechers/invaders-before-grub/commit/5342b880f42bf6899eff352c83007b8f0e5fe69d",
+    "comments_url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/5342b880f42bf6899eff352c83007b8f0e5fe69d/comments",
+    "author": {
+      "login": "marineam",
+      "id": 153640,
+      "node_id": "MDQ6VXNlcjE1MzY0MA==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/153640?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/marineam",
+      "html_url": "https://github.com/marineam",
+      "followers_url": "https://api.github.com/users/marineam/followers",
+      "following_url": "https://api.github.com/users/marineam/following{/other_user}",
+      "gists_url": "https://api.github.com/users/marineam/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/marineam/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/marineam/subscriptions",
+      "organizations_url": "https://api.github.com/users/marineam/orgs",
+      "repos_url": "https://api.github.com/users/marineam/repos",
+      "events_url": "https://api.github.com/users/marineam/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/marineam/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "marineam",
+      "id": 153640,
+      "node_id": "MDQ6VXNlcjE1MzY0MA==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/153640?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/marineam",
+      "html_url": "https://github.com/marineam",
+      "followers_url": "https://api.github.com/users/marineam/followers",
+      "following_url": "https://api.github.com/users/marineam/following{/other_user}",
+      "gists_url": "https://api.github.com/users/marineam/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/marineam/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/marineam/subscriptions",
+      "organizations_url": "https://api.github.com/users/marineam/orgs",
+      "repos_url": "https://api.github.com/users/marineam/repos",
+      "events_url": "https://api.github.com/users/marineam/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/marineam/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f24685b22ec4a09506507ba1bc01be49e8230b15",
+        "url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/f24685b22ec4a09506507ba1bc01be49e8230b15",
+        "html_url": "https://github.com/driechers/invaders-before-grub/commit/f24685b22ec4a09506507ba1bc01be49e8230b15"
+      }
+    ]
+  },
+  {
+    "sha": "f24685b22ec4a09506507ba1bc01be49e8230b15",
+    "node_id": "MDY6Q29tbWl0Nzk2ODQyMTk6ZjI0Njg1YjIyZWM0YTA5NTA2NTA3YmExYmMwMWJlNDllODIzMGIxNQ==",
+    "commit": {
+      "author": {
+        "name": "Michael Marineau",
+        "email": "michael.marineau@coreos.com",
+        "date": "2016-09-21T22:01:09Z"
+      },
+      "committer": {
+        "name": "Michael Marineau",
+        "email": "michael.marineau@coreos.com",
+        "date": "2016-09-21T23:34:36Z"
+      },
+      "message": "gpt: include backup-in-sync check in revalidation",
+      "tree": {
+        "sha": "bb70ed3edb387c3685d9d47675459ecb121e9cd8",
+        "url": "https://api.github.com/repos/driechers/invaders-before-grub/git/trees/bb70ed3edb387c3685d9d47675459ecb121e9cd8"
+      },
+      "url": "https://api.github.com/repos/driechers/invaders-before-grub/git/commits/f24685b22ec4a09506507ba1bc01be49e8230b15",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/f24685b22ec4a09506507ba1bc01be49e8230b15",
+    "html_url": "https://github.com/driechers/invaders-before-grub/commit/f24685b22ec4a09506507ba1bc01be49e8230b15",
+    "comments_url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/f24685b22ec4a09506507ba1bc01be49e8230b15/comments",
+    "author": {
+      "login": "marineam",
+      "id": 153640,
+      "node_id": "MDQ6VXNlcjE1MzY0MA==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/153640?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/marineam",
+      "html_url": "https://github.com/marineam",
+      "followers_url": "https://api.github.com/users/marineam/followers",
+      "following_url": "https://api.github.com/users/marineam/following{/other_user}",
+      "gists_url": "https://api.github.com/users/marineam/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/marineam/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/marineam/subscriptions",
+      "organizations_url": "https://api.github.com/users/marineam/orgs",
+      "repos_url": "https://api.github.com/users/marineam/repos",
+      "events_url": "https://api.github.com/users/marineam/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/marineam/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "marineam",
+      "id": 153640,
+      "node_id": "MDQ6VXNlcjE1MzY0MA==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/153640?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/marineam",
+      "html_url": "https://github.com/marineam",
+      "followers_url": "https://api.github.com/users/marineam/followers",
+      "following_url": "https://api.github.com/users/marineam/following{/other_user}",
+      "gists_url": "https://api.github.com/users/marineam/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/marineam/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/marineam/subscriptions",
+      "organizations_url": "https://api.github.com/users/marineam/orgs",
+      "repos_url": "https://api.github.com/users/marineam/repos",
+      "events_url": "https://api.github.com/users/marineam/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/marineam/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d2f9096444d50dba8059d58fb6fe29be99256899",
+        "url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/d2f9096444d50dba8059d58fb6fe29be99256899",
+        "html_url": "https://github.com/driechers/invaders-before-grub/commit/d2f9096444d50dba8059d58fb6fe29be99256899"
+      }
+    ]
+  },
+  {
+    "sha": "d2f9096444d50dba8059d58fb6fe29be99256899",
+    "node_id": "MDY6Q29tbWl0Nzk2ODQyMTk6ZDJmOTA5NjQ0NGQ1MGRiYTgwNTlkNThmYjZmZTI5YmU5OTI1Njg5OQ==",
+    "commit": {
+      "author": {
+        "name": "Michael Marineau",
+        "email": "michael.marineau@coreos.com",
+        "date": "2016-09-21T21:55:19Z"
+      },
+      "committer": {
+        "name": "Michael Marineau",
+        "email": "michael.marineau@coreos.com",
+        "date": "2016-09-21T23:34:36Z"
+      },
+      "message": "gpt: always revalidate when recomputing checksums\n\nThis ensures all code modifying GPT data include the same sanity check\nthat repair does. If revalidation fails the status flags are left in the\nappropriate state.",
+      "tree": {
+        "sha": "4bbbd0e3095e4f705a21d6631c3dc560ebcad310",
+        "url": "https://api.github.com/repos/driechers/invaders-before-grub/git/trees/4bbbd0e3095e4f705a21d6631c3dc560ebcad310"
+      },
+      "url": "https://api.github.com/repos/driechers/invaders-before-grub/git/commits/d2f9096444d50dba8059d58fb6fe29be99256899",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/d2f9096444d50dba8059d58fb6fe29be99256899",
+    "html_url": "https://github.com/driechers/invaders-before-grub/commit/d2f9096444d50dba8059d58fb6fe29be99256899",
+    "comments_url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/d2f9096444d50dba8059d58fb6fe29be99256899/comments",
+    "author": {
+      "login": "marineam",
+      "id": 153640,
+      "node_id": "MDQ6VXNlcjE1MzY0MA==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/153640?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/marineam",
+      "html_url": "https://github.com/marineam",
+      "followers_url": "https://api.github.com/users/marineam/followers",
+      "following_url": "https://api.github.com/users/marineam/following{/other_user}",
+      "gists_url": "https://api.github.com/users/marineam/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/marineam/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/marineam/subscriptions",
+      "organizations_url": "https://api.github.com/users/marineam/orgs",
+      "repos_url": "https://api.github.com/users/marineam/repos",
+      "events_url": "https://api.github.com/users/marineam/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/marineam/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "marineam",
+      "id": 153640,
+      "node_id": "MDQ6VXNlcjE1MzY0MA==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/153640?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/marineam",
+      "html_url": "https://github.com/marineam",
+      "followers_url": "https://api.github.com/users/marineam/followers",
+      "following_url": "https://api.github.com/users/marineam/following{/other_user}",
+      "gists_url": "https://api.github.com/users/marineam/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/marineam/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/marineam/subscriptions",
+      "organizations_url": "https://api.github.com/users/marineam/orgs",
+      "repos_url": "https://api.github.com/users/marineam/repos",
+      "events_url": "https://api.github.com/users/marineam/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/marineam/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "427fdc58e13d308677e431aac4d4c1c6f64e6446",
+        "url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/427fdc58e13d308677e431aac4d4c1c6f64e6446",
+        "html_url": "https://github.com/driechers/invaders-before-grub/commit/427fdc58e13d308677e431aac4d4c1c6f64e6446"
+      }
+    ]
+  },
+  {
+    "sha": "427fdc58e13d308677e431aac4d4c1c6f64e6446",
+    "node_id": "MDY6Q29tbWl0Nzk2ODQyMTk6NDI3ZmRjNThlMTNkMzA4Njc3ZTQzMWFhYzRkNGMxYzZmNjRlNjQ0Ng==",
+    "commit": {
+      "author": {
+        "name": "Michael Marineau",
+        "email": "michael.marineau@coreos.com",
+        "date": "2016-09-21T21:33:48Z"
+      },
+      "committer": {
+        "name": "Michael Marineau",
+        "email": "michael.marineau@coreos.com",
+        "date": "2016-09-21T23:34:36Z"
+      },
+      "message": "gpt: selectively update fields during repair\n\nJust a little cleanup/refactor to skip touching data we don't need to.",
+      "tree": {
+        "sha": "6468dc16897b6ad2ae50a3721c488a6dc439158e",
+        "url": "https://api.github.com/repos/driechers/invaders-before-grub/git/trees/6468dc16897b6ad2ae50a3721c488a6dc439158e"
+      },
+      "url": "https://api.github.com/repos/driechers/invaders-before-grub/git/commits/427fdc58e13d308677e431aac4d4c1c6f64e6446",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/427fdc58e13d308677e431aac4d4c1c6f64e6446",
+    "html_url": "https://github.com/driechers/invaders-before-grub/commit/427fdc58e13d308677e431aac4d4c1c6f64e6446",
+    "comments_url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/427fdc58e13d308677e431aac4d4c1c6f64e6446/comments",
+    "author": {
+      "login": "marineam",
+      "id": 153640,
+      "node_id": "MDQ6VXNlcjE1MzY0MA==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/153640?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/marineam",
+      "html_url": "https://github.com/marineam",
+      "followers_url": "https://api.github.com/users/marineam/followers",
+      "following_url": "https://api.github.com/users/marineam/following{/other_user}",
+      "gists_url": "https://api.github.com/users/marineam/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/marineam/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/marineam/subscriptions",
+      "organizations_url": "https://api.github.com/users/marineam/orgs",
+      "repos_url": "https://api.github.com/users/marineam/repos",
+      "events_url": "https://api.github.com/users/marineam/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/marineam/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "marineam",
+      "id": 153640,
+      "node_id": "MDQ6VXNlcjE1MzY0MA==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/153640?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/marineam",
+      "html_url": "https://github.com/marineam",
+      "followers_url": "https://api.github.com/users/marineam/followers",
+      "following_url": "https://api.github.com/users/marineam/following{/other_user}",
+      "gists_url": "https://api.github.com/users/marineam/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/marineam/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/marineam/subscriptions",
+      "organizations_url": "https://api.github.com/users/marineam/orgs",
+      "repos_url": "https://api.github.com/users/marineam/repos",
+      "events_url": "https://api.github.com/users/marineam/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/marineam/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "1f5d29420c2b13406e7df746eb4105289772048c",
+        "url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/1f5d29420c2b13406e7df746eb4105289772048c",
+        "html_url": "https://github.com/driechers/invaders-before-grub/commit/1f5d29420c2b13406e7df746eb4105289772048c"
+      }
+    ]
+  },
+  {
+    "sha": "1f5d29420c2b13406e7df746eb4105289772048c",
+    "node_id": "MDY6Q29tbWl0Nzk2ODQyMTk6MWY1ZDI5NDIwYzJiMTM0MDZlN2RmNzQ2ZWI0MTA1Mjg5NzcyMDQ4Yw==",
+    "commit": {
+      "author": {
+        "name": "Michael Marineau",
+        "email": "michael.marineau@coreos.com",
+        "date": "2016-09-21T20:52:52Z"
+      },
+      "committer": {
+        "name": "Michael Marineau",
+        "email": "michael.marineau@coreos.com",
+        "date": "2016-09-21T23:34:36Z"
+      },
+      "message": "gpt: be more careful about relocating backup header\n\nThe header was being relocated without checking the new location is\nactually safe. If the BIOS thinks the disk is smaller than the OS then\nrepair may relocate the header into allocated space, failing the final\nvalidation check. So only move it if the disk has grown.\n\nAdditionally, if the backup is valid then we can assume its current\nlocation is good enough and leave it as-is.",
+      "tree": {
+        "sha": "6df8156463dd5d918bad405bf7457a484400e413",
+        "url": "https://api.github.com/repos/driechers/invaders-before-grub/git/trees/6df8156463dd5d918bad405bf7457a484400e413"
+      },
+      "url": "https://api.github.com/repos/driechers/invaders-before-grub/git/commits/1f5d29420c2b13406e7df746eb4105289772048c",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/1f5d29420c2b13406e7df746eb4105289772048c",
+    "html_url": "https://github.com/driechers/invaders-before-grub/commit/1f5d29420c2b13406e7df746eb4105289772048c",
+    "comments_url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/1f5d29420c2b13406e7df746eb4105289772048c/comments",
+    "author": {
+      "login": "marineam",
+      "id": 153640,
+      "node_id": "MDQ6VXNlcjE1MzY0MA==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/153640?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/marineam",
+      "html_url": "https://github.com/marineam",
+      "followers_url": "https://api.github.com/users/marineam/followers",
+      "following_url": "https://api.github.com/users/marineam/following{/other_user}",
+      "gists_url": "https://api.github.com/users/marineam/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/marineam/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/marineam/subscriptions",
+      "organizations_url": "https://api.github.com/users/marineam/orgs",
+      "repos_url": "https://api.github.com/users/marineam/repos",
+      "events_url": "https://api.github.com/users/marineam/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/marineam/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "marineam",
+      "id": 153640,
+      "node_id": "MDQ6VXNlcjE1MzY0MA==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/153640?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/marineam",
+      "html_url": "https://github.com/marineam",
+      "followers_url": "https://api.github.com/users/marineam/followers",
+      "following_url": "https://api.github.com/users/marineam/following{/other_user}",
+      "gists_url": "https://api.github.com/users/marineam/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/marineam/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/marineam/subscriptions",
+      "organizations_url": "https://api.github.com/users/marineam/orgs",
+      "repos_url": "https://api.github.com/users/marineam/repos",
+      "events_url": "https://api.github.com/users/marineam/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/marineam/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "de8d29ef89887a105f0f3285108ae47a83d0e64f",
+        "url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/de8d29ef89887a105f0f3285108ae47a83d0e64f",
+        "html_url": "https://github.com/driechers/invaders-before-grub/commit/de8d29ef89887a105f0f3285108ae47a83d0e64f"
+      }
+    ]
+  },
+  {
+    "sha": "de8d29ef89887a105f0f3285108ae47a83d0e64f",
+    "node_id": "MDY6Q29tbWl0Nzk2ODQyMTk6ZGU4ZDI5ZWY4OTg4N2ExMDVmMGYzMjg1MTA4YWU0N2E4M2QwZTY0Zg==",
+    "commit": {
+      "author": {
+        "name": "Michael Marineau",
+        "email": "michael.marineau@coreos.com",
+        "date": "2016-09-21T20:44:11Z"
+      },
+      "committer": {
+        "name": "Michael Marineau",
+        "email": "michael.marineau@coreos.com",
+        "date": "2016-09-21T20:50:06Z"
+      },
+      "message": "gpt: check header and entries status bits together\n\nUse the new status function which checks *_HEADER_VALID and\n*_ENTRIES_VALID bits together. It doesn't make sense for the header and\nentries bits to mismatch so don't allow for it.",
+      "tree": {
+        "sha": "c1220520c99373d7fda86353ee96bd977cfee8f4",
+        "url": "https://api.github.com/repos/driechers/invaders-before-grub/git/trees/c1220520c99373d7fda86353ee96bd977cfee8f4"
+      },
+      "url": "https://api.github.com/repos/driechers/invaders-before-grub/git/commits/de8d29ef89887a105f0f3285108ae47a83d0e64f",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/de8d29ef89887a105f0f3285108ae47a83d0e64f",
+    "html_url": "https://github.com/driechers/invaders-before-grub/commit/de8d29ef89887a105f0f3285108ae47a83d0e64f",
+    "comments_url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/de8d29ef89887a105f0f3285108ae47a83d0e64f/comments",
+    "author": {
+      "login": "marineam",
+      "id": 153640,
+      "node_id": "MDQ6VXNlcjE1MzY0MA==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/153640?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/marineam",
+      "html_url": "https://github.com/marineam",
+      "followers_url": "https://api.github.com/users/marineam/followers",
+      "following_url": "https://api.github.com/users/marineam/following{/other_user}",
+      "gists_url": "https://api.github.com/users/marineam/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/marineam/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/marineam/subscriptions",
+      "organizations_url": "https://api.github.com/users/marineam/orgs",
+      "repos_url": "https://api.github.com/users/marineam/repos",
+      "events_url": "https://api.github.com/users/marineam/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/marineam/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "marineam",
+      "id": 153640,
+      "node_id": "MDQ6VXNlcjE1MzY0MA==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/153640?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/marineam",
+      "html_url": "https://github.com/marineam",
+      "followers_url": "https://api.github.com/users/marineam/followers",
+      "following_url": "https://api.github.com/users/marineam/following{/other_user}",
+      "gists_url": "https://api.github.com/users/marineam/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/marineam/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/marineam/subscriptions",
+      "organizations_url": "https://api.github.com/users/marineam/orgs",
+      "repos_url": "https://api.github.com/users/marineam/repos",
+      "events_url": "https://api.github.com/users/marineam/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/marineam/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d57c41e8f5ee5351c4bde58fb9086024b01a91c3",
+        "url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/d57c41e8f5ee5351c4bde58fb9086024b01a91c3",
+        "html_url": "https://github.com/driechers/invaders-before-grub/commit/d57c41e8f5ee5351c4bde58fb9086024b01a91c3"
+      }
+    ]
+  },
+  {
+    "sha": "d57c41e8f5ee5351c4bde58fb9086024b01a91c3",
+    "node_id": "MDY6Q29tbWl0Nzk2ODQyMTk6ZDU3YzQxZThmNWVlNTM1MWM0YmRlNThmYjkwODYwMjRiMDFhOTFjMw==",
+    "commit": {
+      "author": {
+        "name": "Michael Marineau",
+        "email": "mike@marineau.org",
+        "date": "2016-09-21T20:26:57Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2016-09-21T20:26:57Z"
+      },
+      "message": "Merge pull request #37 from marineam/enum\n\ngpt: do not use an enum for status bit values",
+      "tree": {
+        "sha": "56fb4eb407564c63c237f7b2d4be21f1aa645c1b",
+        "url": "https://api.github.com/repos/driechers/invaders-before-grub/git/trees/56fb4eb407564c63c237f7b2d4be21f1aa645c1b"
+      },
+      "url": "https://api.github.com/repos/driechers/invaders-before-grub/git/commits/d57c41e8f5ee5351c4bde58fb9086024b01a91c3",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/d57c41e8f5ee5351c4bde58fb9086024b01a91c3",
+    "html_url": "https://github.com/driechers/invaders-before-grub/commit/d57c41e8f5ee5351c4bde58fb9086024b01a91c3",
+    "comments_url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/d57c41e8f5ee5351c4bde58fb9086024b01a91c3/comments",
+    "author": {
+      "login": "marineam",
+      "id": 153640,
+      "node_id": "MDQ6VXNlcjE1MzY0MA==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/153640?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/marineam",
+      "html_url": "https://github.com/marineam",
+      "followers_url": "https://api.github.com/users/marineam/followers",
+      "following_url": "https://api.github.com/users/marineam/following{/other_user}",
+      "gists_url": "https://api.github.com/users/marineam/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/marineam/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/marineam/subscriptions",
+      "organizations_url": "https://api.github.com/users/marineam/orgs",
+      "repos_url": "https://api.github.com/users/marineam/repos",
+      "events_url": "https://api.github.com/users/marineam/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/marineam/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "34abfb37e72b9db062de4093eaa1bd8a8cc40be9",
+        "url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/34abfb37e72b9db062de4093eaa1bd8a8cc40be9",
+        "html_url": "https://github.com/driechers/invaders-before-grub/commit/34abfb37e72b9db062de4093eaa1bd8a8cc40be9"
+      },
+      {
+        "sha": "962db6c639338aab158afe510ee254ad63115bb3",
+        "url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/962db6c639338aab158afe510ee254ad63115bb3",
+        "html_url": "https://github.com/driechers/invaders-before-grub/commit/962db6c639338aab158afe510ee254ad63115bb3"
+      }
+    ]
+  },
+  {
+    "sha": "962db6c639338aab158afe510ee254ad63115bb3",
+    "node_id": "MDY6Q29tbWl0Nzk2ODQyMTk6OTYyZGI2YzYzOTMzOGFhYjE1OGFmZTUxMGVlMjU0YWQ2MzExNWJiMw==",
+    "commit": {
+      "author": {
+        "name": "Michael Marineau",
+        "email": "michael.marineau@coreos.com",
+        "date": "2016-09-21T20:22:06Z"
+      },
+      "committer": {
+        "name": "Michael Marineau",
+        "email": "michael.marineau@coreos.com",
+        "date": "2016-09-21T20:24:55Z"
+      },
+      "message": "gpt: do not use an enum for status bit values",
+      "tree": {
+        "sha": "56fb4eb407564c63c237f7b2d4be21f1aa645c1b",
+        "url": "https://api.github.com/repos/driechers/invaders-before-grub/git/trees/56fb4eb407564c63c237f7b2d4be21f1aa645c1b"
+      },
+      "url": "https://api.github.com/repos/driechers/invaders-before-grub/git/commits/962db6c639338aab158afe510ee254ad63115bb3",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/962db6c639338aab158afe510ee254ad63115bb3",
+    "html_url": "https://github.com/driechers/invaders-before-grub/commit/962db6c639338aab158afe510ee254ad63115bb3",
+    "comments_url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/962db6c639338aab158afe510ee254ad63115bb3/comments",
+    "author": {
+      "login": "marineam",
+      "id": 153640,
+      "node_id": "MDQ6VXNlcjE1MzY0MA==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/153640?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/marineam",
+      "html_url": "https://github.com/marineam",
+      "followers_url": "https://api.github.com/users/marineam/followers",
+      "following_url": "https://api.github.com/users/marineam/following{/other_user}",
+      "gists_url": "https://api.github.com/users/marineam/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/marineam/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/marineam/subscriptions",
+      "organizations_url": "https://api.github.com/users/marineam/orgs",
+      "repos_url": "https://api.github.com/users/marineam/repos",
+      "events_url": "https://api.github.com/users/marineam/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/marineam/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "marineam",
+      "id": 153640,
+      "node_id": "MDQ6VXNlcjE1MzY0MA==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/153640?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/marineam",
+      "html_url": "https://github.com/marineam",
+      "followers_url": "https://api.github.com/users/marineam/followers",
+      "following_url": "https://api.github.com/users/marineam/following{/other_user}",
+      "gists_url": "https://api.github.com/users/marineam/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/marineam/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/marineam/subscriptions",
+      "organizations_url": "https://api.github.com/users/marineam/orgs",
+      "repos_url": "https://api.github.com/users/marineam/repos",
+      "events_url": "https://api.github.com/users/marineam/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/marineam/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "34abfb37e72b9db062de4093eaa1bd8a8cc40be9",
+        "url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/34abfb37e72b9db062de4093eaa1bd8a8cc40be9",
+        "html_url": "https://github.com/driechers/invaders-before-grub/commit/34abfb37e72b9db062de4093eaa1bd8a8cc40be9"
+      }
+    ]
+  },
+  {
+    "sha": "34abfb37e72b9db062de4093eaa1bd8a8cc40be9",
+    "node_id": "MDY6Q29tbWl0Nzk2ODQyMTk6MzRhYmZiMzdlNzJiOWRiMDYyZGU0MDkzZWFhMWJkOGE4Y2M0MGJlOQ==",
+    "commit": {
+      "author": {
+        "name": "Michael Marineau",
+        "email": "mike@marineau.org",
+        "date": "2016-09-21T20:14:13Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2016-09-21T20:14:13Z"
+      },
+      "message": "Merge pull request #36 from marineam/repair\n\nFix gptrepair's status bit checking",
+      "tree": {
+        "sha": "67fd6594829d818506f48293f28b83420ddf4baa",
+        "url": "https://api.github.com/repos/driechers/invaders-before-grub/git/trees/67fd6594829d818506f48293f28b83420ddf4baa"
+      },
+      "url": "https://api.github.com/repos/driechers/invaders-before-grub/git/commits/34abfb37e72b9db062de4093eaa1bd8a8cc40be9",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/34abfb37e72b9db062de4093eaa1bd8a8cc40be9",
+    "html_url": "https://github.com/driechers/invaders-before-grub/commit/34abfb37e72b9db062de4093eaa1bd8a8cc40be9",
+    "comments_url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/34abfb37e72b9db062de4093eaa1bd8a8cc40be9/comments",
+    "author": {
+      "login": "marineam",
+      "id": 153640,
+      "node_id": "MDQ6VXNlcjE1MzY0MA==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/153640?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/marineam",
+      "html_url": "https://github.com/marineam",
+      "followers_url": "https://api.github.com/users/marineam/followers",
+      "following_url": "https://api.github.com/users/marineam/following{/other_user}",
+      "gists_url": "https://api.github.com/users/marineam/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/marineam/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/marineam/subscriptions",
+      "organizations_url": "https://api.github.com/users/marineam/orgs",
+      "repos_url": "https://api.github.com/users/marineam/repos",
+      "events_url": "https://api.github.com/users/marineam/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/marineam/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "40e2f6fd353061fdb3ec4dd6be4b32f8f4aaf55f",
+        "url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/40e2f6fd353061fdb3ec4dd6be4b32f8f4aaf55f",
+        "html_url": "https://github.com/driechers/invaders-before-grub/commit/40e2f6fd353061fdb3ec4dd6be4b32f8f4aaf55f"
+      },
+      {
+        "sha": "f4e09602dcdf6931b64c59af4a1a450c2d571a97",
+        "url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/f4e09602dcdf6931b64c59af4a1a450c2d571a97",
+        "html_url": "https://github.com/driechers/invaders-before-grub/commit/f4e09602dcdf6931b64c59af4a1a450c2d571a97"
+      }
+    ]
+  },
+  {
+    "sha": "f4e09602dcdf6931b64c59af4a1a450c2d571a97",
+    "node_id": "MDY6Q29tbWl0Nzk2ODQyMTk6ZjRlMDk2MDJkY2RmNjkzMWI2NGM1OWFmNGExYTQ1MGMyZDU3MWE5Nw==",
+    "commit": {
+      "author": {
+        "name": "Michael Marineau",
+        "email": "michael.marineau@coreos.com",
+        "date": "2016-09-20T20:40:11Z"
+      },
+      "committer": {
+        "name": "Michael Marineau",
+        "email": "michael.marineau@coreos.com",
+        "date": "2016-09-21T20:12:31Z"
+      },
+      "message": "gpt: allow repair function to noop\n\nSimplifies usage a little.",
+      "tree": {
+        "sha": "67fd6594829d818506f48293f28b83420ddf4baa",
+        "url": "https://api.github.com/repos/driechers/invaders-before-grub/git/trees/67fd6594829d818506f48293f28b83420ddf4baa"
+      },
+      "url": "https://api.github.com/repos/driechers/invaders-before-grub/git/commits/f4e09602dcdf6931b64c59af4a1a450c2d571a97",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/f4e09602dcdf6931b64c59af4a1a450c2d571a97",
+    "html_url": "https://github.com/driechers/invaders-before-grub/commit/f4e09602dcdf6931b64c59af4a1a450c2d571a97",
+    "comments_url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/f4e09602dcdf6931b64c59af4a1a450c2d571a97/comments",
+    "author": {
+      "login": "marineam",
+      "id": 153640,
+      "node_id": "MDQ6VXNlcjE1MzY0MA==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/153640?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/marineam",
+      "html_url": "https://github.com/marineam",
+      "followers_url": "https://api.github.com/users/marineam/followers",
+      "following_url": "https://api.github.com/users/marineam/following{/other_user}",
+      "gists_url": "https://api.github.com/users/marineam/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/marineam/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/marineam/subscriptions",
+      "organizations_url": "https://api.github.com/users/marineam/orgs",
+      "repos_url": "https://api.github.com/users/marineam/repos",
+      "events_url": "https://api.github.com/users/marineam/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/marineam/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "marineam",
+      "id": 153640,
+      "node_id": "MDQ6VXNlcjE1MzY0MA==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/153640?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/marineam",
+      "html_url": "https://github.com/marineam",
+      "followers_url": "https://api.github.com/users/marineam/followers",
+      "following_url": "https://api.github.com/users/marineam/following{/other_user}",
+      "gists_url": "https://api.github.com/users/marineam/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/marineam/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/marineam/subscriptions",
+      "organizations_url": "https://api.github.com/users/marineam/orgs",
+      "repos_url": "https://api.github.com/users/marineam/repos",
+      "events_url": "https://api.github.com/users/marineam/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/marineam/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "3dda6a863a140a593e47621bdf7e213fb8f274a9",
+        "url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/3dda6a863a140a593e47621bdf7e213fb8f274a9",
+        "html_url": "https://github.com/driechers/invaders-before-grub/commit/3dda6a863a140a593e47621bdf7e213fb8f274a9"
+      }
+    ]
+  },
+  {
+    "sha": "3dda6a863a140a593e47621bdf7e213fb8f274a9",
+    "node_id": "MDY6Q29tbWl0Nzk2ODQyMTk6M2RkYTZhODYzYTE0MGE1OTNlNDc2MjFiZGY3ZTIxM2ZiOGYyNzRhOQ==",
+    "commit": {
+      "author": {
+        "name": "Michael Marineau",
+        "email": "michael.marineau@coreos.com",
+        "date": "2016-09-20T19:43:01Z"
+      },
+      "committer": {
+        "name": "Michael Marineau",
+        "email": "michael.marineau@coreos.com",
+        "date": "2016-09-21T20:12:03Z"
+      },
+      "message": "gpt: use inline functions for checking status bits\n\nThis should prevent bugs like 6078f836 and 4268f3da.",
+      "tree": {
+        "sha": "c95b8b40694e5f7e1fd9b40247ca070e77fafcbb",
+        "url": "https://api.github.com/repos/driechers/invaders-before-grub/git/trees/c95b8b40694e5f7e1fd9b40247ca070e77fafcbb"
+      },
+      "url": "https://api.github.com/repos/driechers/invaders-before-grub/git/commits/3dda6a863a140a593e47621bdf7e213fb8f274a9",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/3dda6a863a140a593e47621bdf7e213fb8f274a9",
+    "html_url": "https://github.com/driechers/invaders-before-grub/commit/3dda6a863a140a593e47621bdf7e213fb8f274a9",
+    "comments_url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/3dda6a863a140a593e47621bdf7e213fb8f274a9/comments",
+    "author": {
+      "login": "marineam",
+      "id": 153640,
+      "node_id": "MDQ6VXNlcjE1MzY0MA==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/153640?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/marineam",
+      "html_url": "https://github.com/marineam",
+      "followers_url": "https://api.github.com/users/marineam/followers",
+      "following_url": "https://api.github.com/users/marineam/following{/other_user}",
+      "gists_url": "https://api.github.com/users/marineam/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/marineam/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/marineam/subscriptions",
+      "organizations_url": "https://api.github.com/users/marineam/orgs",
+      "repos_url": "https://api.github.com/users/marineam/repos",
+      "events_url": "https://api.github.com/users/marineam/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/marineam/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "marineam",
+      "id": 153640,
+      "node_id": "MDQ6VXNlcjE1MzY0MA==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/153640?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/marineam",
+      "html_url": "https://github.com/marineam",
+      "followers_url": "https://api.github.com/users/marineam/followers",
+      "following_url": "https://api.github.com/users/marineam/following{/other_user}",
+      "gists_url": "https://api.github.com/users/marineam/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/marineam/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/marineam/subscriptions",
+      "organizations_url": "https://api.github.com/users/marineam/orgs",
+      "repos_url": "https://api.github.com/users/marineam/repos",
+      "events_url": "https://api.github.com/users/marineam/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/marineam/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4268f3da52838f935e0d506afe0a84bdea6ae38f",
+        "url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/4268f3da52838f935e0d506afe0a84bdea6ae38f",
+        "html_url": "https://github.com/driechers/invaders-before-grub/commit/4268f3da52838f935e0d506afe0a84bdea6ae38f"
+      }
+    ]
+  },
+  {
+    "sha": "4268f3da52838f935e0d506afe0a84bdea6ae38f",
+    "node_id": "MDY6Q29tbWl0Nzk2ODQyMTk6NDI2OGYzZGE1MjgzOGY5MzVlMGQ1MDZhZmUwYTg0YmRlYTZhZTM4Zg==",
+    "commit": {
+      "author": {
+        "name": "Michael Marineau",
+        "email": "michael.marineau@coreos.com",
+        "date": "2016-09-20T20:06:05Z"
+      },
+      "committer": {
+        "name": "Michael Marineau",
+        "email": "michael.marineau@coreos.com",
+        "date": "2016-09-20T20:29:07Z"
+      },
+      "message": "gptrepair: fix status checking\n\nNone of these status bit checks were correct. Fix and simplify.",
+      "tree": {
+        "sha": "c23d08f47dcebfa88702f8f359cbb7cc3d250fa4",
+        "url": "https://api.github.com/repos/driechers/invaders-before-grub/git/trees/c23d08f47dcebfa88702f8f359cbb7cc3d250fa4"
+      },
+      "url": "https://api.github.com/repos/driechers/invaders-before-grub/git/commits/4268f3da52838f935e0d506afe0a84bdea6ae38f",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/4268f3da52838f935e0d506afe0a84bdea6ae38f",
+    "html_url": "https://github.com/driechers/invaders-before-grub/commit/4268f3da52838f935e0d506afe0a84bdea6ae38f",
+    "comments_url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/4268f3da52838f935e0d506afe0a84bdea6ae38f/comments",
+    "author": {
+      "login": "marineam",
+      "id": 153640,
+      "node_id": "MDQ6VXNlcjE1MzY0MA==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/153640?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/marineam",
+      "html_url": "https://github.com/marineam",
+      "followers_url": "https://api.github.com/users/marineam/followers",
+      "following_url": "https://api.github.com/users/marineam/following{/other_user}",
+      "gists_url": "https://api.github.com/users/marineam/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/marineam/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/marineam/subscriptions",
+      "organizations_url": "https://api.github.com/users/marineam/orgs",
+      "repos_url": "https://api.github.com/users/marineam/repos",
+      "events_url": "https://api.github.com/users/marineam/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/marineam/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "marineam",
+      "id": 153640,
+      "node_id": "MDQ6VXNlcjE1MzY0MA==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/153640?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/marineam",
+      "html_url": "https://github.com/marineam",
+      "followers_url": "https://api.github.com/users/marineam/followers",
+      "following_url": "https://api.github.com/users/marineam/following{/other_user}",
+      "gists_url": "https://api.github.com/users/marineam/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/marineam/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/marineam/subscriptions",
+      "organizations_url": "https://api.github.com/users/marineam/orgs",
+      "repos_url": "https://api.github.com/users/marineam/repos",
+      "events_url": "https://api.github.com/users/marineam/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/marineam/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "40e2f6fd353061fdb3ec4dd6be4b32f8f4aaf55f",
+        "url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/40e2f6fd353061fdb3ec4dd6be4b32f8f4aaf55f",
+        "html_url": "https://github.com/driechers/invaders-before-grub/commit/40e2f6fd353061fdb3ec4dd6be4b32f8f4aaf55f"
+      }
+    ]
+  },
+  {
+    "sha": "40e2f6fd353061fdb3ec4dd6be4b32f8f4aaf55f",
+    "node_id": "MDY6Q29tbWl0Nzk2ODQyMTk6NDBlMmY2ZmQzNTMwNjFmZGIzZWM0ZGQ2YmU0YjMyZjhmNGFhZjU1Zg==",
+    "commit": {
+      "author": {
+        "name": "Michael Marineau",
+        "email": "mike@marineau.org",
+        "date": "2016-09-03T00:05:08Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2016-09-03T00:05:08Z"
+      },
+      "message": "Merge pull request #35 from marineam/fix-table\n\ngpt: fix partition table indexing and validation",
+      "tree": {
+        "sha": "846cae7e07838ccf01e18d903941288a61c1c637",
+        "url": "https://api.github.com/repos/driechers/invaders-before-grub/git/trees/846cae7e07838ccf01e18d903941288a61c1c637"
+      },
+      "url": "https://api.github.com/repos/driechers/invaders-before-grub/git/commits/40e2f6fd353061fdb3ec4dd6be4b32f8f4aaf55f",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/40e2f6fd353061fdb3ec4dd6be4b32f8f4aaf55f",
+    "html_url": "https://github.com/driechers/invaders-before-grub/commit/40e2f6fd353061fdb3ec4dd6be4b32f8f4aaf55f",
+    "comments_url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/40e2f6fd353061fdb3ec4dd6be4b32f8f4aaf55f/comments",
+    "author": {
+      "login": "marineam",
+      "id": 153640,
+      "node_id": "MDQ6VXNlcjE1MzY0MA==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/153640?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/marineam",
+      "html_url": "https://github.com/marineam",
+      "followers_url": "https://api.github.com/users/marineam/followers",
+      "following_url": "https://api.github.com/users/marineam/following{/other_user}",
+      "gists_url": "https://api.github.com/users/marineam/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/marineam/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/marineam/subscriptions",
+      "organizations_url": "https://api.github.com/users/marineam/orgs",
+      "repos_url": "https://api.github.com/users/marineam/repos",
+      "events_url": "https://api.github.com/users/marineam/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/marineam/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "87dfbf34c4b3bb34c25dd82422431de59633426a",
+        "url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/87dfbf34c4b3bb34c25dd82422431de59633426a",
+        "html_url": "https://github.com/driechers/invaders-before-grub/commit/87dfbf34c4b3bb34c25dd82422431de59633426a"
+      },
+      {
+        "sha": "92b5bd1ce321d3655420a168e965955d2f07a687",
+        "url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/92b5bd1ce321d3655420a168e965955d2f07a687",
+        "html_url": "https://github.com/driechers/invaders-before-grub/commit/92b5bd1ce321d3655420a168e965955d2f07a687"
+      }
+    ]
+  },
+  {
+    "sha": "92b5bd1ce321d3655420a168e965955d2f07a687",
+    "node_id": "MDY6Q29tbWl0Nzk2ODQyMTk6OTJiNWJkMWNlMzIxZDM2NTU0MjBhMTY4ZTk2NTk1NWQyZjA3YTY4Nw==",
+    "commit": {
+      "author": {
+        "name": "Vito Caputo",
+        "email": "vito.caputo@coreos.com",
+        "date": "2016-08-26T00:21:18Z"
+      },
+      "committer": {
+        "name": "Michael Marineau",
+        "email": "michael.marineau@coreos.com",
+        "date": "2016-09-03T00:04:13Z"
+      },
+      "message": "gpt: add helper for picking a valid header\n\nEliminate some repetition in primary vs. backup header acquisition.",
+      "tree": {
+        "sha": "846cae7e07838ccf01e18d903941288a61c1c637",
+        "url": "https://api.github.com/repos/driechers/invaders-before-grub/git/trees/846cae7e07838ccf01e18d903941288a61c1c637"
+      },
+      "url": "https://api.github.com/repos/driechers/invaders-before-grub/git/commits/92b5bd1ce321d3655420a168e965955d2f07a687",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/92b5bd1ce321d3655420a168e965955d2f07a687",
+    "html_url": "https://github.com/driechers/invaders-before-grub/commit/92b5bd1ce321d3655420a168e965955d2f07a687",
+    "comments_url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/92b5bd1ce321d3655420a168e965955d2f07a687/comments",
+    "author": {
+      "login": "vcaputo",
+      "id": 1452963,
+      "node_id": "MDQ6VXNlcjE0NTI5NjM=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1452963?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/vcaputo",
+      "html_url": "https://github.com/vcaputo",
+      "followers_url": "https://api.github.com/users/vcaputo/followers",
+      "following_url": "https://api.github.com/users/vcaputo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/vcaputo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/vcaputo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/vcaputo/subscriptions",
+      "organizations_url": "https://api.github.com/users/vcaputo/orgs",
+      "repos_url": "https://api.github.com/users/vcaputo/repos",
+      "events_url": "https://api.github.com/users/vcaputo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/vcaputo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "marineam",
+      "id": 153640,
+      "node_id": "MDQ6VXNlcjE1MzY0MA==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/153640?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/marineam",
+      "html_url": "https://github.com/marineam",
+      "followers_url": "https://api.github.com/users/marineam/followers",
+      "following_url": "https://api.github.com/users/marineam/following{/other_user}",
+      "gists_url": "https://api.github.com/users/marineam/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/marineam/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/marineam/subscriptions",
+      "organizations_url": "https://api.github.com/users/marineam/orgs",
+      "repos_url": "https://api.github.com/users/marineam/repos",
+      "events_url": "https://api.github.com/users/marineam/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/marineam/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "bf127238ee333585569167c9480d9809c7a0079f",
+        "url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/bf127238ee333585569167c9480d9809c7a0079f",
+        "html_url": "https://github.com/driechers/invaders-before-grub/commit/bf127238ee333585569167c9480d9809c7a0079f"
+      }
+    ]
+  },
+  {
+    "sha": "bf127238ee333585569167c9480d9809c7a0079f",
+    "node_id": "MDY6Q29tbWl0Nzk2ODQyMTk6YmYxMjcyMzhlZTMzMzU4NTU2OTE2N2M5NDgwZDk4MDljN2EwMDc5Zg==",
+    "commit": {
+      "author": {
+        "name": "Michael Marineau",
+        "email": "michael.marineau@coreos.com",
+        "date": "2016-08-24T23:14:20Z"
+      },
+      "committer": {
+        "name": "Michael Marineau",
+        "email": "michael.marineau@coreos.com",
+        "date": "2016-09-03T00:04:13Z"
+      },
+      "message": "gpt: fix partition table indexing and validation\n\nPortions of the code attempted to handle the fact that GPT entries on\ndisk may be larger than the currently defined struct while others\nassumed the data could be indexed by the struct size directly. This\nnever came up because no utility uses a size larger than 128 bytes but\nfor the sake of safety we need to do this by the spec.",
+      "tree": {
+        "sha": "89a68c4993abe9d256976e0b21bd0b8a1f44c6b5",
+        "url": "https://api.github.com/repos/driechers/invaders-before-grub/git/trees/89a68c4993abe9d256976e0b21bd0b8a1f44c6b5"
+      },
+      "url": "https://api.github.com/repos/driechers/invaders-before-grub/git/commits/bf127238ee333585569167c9480d9809c7a0079f",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/bf127238ee333585569167c9480d9809c7a0079f",
+    "html_url": "https://github.com/driechers/invaders-before-grub/commit/bf127238ee333585569167c9480d9809c7a0079f",
+    "comments_url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/bf127238ee333585569167c9480d9809c7a0079f/comments",
+    "author": {
+      "login": "marineam",
+      "id": 153640,
+      "node_id": "MDQ6VXNlcjE1MzY0MA==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/153640?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/marineam",
+      "html_url": "https://github.com/marineam",
+      "followers_url": "https://api.github.com/users/marineam/followers",
+      "following_url": "https://api.github.com/users/marineam/following{/other_user}",
+      "gists_url": "https://api.github.com/users/marineam/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/marineam/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/marineam/subscriptions",
+      "organizations_url": "https://api.github.com/users/marineam/orgs",
+      "repos_url": "https://api.github.com/users/marineam/repos",
+      "events_url": "https://api.github.com/users/marineam/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/marineam/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "marineam",
+      "id": 153640,
+      "node_id": "MDQ6VXNlcjE1MzY0MA==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/153640?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/marineam",
+      "html_url": "https://github.com/marineam",
+      "followers_url": "https://api.github.com/users/marineam/followers",
+      "following_url": "https://api.github.com/users/marineam/following{/other_user}",
+      "gists_url": "https://api.github.com/users/marineam/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/marineam/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/marineam/subscriptions",
+      "organizations_url": "https://api.github.com/users/marineam/orgs",
+      "repos_url": "https://api.github.com/users/marineam/repos",
+      "events_url": "https://api.github.com/users/marineam/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/marineam/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "87dfbf34c4b3bb34c25dd82422431de59633426a",
+        "url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/87dfbf34c4b3bb34c25dd82422431de59633426a",
+        "html_url": "https://github.com/driechers/invaders-before-grub/commit/87dfbf34c4b3bb34c25dd82422431de59633426a"
+      }
+    ]
+  },
+  {
+    "sha": "87dfbf34c4b3bb34c25dd82422431de59633426a",
+    "node_id": "MDY6Q29tbWl0Nzk2ODQyMTk6ODdkZmJmMzRjNGIzYmIzNGMyNWRkODI0MjI0MzFkZTU5NjMzNDI2YQ==",
+    "commit": {
+      "author": {
+        "name": "Michael Marineau",
+        "email": "mike@marineau.org",
+        "date": "2016-08-23T02:40:21Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2016-08-23T02:40:21Z"
+      },
+      "message": "Merge pull request #33 from marineam/repair-corruption\n\nFix gptprio to properly detect and repair corruption",
+      "tree": {
+        "sha": "617c0cbf3fb89b973526449742a7b524aa914e76",
+        "url": "https://api.github.com/repos/driechers/invaders-before-grub/git/trees/617c0cbf3fb89b973526449742a7b524aa914e76"
+      },
+      "url": "https://api.github.com/repos/driechers/invaders-before-grub/git/commits/87dfbf34c4b3bb34c25dd82422431de59633426a",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/87dfbf34c4b3bb34c25dd82422431de59633426a",
+    "html_url": "https://github.com/driechers/invaders-before-grub/commit/87dfbf34c4b3bb34c25dd82422431de59633426a",
+    "comments_url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/87dfbf34c4b3bb34c25dd82422431de59633426a/comments",
+    "author": {
+      "login": "marineam",
+      "id": 153640,
+      "node_id": "MDQ6VXNlcjE1MzY0MA==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/153640?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/marineam",
+      "html_url": "https://github.com/marineam",
+      "followers_url": "https://api.github.com/users/marineam/followers",
+      "following_url": "https://api.github.com/users/marineam/following{/other_user}",
+      "gists_url": "https://api.github.com/users/marineam/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/marineam/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/marineam/subscriptions",
+      "organizations_url": "https://api.github.com/users/marineam/orgs",
+      "repos_url": "https://api.github.com/users/marineam/repos",
+      "events_url": "https://api.github.com/users/marineam/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/marineam/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f9fe0d781a4ce5f6cb2408b72c1ef01b13d5e64c",
+        "url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/f9fe0d781a4ce5f6cb2408b72c1ef01b13d5e64c",
+        "html_url": "https://github.com/driechers/invaders-before-grub/commit/f9fe0d781a4ce5f6cb2408b72c1ef01b13d5e64c"
+      },
+      {
+        "sha": "6078f83638007edbe2ee6a5022e813dc161f9ac3",
+        "url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/6078f83638007edbe2ee6a5022e813dc161f9ac3",
+        "html_url": "https://github.com/driechers/invaders-before-grub/commit/6078f83638007edbe2ee6a5022e813dc161f9ac3"
+      }
+    ]
+  },
+  {
+    "sha": "f9fe0d781a4ce5f6cb2408b72c1ef01b13d5e64c",
+    "node_id": "MDY6Q29tbWl0Nzk2ODQyMTk6ZjlmZTBkNzgxYTRjZTVmNmNiMjQwOGI3MmMxZWYwMWIxM2Q1ZTY0Yw==",
+    "commit": {
+      "author": {
+        "name": "Michael Marineau",
+        "email": "mike@marineau.org",
+        "date": "2016-08-23T02:39:30Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2016-08-23T02:39:30Z"
+      },
+      "message": "Merge pull request #34 from marineam/extended-validation\n\nAdd stricter validation of GPT headers",
+      "tree": {
+        "sha": "0c5815addfa6baba10d9d6c0dbbf82b407ab31e9",
+        "url": "https://api.github.com/repos/driechers/invaders-before-grub/git/trees/0c5815addfa6baba10d9d6c0dbbf82b407ab31e9"
+      },
+      "url": "https://api.github.com/repos/driechers/invaders-before-grub/git/commits/f9fe0d781a4ce5f6cb2408b72c1ef01b13d5e64c",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/f9fe0d781a4ce5f6cb2408b72c1ef01b13d5e64c",
+    "html_url": "https://github.com/driechers/invaders-before-grub/commit/f9fe0d781a4ce5f6cb2408b72c1ef01b13d5e64c",
+    "comments_url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/f9fe0d781a4ce5f6cb2408b72c1ef01b13d5e64c/comments",
+    "author": {
+      "login": "marineam",
+      "id": 153640,
+      "node_id": "MDQ6VXNlcjE1MzY0MA==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/153640?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/marineam",
+      "html_url": "https://github.com/marineam",
+      "followers_url": "https://api.github.com/users/marineam/followers",
+      "following_url": "https://api.github.com/users/marineam/following{/other_user}",
+      "gists_url": "https://api.github.com/users/marineam/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/marineam/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/marineam/subscriptions",
+      "organizations_url": "https://api.github.com/users/marineam/orgs",
+      "repos_url": "https://api.github.com/users/marineam/repos",
+      "events_url": "https://api.github.com/users/marineam/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/marineam/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "1c205c2c4d7d4149c25f2eb1964bfbed8ce6bce0",
+        "url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/1c205c2c4d7d4149c25f2eb1964bfbed8ce6bce0",
+        "html_url": "https://github.com/driechers/invaders-before-grub/commit/1c205c2c4d7d4149c25f2eb1964bfbed8ce6bce0"
+      },
+      {
+        "sha": "b2ca30d335d9380019ea5f50958ab20d94d2a2d6",
+        "url": "https://api.github.com/repos/driechers/invaders-before-grub/commits/b2ca30d335d9380019ea5f50958ab20d94d2a2d6",
+        "html_url": "https://github.com/driechers/invaders-before-grub/commit/b2ca30d335d9380019ea5f50958ab20d94d2a2d6"
+      }
+    ]
+  }
+]
